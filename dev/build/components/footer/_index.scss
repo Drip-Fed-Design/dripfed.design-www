@@ -1,0 +1,30 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+// Modules
+@use "sass:math";
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- FOOTER  ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-footer-container {
+  .__nav {
+    ul {
+      list-style: none;
+    }
+  }
+  .__copyright {
+    margin-top: $spacing__small;
+    p {
+      margin: 0 0 calc($spacing__small / 2);
+    }
+  }
+  .__legal a {
+    font-weight: $font-weight__default;
+  }
+}

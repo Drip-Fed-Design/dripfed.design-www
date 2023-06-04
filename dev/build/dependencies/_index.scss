@@ -1,0 +1,124 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+// Modules
+// @use "sass:math";
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- TYPEFACE ----------
+// ----------
+// ----------
+//
+// @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap");
+
+$font-family__primary: "Kanit", sans-serif;
+$font-family__headings: $font-family__primary;
+
+$font-size__primary: 18px; // 1rem = 16px
+$font-size__secondary: 0.833rem; // 15px
+
+$font-size__heading-1: 2.222rem; // 40px
+$font-size__heading-2: 2rem; // 36px
+$font-size__heading-3: 1.778rem; // 32px
+$font-size__heading-4: 1.333rem; // 24px
+
+$font-weight__default: 400;
+$font-weight__medium: 500;
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- COLUMNS & PADDING ----------
+// ----------
+// ----------
+//
+$column-one__1640: 1640px;
+$column-one__1280: 1280px;
+$column-one__1000: 1000px;
+$column-one__800: 800px;
+
+$spacing__small: 18px;
+$spacing__default: 30px;
+$spacing__large: 60px;
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- COLOURS ----------
+// ----------
+// ----------
+//
+// Primary
+$colour-primary__blue: rgba(142, 164, 210, 1); // Blue // #8EA4D2
+$colour-primary__black: rgba(6, 9, 33, 1); // Black // #060921
+$colour-primary__pink: rgba(255, 160, 172, 1); // Pink // #FFA0AC
+$colour-primary__orange: rgba(247, 152, 36, 1); // Orange // #F79824
+$colour-primary__green: rgba(25, 187, 129, 1); // Green // #19BB81
+$colour-primary__aqua: rgba(137, 218, 255, 1); // Aqua // #89DAFF
+
+// Secondary
+$colour-secondary__green: rgba(128, 179, 166, 1); // Green // #80B3A6
+
+// Grayscale
+$colour-black__default: rgba(4, 6, 20, 1); // Black Default // #040614
+$colour-black__light: rgba(68, 68, 68, 1); // Black Light // #444444
+
+$colour-grey__dark: rgba(68, 68, 68, 1); // Grey Default // #444444
+$colour-grey__default: rgba(187, 187, 187, 1); // Grey Light // #BBBBBB
+$colour-grey__light: rgba(230, 230, 230, 1); // Grey Light // #E6E6E6
+
+$colour-white__default: rgb(255, 255, 255); // White Default // #FFF
+
+// Notifications
+$colour-notification__green: #0ead69; // Notification Green // #337357
+$colour-notification__red: #ff0035; // Notification Red // #FF0035
+
+// Others
+$colour-button__inset: rgba(6, 9, 33, 0.4);
+$colour-blue__trans: rgba(60, 71, 104, 0.4);
+
+// Third-party
+$colour-green__wrike: rgba(8, 207, 101, 1);
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- MISC ----------
+// ----------
+// ----------
+//
+$border-radius__buttons: 8px;
+$border-radius__content: 20px;
+$border-radius__default: 35px;
+$border-radius__circle: 50%;
+
+$transition-speed__default: 0.3s;
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- ROOTS ----------
+// ----------
+// ----------
+//
+main##{$prefix-name}-main-container {
+  background: $colour-primary__black;
+  overflow: hidden;
+  padding: $spacing__default 0;
+  position: relative;
+  width: 100%;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.#{$prefix-name}-body-container {
+  position: relative;
+}

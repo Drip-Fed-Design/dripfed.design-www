@@ -1,0 +1,64 @@
+# bespoke rewrite
+
+# Enabling of media types
+
+<IfModule mod_mime.c>
+    AddType image/svg+xml .svg .svgz
+    AddType application/zip .zip
+    AddType image/png .png
+    AddType image/gif .gif
+    AddType text/css .css
+    AddType application/x-gzip .gz .gzip
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType application/json .json
+    AddType video/mp4 .mp4 .m4v
+    AddType application/pdf .pdf
+    AddType application/vnd.ms-excel .xla .xls .xlsx .xlt .xlw
+    AddHandler application/x-httpd-php .php .html
+</IfModule>
+
+# URL rewrite
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # # Force HTTPS (exc WWW)
+    # # If we receive a forwarded http request from a proxy...
+    # RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+    # # ...or just a plain old http request directly from the client
+    # RewriteCond %{HTTP:X-Forwarded-Proto} =""
+    # RewriteCond %{HTTPS} !=on
+    # # Redirect to https version
+    # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Default
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # # Bespoke
+    # RewriteRule ^work/case-study/(.*) /case-study.php?work=$1 [L]
+    # RewriteRule ^article/(.*) /article.php?article=$1 [L]
+    # Default
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule (.*) $1.php [L]
+
+</IfModule>
+
+# Block robots from index files
+
+<FilesMatch "robots.txt">
+Header set X-Robots-Tag "noindex"
+</FilesMatch>
+<FilesMatch ".(json|svg)$">
+Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+</FilesMatch>
+
+# Redirects
+
+# Redirect 301 /index https://www.dripfed.design/?utm_source=redirect
+
+# Compression
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>

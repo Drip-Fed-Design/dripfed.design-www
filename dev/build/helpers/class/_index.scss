@@ -1,0 +1,283 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+// Modules
+@use "sass:math";
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- CONTAINER WIDTHS & ALIGN ----------
+// ----------
+// ----------
+//
+// Widths
+._max-width__full,
+._max-width__1640,
+._max-width__1280,
+._max-width__1000,
+._max-width__800 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+}
+._max-width__1640 {
+  max-width: $column-one__1640;
+}
+._max-width__1280 {
+  max-width: $column-one__1280;
+}
+._max-width__1000 {
+  max-width: $column-one__1000;
+}
+._max-width__800 {
+  max-width: $column-one__800;
+}
+
+// Margin
+._margin-top-bottom__small {
+  margin-bottom: $spacing__small;
+  margin-top: $spacing__small;
+}
+
+._margin-top-bottom__large {
+  margin-bottom: $spacing__large;
+  margin-top: $spacing__large;
+}
+
+._margin-top-bottom__xlarge {
+  margin-bottom: calc($spacing__large * 2);
+  margin-top: calc($spacing__large * 2);
+}
+
+._margin-bottom__small {
+  margin-bottom: $spacing__small;
+}
+
+._margin-bottom__default {
+  margin-bottom: $spacing__default;
+}
+
+._margin-bottom__large {
+  margin-bottom: $spacing__large;
+}
+
+// Padding
+._padding-top__large {
+  padding-top: $spacing__large;
+}
+
+._padding-bottom__small {
+  padding-bottom: $spacing__small;
+}
+
+._padding-bottom__large {
+  padding-bottom: $spacing__large;
+}
+
+._padding-all__small-default {
+  padding: $spacing__small $spacing__default;
+}
+
+._padding-top-bottom__default {
+  padding-bottom: $spacing__default;
+  padding-top: $spacing__default;
+}
+
+._padding-top-bottom__large {
+  padding-bottom: $spacing__large;
+  padding-top: $spacing__large;
+}
+
+._padding-top-bottom__xlarge {
+  padding-bottom: calc($spacing__large * 2);
+  padding-top: calc($spacing__large * 2);
+}
+
+// Borders
+._border-radius__default {
+  border-radius: $border-radius__default;
+}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- TYPE & FONTS ----------
+// ----------
+// ----------
+//
+// Alignment
+._text-align__left {
+  text-align: left;
+}
+._text-align__center {
+  text-align: center;
+}
+._text-align__right {
+  text-align: right;
+}
+
+// Font sizes
+._font-size__secondary {
+  font-size: $font-size__secondary !important;
+}
+
+// Style
+._font-style__italic {
+  font-style: italic !important;
+}
+
+// Colours
+._font-colour__black-light {
+  color: $colour-black__light !important;
+}
+
+._font-colour__grey-dark {
+  color: $colour-grey__dark !important;
+}
+
+._font-colour__grey-default {
+  color: $colour-grey__default !important;
+}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- BACKGROUND & IMAGES ----------
+// ----------
+// ----------
+//
+// Solid Colour
+._background-solid__black {
+  background-color: $colour-black__default;
+}
+
+._background-solid__white {
+  background-color: $colour-white__default;
+}
+
+// Areas
+._word-wrap {
+  font: inherit;
+  position: relative;
+  &::before {
+    border-radius: 12px;
+    border: 2px solid $colour-primary__pink;
+    bottom: 3px;
+    content: " ";
+    font: inherit;
+    left: -5px;
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    top: 4px;
+  }
+}
+
+._word-under {
+  font: inherit;
+  position: relative;
+  &::before {
+    background-image: url(#{$dir__images}icon/icon-wordunder-green.svg);
+    background-position: center;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 2px;
+    content: " ";
+    font: inherit;
+    height: 9px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+  }
+}
+
+._word-stop {
+  background: $colour-primary__orange;
+  border-radius: $border-radius__buttons;
+  display: inline-block;
+  height: 10px;
+  margin-bottom: -3px;
+  margin-left: 5px;
+  pointer-events: none;
+  position: relative;
+  width: 10px;
+}
+
+._image__circle {
+  background: $colour-white__default;
+  border-radius: $border-radius__circle;
+  padding: 10px;
+  // Modifier
+  &.-border-orange {
+    border: 4px solid $colour-primary__orange;
+  }
+  &.-border-green {
+    border: 4px solid $colour-primary__green;
+  }
+}
+
+._split {
+  background-image: url(#{$dir__images}icon/icon-wordunder-orange.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 11px;
+  margin: $spacing__small auto;
+  max-width: 170px;
+  width: 80%;
+}
+
+._pattern {
+  // Modifier
+  &.-long-l,
+  &.-long-r {
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+  }
+  &.-long-l {
+    background-image: url(#{$dir__images}pattern/pattern-long-left-full.svg);
+    background-position: right center;
+  }
+  &.-long-r {
+    background-image: url(#{$dir__images}pattern/pattern-long-right-full.svg);
+    background-position: left center;
+  }
+}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- ICONS ----------
+// ----------
+// ----------
+//
+._icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  // Variations
+  &.-arrow__r {
+    background-image: url(#{$dir__images}icon/icon-arrow-r-white.svg);
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: calc($spacing__small / 2);
+    width: 20px;
+  }
+  &.-heart {
+    background-image: url(#{$dir__images}icon/icon-heart-orange.svg);
+    height: 16px;
+    margin-bottom: -1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 16px;
+  }
+}

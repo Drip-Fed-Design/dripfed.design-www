@@ -1,0 +1,43 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+// Modules
+@use "sass:math";
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- HEADINGS ----------
+// ----------
+// ----------
+//
+h1,
+h2,
+h3,
+h4 {
+  color: $colour-white__default;
+  font-family: $font-family__headings;
+  font-weight: $font-weight__default;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: $font-size__heading-1;
+  font-weight: $font-weight__medium;
+}
+
+h2 {
+  font-size: $font-size__heading-2;
+}
+
+h3 {
+  font-size: $font-size__heading-3;
+  font-weight: $font-weight__medium;
+}
+
+h4 {
+  font-size: $font-size__heading-4;
+}

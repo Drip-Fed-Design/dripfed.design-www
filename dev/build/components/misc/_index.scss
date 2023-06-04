@@ -1,0 +1,172 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- MISC ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-faq-container {
+  h3 {
+    position: relative;
+    &:after {
+      background-image: url(#{$dir__images}pattern/pattern-short-full.svg);
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      bottom: -370px;
+      content: " ";
+      height: 309px;
+      left: -257px;
+      pointer-events: none;
+      position: absolute;
+      width: 457px;
+    }
+  }
+}
+
+.#{$prefix-name}-logos-container {
+  position: relative;
+  z-index: 2;
+}
+
+.#{$prefix-name}-plans-container {
+  position: relative;
+  &:after {
+    background-image: url(#{$dir__images}pattern/pattern-short-full.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+    height: 309px;
+    pointer-events: none;
+    position: absolute;
+    right: -(calc($spacing__large * 2));
+    top: -$spacing__large;
+    width: 457px;
+    z-index: 0;
+  }
+
+  .__details {
+    padding: $spacing__large calc(100% / 2.5) $spacing__large $spacing__large;
+    position: relative;
+    width: calc(100% - $spacing__default);
+    z-index: 1;
+    p,
+    h2,
+    li {
+      color: $colour-black__default;
+    }
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        width: calc(100% / 3.1);
+        p {
+          background-image: url(#{$dir__images}icon/icon-tick-green.svg);
+          background-position: left top;
+          background-repeat: no-repeat;
+          background-size: 20px 20px;
+          margin: 0;
+          padding: 0 0 0 27px;
+        }
+      }
+    }
+  }
+  .__plans {
+    max-width: calc(100% / 2.6);
+    position: absolute;
+    right: 0;
+    top: $spacing__default;
+    z-index: 2;
+    .__monthly,
+    .__quarterly {
+      h3,
+      p,
+      h2,
+      span {
+        color: $colour-black__default;
+      }
+    }
+    .__monthly {
+      border: 2px solid $colour-primary__green;
+      box-shadow: $colour-primary__green 5px 10px 0;
+      width: 100%;
+    }
+    .__quarterly {
+      border: 2px solid $colour-primary__aqua;
+      box-shadow: $colour-primary__aqua 5px 10px 0;
+      margin-left: 20%;
+      width: 80%;
+    }
+  }
+}
+
+.#{$prefix-name}-services-container {
+  position: relative;
+  &:before {
+    border-radius: $border-radius__default;
+    border: 2px solid $colour-primary__green;
+    bottom: 20px;
+    content: " ";
+    height: calc(100% + ($spacing__large * 2.3));
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    width: calc(100% * 2);
+    z-index: 1;
+  }
+  &:after {
+    background-color: $colour-blue__trans;
+    border-radius: $border-radius__default;
+    border: 2px solid $colour-primary__pink;
+    box-shadow: $colour-primary__pink 5px 10px 0;
+    content: " ";
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: calc(100% * 2);
+    z-index: 1;
+  }
+  .__copy,
+  .__list {
+    position: relative;
+    z-index: 2;
+  }
+  ul {
+    border-right: 1px solid $colour-primary__green;
+    list-style: none;
+    &:last-child {
+      border: unset;
+    }
+    li {
+      display: block;
+      margin: 9px 0;
+      padding-left: $spacing__default;
+      padding-right: $spacing__default;
+      &:last-child h4::after {
+        display: none;
+      }
+      h4 {
+        position: relative;
+        text-align: center;
+        &::after {
+          background-color: $colour-primary__orange;
+          border-radius: $border-radius__circle;
+          bottom: -23px;
+          content: " ";
+          height: 8px;
+          left: calc(50% - 5px);
+          pointer-events: none;
+          position: absolute;
+          width: 8px;
+        }
+      }
+    }
+  }
+}

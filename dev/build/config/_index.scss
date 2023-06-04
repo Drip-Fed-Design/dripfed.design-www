@@ -1,0 +1,40 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+// Prefix name
+$prefix-name: "dfd";
+
+// Version number
+$release-version: "1.0";
+
+// Production - MUST be used for production releases.
+$dir__images: "/dist/images/";
+
+// Breakpoints
+$breakpoint-width: (
+  // narrow-mobile
+  xxsmall: 440px,
+  // mobile
+  xsmall: 650px,
+  // wide-mobile
+  small: 940px,
+  // tablet
+  medium: 1080px,
+  // desktop
+  large: 1300px
+);
+
+// $breakpoint-height: (
+//     small: 400px,
+//     medium: 800px,
+//     large: 1200px,
+// );
+
+// Copyright and Version comment, this MUST be present within DEVELOP and PRODUCTION complied Sass files.
+/*!
+Theme Name: Drip Fed Design
+Theme URI: https://dripfed.design/
+Author: Chris Watterston
+Version: v#{$release-version}
+Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+*/

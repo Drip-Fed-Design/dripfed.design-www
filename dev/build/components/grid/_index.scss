@@ -1,0 +1,72 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- GRID ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-grid-container {
+  display: grid;
+  grid-template-rows: auto;
+
+  // 2 columns
+  &.-column__half {
+    grid-template-columns: 1fr 1fr;
+  }
+  &.-column__half-min {
+    grid-template-columns: max-content max-content;
+  }
+  &.-column__min-full {
+    grid-template-columns: min-content 1fr;
+  }
+  &.-column__full-min {
+    grid-template-columns: 1fr min-content;
+  }
+
+  // 3 columns
+  &.-column__third {
+    grid-template-columns: repeat(3, 1fr [col-start]);
+  }
+  &.-column__third-cta {
+    grid-template-columns: 1fr max-content 1fr;
+  }
+
+  // 7 columns
+  &.-column__seven {
+    grid-template-columns: repeat(7, max-content);
+  }
+
+  // Spacing
+  &.-column-gap__small {
+    column-gap: $spacing__small;
+  }
+  &.-column-gap__default {
+    column-gap: $spacing__default;
+  }
+  &.-column-gap__large {
+    column-gap: $spacing__large;
+  }
+  &.-column-gap__xlarge {
+    column-gap: calc($spacing__large * 2);
+  }
+  &.-column-row__default {
+    row-gap: $spacing__default;
+  }
+  // Alignment
+  &.-column-h__center {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  &.-column-h__right {
+    justify-content: end;
+  }
+  &.-column-v__center {
+    align-items: center;
+  }
+}
