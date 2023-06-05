@@ -244,7 +244,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="just-employ-a-designer">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Why wouldn't I just employ a designer?</h4>
-                            <a href="#just-employ-a-designer" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#just-employ-a-designer" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>You could... if it's the right fit for you.</p>
@@ -259,7 +259,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="how-quick-will-request-be-completed">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How quick will my requests be completed?</h4>
-                            <a href="#how-quick-will-request-be-completed" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#how-quick-will-request-be-completed" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Honestly, it depends on the complexity of the task.</p>
@@ -272,7 +272,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="limit-on-requests">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Is there a limit on requests?</h4>
-                            <a href="#limit-on-requests" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#limit-on-requests" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>No. Once you've subscribed, you can submit as many design requests as you'd like. Each request will be delivered one by one.</p>
@@ -281,7 +281,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="manage-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I manage my subscription?</h4>
-                            <a href="#manage-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#manage-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>It's easy. We'll provide you access to a billing portal, powered by Stripe- for reassurance that everything is safe and secure!</p>
@@ -293,7 +293,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="pause-or-cancel-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>When should I use pause vs. cancel with my subscription?</h4>
-                            <a href="#pause-or-cancel-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#pause-or-cancel-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>To be honest, it's totally up to you.</p>
@@ -304,7 +304,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="how-to-make-request">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I make and submit a request?</h4>
-                            <a href="#how-to-make-request" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#how-to-make-request" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Once you've subscribed, a Basecamp setup will be automatically created for you. Instructions on how to submit requests will be included within Basecamp.</p>
@@ -315,7 +315,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="dont-like-the-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
-                            <a href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Then we'll continue to revise the design until you love it!</p>
@@ -325,7 +325,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="any-refunds">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Are there any refunds?</h4>
-                            <a href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Unfortunately not.</p>
@@ -336,7 +336,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="what-software-or-service-use">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What software or services do you use?</h4>
-                            <a href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>We mainly spend out time using Figma for design work, and GitHub for committing our developments.</p>
@@ -345,7 +345,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="will-pricing-change-or-additional-costs">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Will the pricing change or are there any additional costs?</h4>
-                            <a href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Our subscription feature single fixed monthly fee. What you see is what you pay.</p>
@@ -355,7 +355,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="web-development-or-coding-included">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Is web development or coding included?</h4>
-                            <a href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Unfortunately not.</p>
@@ -369,7 +369,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="whos-is-drip-fed-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Who's behind Drip Fed Design?</h4>
-                            <a href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" width="25px" height="20px" /></a>
+                            <a href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Drip Fed is run and managed by Chris Watterston, a digital designer, developer and manager with over 14 years experience across a range of industries.</p>
