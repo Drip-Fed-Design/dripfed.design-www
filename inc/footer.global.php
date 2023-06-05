@@ -54,7 +54,7 @@
             answerDiv.classList.toggle('-show');
         }
         // Get things triggering and showing
-        var triggerFAQ = document.querySelectorAll('#triggerFAQ');
+        var triggerFAQ = document.querySelectorAll('.triggerFAQ');
         triggerFAQ.forEach(function(button) {
             button.addEventListener('click', function() {
                 toggleFAQ(this);
