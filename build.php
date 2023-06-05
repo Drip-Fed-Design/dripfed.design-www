@@ -378,7 +378,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to <a href="mailto:<?= $globalEmailAddress; ?>" title="Contact <?= $globalTitle; ?>"><?= $globalEmailAddress; ?></a> or through our <a href="#anchor-contactus" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a href="#anchor-contactus" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
         </div>
     </section>
 </div>

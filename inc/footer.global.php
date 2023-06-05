@@ -47,18 +47,14 @@
     <? require(__DIR__ . '/../config/analytics.global.php'); ?>
 
     <script>
-        // Toggle for showing FAQ
-        function toggleFAQ(element) {
-            var article = element.closest('article');
-            var answerDiv = article.querySelector('.__answer');
-            answerDiv.classList.toggle('-show');
+        function toggleFAQ(e) {
+            e.closest("article").querySelector(".__answer").classList.toggle("-show")
         }
-        // Get things triggering and showing
-        var triggerFAQ = document.querySelectorAll('.triggerFAQ');
-        triggerFAQ.forEach(function(button) {
-            button.addEventListener('click', function() {
-                toggleFAQ(this);
-            });
+        var triggerFAQ = document.querySelectorAll(".triggerFAQ");
+        triggerFAQ.forEach(function(e) {
+            e.addEventListener("click", function() {
+                toggleFAQ(this)
+            })
         });
     </script>
 
