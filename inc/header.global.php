@@ -7,7 +7,7 @@ require(__DIR__ . '/../config/debug.global.php');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta content="True" name="HandheldFriendly" />
 
     <title><?= $globalTitleLong; ?></title>
@@ -15,35 +15,39 @@ require(__DIR__ . '/../config/debug.global.php');
     <meta name="googlebot" content="<?= $globalRobots; ?>" />
     <meta name="robots" content="<?= $globalRobots; ?>" />
     <link rel="canonical" href="<?= $globalDomainRoot; ?>" />
-    <link rel=“alternate” hreflang=“en-gb” href=“<?= $globalDomainRoot; ?>”>
 
-    <link rel="apple-touch-icon" href="<?= $globalDomainRoot; ?>dist/images/device/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="<?= $globalDomainRoot; ?>dist/images/social/apple-touch-icon.png" />
     <link rel="icon" href="favicon.ico" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta property="og:type" content="website" />
 
     <!-- Sharing details  -->
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="<?= $globalDomainRoot; ?>" />
     <meta property="og:title" content="<?= $globalTitleLong; ?>" />
     <meta property="og:description" content="<?= $globalDescription; ?>" />
-    <meta property="og:image" content="<?= $globalDomainRoot; ?>dist/images/social/social-wrikified-sharing.jpg" />
+    <meta property="og:image" content="<?= $globalDomainRoot; ?>dist/images/social/social-dripfed-design-sharing.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ChrisWatterston" />
     <meta name="twitter:creator" content="@ChrisWatterston" />
     <meta name="twitter:title" content="<?= $globalTitleLong; ?>" />
     <meta name="twitter:description" content="<?= $globalDescription; ?>" />
-    <meta name="twitter:image" content="<?= $globalDomainRoot; ?>dist/images/social/social-wrikified-sharing.jpg" />
+    <meta name="twitter:image" content="<?= $globalDomainRoot; ?>dist/images/social/social-dripfed-design-sharing.jpg" />
 
     <!-- Schema Data -->
     <script type="application/ld+json">
         {
-            "@context": "http://schema.org",
+            "@context": "https://schema.org",
             "@type": "Organization",
             "name": "<?= $globalTitle; ?>",
-            "description": "<?= $globalDescription; ?>",
-            "logo": "<?= $globalDomainRoot; ?>dist/images/brands/brand-logo-dripfed-design.jpg",
+            "alternateName": "<?= $globalCompanyName; ?>",
             "url": "<?= $globalDomainRoot; ?>",
+            "logo": "<?= $globalDomainRoot; ?>dist/images/social/dfd-dripfed-design-schema-logo.jpg",
+            "description": "<?= $globalDescription; ?>",
+            "sameAs": [
+                "https://www.linkedin.com/company/drip-fed-design/",
+                "<?= $globalDomainRoot; ?>"
+            ],
             "address": {
                 "@type": "PostalAddress",
                 "postalCode": "TW16 6AX",

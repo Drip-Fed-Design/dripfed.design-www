@@ -19,19 +19,19 @@
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
                     <ul class="_text-align__right">
-                        <li><a href="#" title="#">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#" title="#">Latest Projects<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#" title="#">Pricing & Plans<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#" title="#">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#anchor-designplans" title="Find a design subscription that suits you">Pricing & Plans<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#anchor-contactus" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
                             <a href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
                         </div>
                         <ul class="__legal">
-                            <li><a href="#" title="#">Terms of Use</a></li>
-                            <li><a href="#" title="#">Privacy Policy</a></li>
-                            <li><a href="#" title="#">Cookies Policy</a></li>
+                            <li><a href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
+                            <li><a href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
+                            <li><a href="/cookies" title="Cookies Policy for Drip Fed Design">Cookies Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,10 +39,11 @@
         </div>
         <div class="__copyright">
             <p>Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.</p>
-            <p class="_font-size__secondary">© 2023 Drip Fed Ltd. Company Number: 14871237</p>
+            <p class="_font-size__secondary">© 2023 <?= $globalCompanyName; ?>. Company Number: <?= $globalCompanyNumber; ?></p>
         </div>
     </footer>
     </main>
+
     <? require(__DIR__ . '/../config/analytics.global.php'); ?>
 
     <script>

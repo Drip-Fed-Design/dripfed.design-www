@@ -18,11 +18,11 @@ $globalVersion = '1.0';
 // ----------
 // ----------
 //
-if (getenv('ENVIRONMENT_STATE') === 'production') {
+// if (getenv('ENVIRONMENT_STATE') === 'production') {
+if ($htmlExporting === true) {
     $globalDomainRoot = 'https://dripfed.design/';
 } else {
-    // $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
-    $globalDomainRoot = 'https://dripfed.design/';
+    $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
 }
 
 //
@@ -33,9 +33,12 @@ if (getenv('ENVIRONMENT_STATE') === 'production') {
 // ----------
 // ----------
 //
+$globalCompanyName = 'Drip Fed Ltd';
+$globalCompanyNumber = '14871237';
+
 $globalTitle = 'Drip Fed Design';
-$globalTitleLong = $globalTitle . ' subscription micro-agency in London';
-$globalDescription = 'Increase productivity by removing noise and simplifying Wrike. Built for designers, developers, and production teams who rely on Wrike.';
+$globalTitleLong = 'Design Subscription micro-agency in England, we\'re Drip Fed';
+$globalDescription = 'Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.';
 $globalRobots = 'index,follow';
 
 //
@@ -47,7 +50,6 @@ $globalRobots = 'index,follow';
 // ----------
 //
 $globalEmailAddress = 'hello@dripfed.design';
-$globalEmailName = 'Drip Fed Ltd';
 
 //
 // ------------------------------------------------------------

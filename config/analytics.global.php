@@ -7,9 +7,9 @@
 // ----------
 // ----------
 //
-if (getenv('ENVIRONMENT_STATE') === 'production') {
+// if (getenv('ENVIRONMENT_STATE') === 'production') {
+if ($htmlExporting === true) {
     echo '<script async defer src="https://scripts.withcabin.com/hello.js"></script>';
 } else {
-    // echo '<!-- [withcabin-disabled] -->';
-    echo '<script async defer src="https://scripts.withcabin.com/hello.js"></script>';
+    echo '<!-- [withcabin-disabled] -->';
 }
