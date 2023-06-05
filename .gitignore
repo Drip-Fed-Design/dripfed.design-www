@@ -8,8 +8,8 @@
 *.log
 
 # Sitemap
-/sitemap.xml
-/sitemap.xml.gz
+# /sitemap.xml
+# /sitemap.xml.gz
 
 # Composer
 vendor/*
