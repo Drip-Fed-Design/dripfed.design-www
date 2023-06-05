@@ -14,7 +14,7 @@
     <footer class="<?= $globalPrefix; ?>-footer-container _max-width__1280 _padding-top-bottom__xlarge">
         <div class="<?= $globalPrefix; ?>-grid-container -column__half">
             <div class="__logo">
-                <img src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                <img loading="lazy" src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
             </div>
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
