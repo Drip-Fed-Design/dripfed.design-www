@@ -36,7 +36,7 @@
         <div class=" __content">
 
             <p>We've got a wealth of experience across multiple sectors and industries, so certain we'll be able to support you and your team.</p>
-            <p>Fll out the form below and we'll do our best to get back to you within 24 hours.</p>
+            <p>Fill out the form below and we'll do our best to get back to you within 24 hours.</p>
             <hr />
             <section class="<?= $globalPrefix; ?>-form-container">
                 <form name="form-enquiry" method="POST" data-netlify="true">
