@@ -5,7 +5,7 @@
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
-                    <a href="#anchor-contactus" class="__button -white" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a href="#anchor-contactus" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -22,7 +22,7 @@
                         <li><a href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
                         <li><a href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
                         <li><a href="#anchor-designplans" title="Find a design subscription that suits you">Pricing & Plans<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#anchor-contactus" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#anchor-contactus" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
@@ -47,6 +47,7 @@
     <? require(__DIR__ . '/../config/analytics.global.php'); ?>
 
     <script>
+        // FAQ
         function toggleFAQ(e) {
             e.closest("article").querySelector(".__answer").classList.toggle("-show")
         }
@@ -56,6 +57,23 @@
                 toggleFAQ(this)
             })
         });
+        // form toggle
+        function toggleFormClass() {
+            var formTarget = document.getElementById('triggerFormTarget');
+            formTarget.classList.toggle('__show');
+        }
+        var triggerLinks = document.getElementsByClassName('triggerForm');
+        for (var i = 0; i < triggerLinks.length; i++) {
+            triggerLinks[i].addEventListener('click', toggleFormClass);
+        }
+        // Output time of chat
+        function displayCT() {
+            var e = new Date,
+                t = e.getHours(),
+                n = e.getMinutes();
+            e.getSeconds(), document.getElementById("current-time").textContent = t + ":" + n
+        }
+        window.addEventListener("load", displayCT);
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

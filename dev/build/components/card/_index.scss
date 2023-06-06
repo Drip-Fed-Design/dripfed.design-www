@@ -1,0 +1,27 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- CARD ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-card-container {
+  background-color: $colour-white__default;
+  border-radius: $border-radius__default;
+  box-shadow: $colour-blue__trans 0 20px 20px;
+  .__close {
+    position: absolute;
+    right: $spacing__default;
+    top: $spacing__default;
+  }
+  .__content {
+    padding: $spacing__large $spacing__large $spacing__default;
+    p {
+      color: $colour-primary__black;
+    }
+  }
+}

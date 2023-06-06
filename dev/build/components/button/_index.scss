@@ -13,8 +13,10 @@
   position: relative;
   .__button {
     border-radius: $border-radius__buttons;
+    border: unset;
     box-shadow: inset 0 -4px 0 $colour-button__inset;
     color: $colour-primary__black;
+    cursor: pointer;
     display: inline-block;
     font-weight: $font-weight__medium;
     margin-right: $spacing__small;
@@ -37,6 +39,16 @@
     // Size
     &.-wide {
       display: block;
+      width: 100%;
+    }
+    // Raw
+    &.-raw {
+      border-radius: unset;
+      box-shadow: unset;
+      font-size: $font-size__secondary;
+      margin: unset;
+      padding: unset;
+      text-transform: unset;
     }
     // Hover
     &:hover {

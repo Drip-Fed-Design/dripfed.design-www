@@ -13,5 +13,39 @@
 // ----------
 //
 .#{$prefix-name}-form-container {
-  // Content
+  .__section {
+    padding: 0 0 $spacing__small;
+  }
+  label {
+    color: $colour-grey__dark;
+    display: block;
+    margin-bottom: calc($spacing__small / 2);
+  }
+  .__input,
+  .__textarea {
+    background-color: $colour-grey__light;
+    border-radius: $border-radius__buttons;
+    border: unset;
+    display: block;
+    margin: 0 0 $spacing__small;
+    padding: $spacing__small;
+    resize: none;
+    width: 100%;
+  }
+  .__checkbox {
+    cursor: pointer;
+    height: $spacing__small;
+    width: $spacing__small;
+  }
+  ::placeholder {
+    color: $colour-grey__default;
+    font-weight: $font-weight__default;
+  }
+  .__gdpr {
+    margin: unset;
+    margin-left: calc($spacing__small / 2);
+    p {
+      margin: unset;
+    }
+  }
 }

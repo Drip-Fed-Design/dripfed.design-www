@@ -63,7 +63,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
-                    <a href="#anchor-contactus" class="__button -white" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a href="#anchor-contactus" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -73,14 +73,17 @@ require(__DIR__ . '/inc/header.global.php');
         <p>testimonials</p>
     </section> -->
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
-        <div class="<?= $globalPrefix; ?>-grid-container -column__seven -column-gap__large -column-row__default -column-v__center -column-h__center _background-solid__white _padding-all__small-default _border-radius__default">
-            <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade" alt="Lucozade" width="125px" height="35.47px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro" alt="Hasbro" width="80px" height="80px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena" alt="Ribena" width="84.86px" height="60.6px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera" alt="Kyocera" width="150px" height="40.42px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee" alt="UCC Coffee" width="90px" height="41.84px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox" alt="Xbox" width="135px" height="40.09px" />
-            <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory" alt="Suntory" width="130px" height="17.69px" />
+        <div class="_background-solid__white _padding-all__small-default _border-radius__default">
+            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the digital designer who started Drip Fed Design, having worked with a variety of startups and enterprises...</p>
+            <div class="<?= $globalPrefix; ?>-grid-container -column__seven -column-gap__large -column-row__default -column-v__center -column-h__center">
+                <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade" alt="Lucozade" width="125px" height="35.47px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro" alt="Hasbro" width="80px" height="80px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena" alt="Ribena" width="84.86px" height="60.6px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera" alt="Kyocera" width="150px" height="40.42px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee" alt="UCC Coffee" width="90px" height="41.84px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox" alt="Xbox" width="135px" height="40.09px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory" alt="Suntory" width="130px" height="17.69px" />
+            </div>
         </div>
     </section>
     <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
@@ -363,7 +366,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>Including coding or development within our subscription would simply not be logical.</p>
                             <p>But this does NOT mean we can't!</p>
                             <p>We'd love to bring your website or mobile application to life, we just can't include that service within the subscription.</p>
-                            <p>If this is something you're interested in, reach out to us and we'll discuss this with you.</p>
+                            <p>If this is something you're interested in, <a href="#anchor-contactus" class="triggerForm">reach out to us</a> and we'll discuss this with you.</p>
                         </div>
                     </article>
                     <article id="whos-is-drip-fed-design">
@@ -378,11 +381,13 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a href="#anchor-contactus" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a href="#anchor-contactus" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
         </div>
     </section>
 </div>
 <?
+
+require(__DIR__ . '/inc/contact.global.php');
 require(__DIR__ . '/inc/footer.global.php');
 
 // Exporting as flat file

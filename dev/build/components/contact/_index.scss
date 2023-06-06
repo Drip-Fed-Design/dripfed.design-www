@@ -1,0 +1,160 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- CONTACT ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-contact-container {
+  animation-delay: 4s;
+  animation-duration: 1.4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: contactAnimate;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  background-color: $colour-primary__orange;
+  background-image: url(#{$dir__images}icon/icon-contact-black.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  border-radius: $border-radius__circle;
+  bottom: $spacing__default;
+  height: 80px;
+  position: fixed;
+  right: $spacing__default;
+  width: 80px;
+  z-index: 11;
+}
+
+@keyframes contactAnimate {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-50px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- PROMPT ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-prompt-container {
+  animation-delay: 4.2s;
+  animation-direction: normal;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: promptAnimate;
+  animation-timing-function: ease-in-out;
+  background-color: $colour-white__default;
+  border-radius: $border-radius__content;
+  bottom: calc($spacing__default * 4);
+  box-shadow: $colour-blue__trans 0 1px 4px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  right: $spacing__default;
+  width: 300px;
+  z-index: 10;
+  .__user {
+    background-color: $colour-white__default;
+    padding: $spacing__small;
+    width: 100%;
+    .__mugshot {
+      border-radius: $border-radius__circle;
+      height: 40px;
+      overflow: hidden;
+      width: 40px;
+    }
+    p {
+      margin: unset;
+      padding: unset;
+      padding-left: calc($spacing__small / 1.5);
+    }
+  }
+  .__message {
+    background-image: url(#{$dir__images}background/background-whatsapp.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding: $spacing__default $spacing__small;
+    .__bubble {
+      background-color: $colour-white__default;
+      border-radius: 0 $border-radius__buttons $border-radius__buttons
+        $border-radius__buttons;
+      box-shadow: $colour-blue__trans 2px 2px 2px;
+      padding: calc($spacing__small / 2) $spacing__small;
+      position: relative;
+      width: 85%;
+      &:before {
+        border-left: 15px solid $colour-white__default;
+        border-top: 15px solid transparent;
+        content: " ";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -15px;
+        width: 0;
+      }
+      p {
+        margin-bottom: calc($spacing__small / 2);
+        margin-top: calc($spacing__small / 2);
+      }
+      p:first-child {
+        margin: unset;
+        padding: unset;
+      }
+      .__time,
+      .__name {
+        margin: unset;
+        padding: unset;
+      }
+    }
+  }
+  .__cta {
+    padding: $spacing__small;
+    width: 100%;
+  }
+}
+
+@keyframes promptAnimate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
