@@ -21,6 +21,7 @@
   .__copyright {
     margin-top: $spacing__small;
     p {
+      line-height: unset;
       margin: 0 0 calc($spacing__small / 2);
     }
   }

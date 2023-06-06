@@ -57,7 +57,8 @@
                 toggleFAQ(this)
             })
         });
-        // form toggle
+
+        // Form toggle
         function toggleFormClass() {
             var formTarget = document.getElementById('triggerFormTarget');
             formTarget.classList.toggle('__show');
@@ -66,6 +67,7 @@
         for (var i = 0; i < triggerLinks.length; i++) {
             triggerLinks[i].addEventListener('click', toggleFormClass);
         }
+
         // Output time of chat
         function displayCT() {
             var e = new Date,
@@ -74,6 +76,17 @@
             e.getSeconds(), document.getElementById("current-time").textContent = t + ":" + n
         }
         window.addEventListener("load", displayCT);
+
+        // Main carousel
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     var e = document.getElementById("__carousel-main").getElementsByClassName("__slide");
+
+        //     function s(s) {
+        //         for (var t = s.target.closest(".__slide"), n = 0; n < e.length; n++) e[n].classList.remove("-focus");
+        //         t.classList.add("-focus")
+        //     }
+        //     for (var t = 0; t < e.length; t++) e[t].addEventListener("mouseover", s)
+        // });
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

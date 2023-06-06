@@ -10,13 +10,11 @@ if ($htmlExporting === true) {
 require(__DIR__ . '/inc/header.global.php');
 ?>
 <div class="<?= $globalPrefix; ?>-body-container">
-    <!-- <section class="<?= $globalPrefix; ?>-carousel-container" id="latest-work">
-        <p>carousel</p>
-    </section> -->
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__800 _padding-top-bottom__large">
         <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design micro-agency</span><br />with a design <span class="_word-under">subscription</span> model<span class="_word-stop"></span></h1>
         <p class="_text-align__center">We carry out valued digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
     </section>
+    <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__xlarge">
             <div class="__how _text-align__center">

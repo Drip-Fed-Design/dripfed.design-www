@@ -55,10 +55,12 @@
     position: relative;
     width: calc(100% - $spacing__default);
     z-index: 1;
-    p,
     h2,
     li {
-      color: $colour-black__default;
+      color: $colour-primary__black;
+    }
+    p {
+      color: $colour-grey__dark;
     }
     ul {
       list-style: none;
@@ -85,10 +87,12 @@
     .__monthly,
     .__quarterly {
       h3,
-      p,
       h2,
       span {
-        color: $colour-black__default;
+        color: $colour-primary__black;
+      }
+      p {
+        color: $colour-grey__dark;
       }
     }
     .__monthly {

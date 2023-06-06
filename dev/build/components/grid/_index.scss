@@ -40,6 +40,31 @@
     grid-template-columns: repeat(7, max-content);
   }
 
+  // Carousel columns
+  &.-column__carousel {
+    grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 0.2fr;
+    transition: 0.6s ease-out;
+    // Set sizes on hover
+    &:has(.__one:hover) {
+      grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    }
+    &:has(.__two:hover) {
+      grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 0.2fr;
+    }
+    &:has(.__three:hover) {
+      grid-template-columns: 0.2fr 0.2fr 1fr 0.2fr 0.2fr;
+    }
+    &:has(.__four:hover) {
+      grid-template-columns: 0.2fr 0.2fr 0.2fr 1fr 0.2fr;
+    }
+    &:has(.__five:hover) {
+      grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
+    }
+  }
+  //   :where(.__one, .__two, .__three, .__four, .__five) {
+  //     transition: 500ms ease-out;
+  //   }
+
   // Spacing
   &.-column-gap__small {
     column-gap: $spacing__small;

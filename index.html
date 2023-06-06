@@ -78,14 +78,29 @@
                 </nav>
             </div>
         </header><div class="dfd-body-container">
-    <!-- <section class="dfd-carousel-container" id="latest-work">
-        <p>carousel</p>
-    </section> -->
     <section class="dfd-intro-container _max-width__800 _padding-top-bottom__large">
         <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design micro-agency</span><br />with a design <span class="_word-under">subscription</span> model<span class="_word-stop"></span></h1>
         <p class="_text-align__center">We carry out valued digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
     </section>
-    <section class="dfd-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
+    <section class="dfd-carousel-container _max-width__1640 _margin-bottom__default" id="latest-work">
+    <div class="dfd-grid-container -column__carousel -column-gap__default" id="__carousel-main">
+        <div class="__slide __one">
+            <img src="/dist/images/work/digital-design-subscription-01.jpg" class="__image" />
+        </div>
+        <div class="__slide __two">
+            <img src="/dist/images/work/digital-design-subscription-02.jpg" class="__image" />
+        </div>
+        <div class="__slide __three">
+            <img src="/dist/images/work/digital-design-subscription-03.jpg" class="__image" />
+        </div>
+        <div class="__slide __four">
+            <img src="/dist/images/work/digital-design-subscription-04.jpg" class="__image" />
+        </div>
+        <div class="__slide __five">
+            <img src="/dist/images/work/digital-design-subscription-05.jpg" class="__image" />
+        </div>
+    </div>
+</section>    <section class="dfd-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="dfd-grid-container -column__half -column-gap__xlarge">
             <div class="__how _text-align__center">
                 <img src="/dist/images/icon/icon-how.svg" alt="How Drip Fed Design subscription works" width="360px" height="220px" />
@@ -583,7 +598,8 @@
                 toggleFAQ(this)
             })
         });
-        // form toggle
+
+        // Form toggle
         function toggleFormClass() {
             var formTarget = document.getElementById('triggerFormTarget');
             formTarget.classList.toggle('__show');
@@ -592,6 +608,7 @@
         for (var i = 0; i < triggerLinks.length; i++) {
             triggerLinks[i].addEventListener('click', toggleFormClass);
         }
+
         // Output time of chat
         function displayCT() {
             var e = new Date,
@@ -600,6 +617,17 @@
             e.getSeconds(), document.getElementById("current-time").textContent = t + ":" + n
         }
         window.addEventListener("load", displayCT);
+
+        // Main carousel
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     var e = document.getElementById("__carousel-main").getElementsByClassName("__slide");
+
+        //     function s(s) {
+        //         for (var t = s.target.closest(".__slide"), n = 0; n < e.length; n++) e[n].classList.remove("-focus");
+        //         t.classList.add("-focus")
+        //     }
+        //     for (var t = 0; t < e.length; t++) e[t].addEventListener("mouseover", s)
+        // });
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -29,6 +29,7 @@ ol,
 }
 
 p {
+  line-height: calc($font-size__primary + 10px);
   a {
     color: $colour-notification__green;
     text-decoration: underline;
