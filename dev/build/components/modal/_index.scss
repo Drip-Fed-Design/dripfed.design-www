@@ -22,6 +22,9 @@
   vertical-align: center;
   width: 100%;
   z-index: 12;
+  @include mixinResponsive("narrow") {
+    padding: $spacing__small;
+  }
   &:after {
     background: $colour-black__trans;
     content: " ";

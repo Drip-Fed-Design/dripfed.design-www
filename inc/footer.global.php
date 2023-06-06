@@ -5,7 +5,7 @@
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
-                    <a href="#anchor-contactus" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -22,7 +22,7 @@
                         <li><a href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
                         <li><a href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
                         <li><a href="#anchor-designplans" title="Find a design subscription that suits you">Pricing & Plans<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#anchor-contactus" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
@@ -68,6 +68,16 @@
             triggerLinks[i].addEventListener('click', toggleFormClass);
         }
 
+        // Form toggle
+        function togglePromptClass() {
+            var promptTarget = document.getElementById('triggerPromptTarget');
+            promptTarget.classList.toggle('__hide');
+        }
+        var triggerLinksPro = document.getElementsByClassName('triggerPrompt');
+        for (var i = 0; i < triggerLinksPro.length; i++) {
+            triggerLinksPro[i].addEventListener('click', togglePromptClass);
+        }
+
         // Output time of chat
         function displayCT() {
             var e = new Date,
@@ -77,16 +87,18 @@
         }
         window.addEventListener("load", displayCT);
 
-        // Main carousel
-        // document.addEventListener("DOMContentLoaded", function() {
-        //     var e = document.getElementById("__carousel-main").getElementsByClassName("__slide");
+        // Scrolling anchors
+        document.addEventListener("DOMContentLoaded", function() {
+            for (var e = document.querySelectorAll('a[href^="#"]'), t = 0; t < e.length; t++) e[t].addEventListener("click", smoothScroll)
+        });
 
-        //     function s(s) {
-        //         for (var t = s.target.closest(".__slide"), n = 0; n < e.length; n++) e[n].classList.remove("-focus");
-        //         t.classList.add("-focus")
-        //     }
-        //     for (var t = 0; t < e.length; t++) e[t].addEventListener("mouseover", s)
-        // });
+        function smoothScroll(e) {
+            e.preventDefault();
+            var t = this.getAttribute("href");
+            document.querySelector(t).scrollIntoView({
+                behavior: "smooth"
+            })
+        }
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

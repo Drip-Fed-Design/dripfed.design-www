@@ -17,9 +17,16 @@
     position: absolute;
     right: $spacing__default;
     top: $spacing__default;
+    @include mixinResponsive("mobile") {
+      right: calc($spacing__default / 2);
+      top: calc($spacing__default / 2);
+    }
   }
   .__content {
-    padding: $spacing__large $spacing__large $spacing__default;
+    padding: $spacing__default $spacing__large $spacing__default;
+    @include mixinResponsive("mobile") {
+      padding: $spacing__default;
+    }
     p {
       color: $colour-primary__black;
     }

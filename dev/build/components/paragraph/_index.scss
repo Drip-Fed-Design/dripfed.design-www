@@ -30,6 +30,9 @@ ol,
 
 p {
   line-height: calc($font-size__primary + 10px);
+  @include mixinResponsive("mobile") {
+    line-height: calc($font-size__primary + 5px);
+  }
   a {
     color: $colour-notification__green;
     text-decoration: underline;
@@ -51,12 +54,20 @@ hr {
   margin: $spacing__default 0;
   pointer-events: none;
   width: 100%;
+  @include mixinResponsive("mobile") {
+    margin: $spacing__small 0;
+  }
 }
 
 a {
   color: inherit;
   font-weight: $font-weight__medium;
   text-decoration: none;
+}
+
+span {
+  font-size: inherit;
+  color: inherit;
 }
 
 //

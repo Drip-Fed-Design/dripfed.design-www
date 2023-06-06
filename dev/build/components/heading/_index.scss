@@ -32,15 +32,27 @@ h1 {
 h2 {
   font-size: $font-size__heading-2;
   line-height: calc($font-size__heading-2 + 15px);
+  @include mixinResponsive("mobile") {
+    font-size: calc($font-size__heading-2 - 0.2rem);
+    line-height: $font-size__heading-2;
+  }
 }
 
 h3 {
   font-size: $font-size__heading-3;
   font-weight: $font-weight__medium;
   line-height: calc($font-size__heading-3 + 15px);
+  @include mixinResponsive("mobile") {
+    font-size: calc($font-size__heading-3 - 0.2rem);
+    line-height: $font-size__heading-3;
+  }
 }
 
 h4 {
   font-size: $font-size__heading-4;
   line-height: calc($font-size__heading-4 + 10px);
+  @include mixinResponsive("mobile") {
+    font-size: calc($font-size__heading-4 - 0.2rem);
+    line-height: $font-size__heading-4;
+  }
 }

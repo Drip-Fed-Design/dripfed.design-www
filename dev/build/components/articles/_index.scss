@@ -18,6 +18,9 @@
     padding: $spacing__small;
     width: $column-one__800;
     z-index: +1;
+    @include mixinResponsive("mobile") {
+      width: 100%;
+    }
     h4 {
       color: $colour-primary__black;
     }

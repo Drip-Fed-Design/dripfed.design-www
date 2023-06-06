@@ -10,6 +10,32 @@
 // ----------
 //
 header.#{$prefix-name}-header-container {
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("wide-mobile") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+    .__logo {
+      text-align: center;
+      img {
+        height: auto;
+        width: 200px;
+      }
+    }
+    .__links {
+      display: none;
+    }
+    .__cta {
+      margin-top: $spacing__small;
+      text-align: center;
+    }
+  }
   .__nav {
     width: 100%;
   }

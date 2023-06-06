@@ -60,7 +60,7 @@ require(__DIR__ . '/../config/debug.global.php');
 
 </head>
 
-<body>
+<body id="home">
     <main id="<?= $globalPrefix; ?>-main-container">
         <header class="<?= $globalPrefix; ?>-header-container _max-width__1280">
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-v__center">

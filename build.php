@@ -38,17 +38,17 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> subscription" width="100px" height="100px" />
-                    <h4>Subscribe to a plan which suits your needs.</h4>
+                    <h4><strong>1.</strong> Subscribe to a plan which suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4>Receive email confirmation and intros within 2 hrs.</h4>
+                    <h4><strong>2.</strong> Receive email confirmation and intros within 2 hrs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4>Manage and collaborate requests using Basecamp.</h4>
+                    <h4><strong>3.</strong> Manage and collaborate requests using Basecamp.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
@@ -61,7 +61,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
-                    <a href="#anchor-contactus" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -73,7 +73,7 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
             <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the digital designer who started Drip Fed Design, having worked with a variety of startups and enterprises...</p>
-            <div class="<?= $globalPrefix; ?>-grid-container -column__seven -column-gap__large -column-row__default -column-v__center -column-h__center">
+            <div class="__logos">
                 <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade" alt="Lucozade" width="125px" height="35.47px" />
                 <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro" alt="Hasbro" width="80px" height="80px" />
                 <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena" alt="Ribena" width="84.86px" height="60.6px" />
@@ -214,14 +214,14 @@ require(__DIR__ . '/inc/header.global.php');
                     <p>Basecamp to manage & collaborate requests</p>
                 </li>
             </ul>
-            <p class="_font-size__secondary _font-colour__grey-default">* There may be the need for a video call or two, depending on request complexity.</p>
+            <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
                 <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
                 <p>Our monthly cycle plan is what we'd recommend for starting out. It will also let you get a feel for how things work.</p>
-                <h2 class="_margin-bottom__small">£4,400 <span class="_font-colour__black-light _font-style__italic">/per month</span></h2>
+                <h2 class="_margin-bottom__small">£4,400 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <a href="#" class="__button -orange -wide" title="Start your monthly design subscription today">Get started today</a>
                 </div>
@@ -229,11 +229,11 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
                 <h3>Quarterly Cycle</h3>
                 <p>Jump into a quarterly plan if you've been here before and know what to expect, or experienced on the duration of a particular task or project.</p>
-                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic">/per month**</span></h2>
+                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <a href="#" class="__button -orange -wide" title="Start your quarterly design subscription today">Start today</a>
                 </div>
-                <p class="_font-size__secondary _font-colour__grey-default">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
+                <p class="_font-size__secondary _font-colour__grey-light">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
             </div>
         </div>
     </section>
@@ -364,7 +364,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>Including coding or development within our subscription would simply not be logical.</p>
                             <p>But this does NOT mean we can't!</p>
                             <p>We'd love to bring your website or mobile application to life, we just can't include that service within the subscription.</p>
-                            <p>If this is something you're interested in, <a href="#anchor-contactus" class="triggerForm">reach out to us</a> and we'll discuss this with you.</p>
+                            <p>If this is something you're interested in, <a href="#home" class="triggerForm">reach out to us</a> and we'll discuss this with you.</p>
                         </div>
                     </article>
                     <article id="whos-is-drip-fed-design">
@@ -379,7 +379,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a href="#anchor-contactus" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
         </div>
     </section>
 </div>

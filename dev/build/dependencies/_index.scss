@@ -109,6 +109,10 @@ $transition-speed__default: 0.3s;
 // ----------
 // ----------
 //
+html {
+  scroll-behavior: smooth;
+}
+
 main##{$prefix-name}-main-container {
   background: $colour-primary__black;
   overflow: hidden;

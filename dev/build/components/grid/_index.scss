@@ -16,11 +16,26 @@
   // 2 columns
   &.-column__half {
     grid-template-columns: 1fr 1fr;
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr;
+    }
   }
   &.-column__half-min {
     grid-template-columns: max-content max-content;
+    @include mixinResponsive("wide-mobile") {
+      grid-template-columns: 1fr;
+    }
   }
   &.-column__min-full {
+    grid-template-columns: min-content 1fr;
+    @include mixinResponsive("wide-mobile") {
+      grid-template-columns: 1fr;
+    }
+  }
+  &.-column__gdpr {
+    grid-template-columns: min-content 1fr;
+  }
+  &.-column__whatsapp {
     grid-template-columns: min-content 1fr;
   }
   &.-column__full-min {
@@ -30,14 +45,15 @@
   // 3 columns
   &.-column__third {
     grid-template-columns: repeat(3, 1fr [col-start]);
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr;
+    }
   }
   &.-column__third-cta {
     grid-template-columns: 1fr max-content 1fr;
-  }
-
-  // 7 columns
-  &.-column__seven {
-    grid-template-columns: repeat(7, max-content);
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr;
+    }
   }
 
   // Carousel columns
@@ -71,12 +87,21 @@
   }
   &.-column-gap__default {
     column-gap: $spacing__default;
+    @include mixinResponsive("tablet") {
+      column-gap: $spacing__small;
+    }
   }
   &.-column-gap__large {
     column-gap: $spacing__large;
   }
   &.-column-gap__xlarge {
     column-gap: calc($spacing__large * 2);
+    @include mixinResponsive("tablet") {
+      column-gap: $spacing__large;
+    }
+    @include mixinResponsive("mobile") {
+      column-gap: $spacing__default;
+    }
   }
   &.-column-row__default {
     row-gap: $spacing__default;

@@ -15,11 +15,14 @@
 .#{$prefix-name}-form-container {
   .__section {
     padding: 0 0 $spacing__small;
+    @include mixinResponsive("mobile") {
+      padding: 0 0 5px;
+    }
   }
   label {
     color: $colour-grey__dark;
     display: block;
-    margin-bottom: calc($spacing__small / 2);
+    margin-bottom: 4px;
   }
   .__input,
   .__textarea {
@@ -27,16 +30,23 @@
     border-radius: $border-radius__buttons;
     border: unset;
     display: block;
-    margin: 0 0 $spacing__small;
+    margin: 0 0 5px;
     padding: $spacing__small;
     resize: none;
     width: 100%;
     color: $colour-black__default;
+    @include mixinResponsive("mobile") {
+      padding: 12px $spacing__small;
+    }
   }
   .__checkbox {
     cursor: pointer;
     height: $spacing__small;
     width: $spacing__small;
+    @include mixinResponsive("mobile") {
+      height: 15px;
+      width: 15px;
+    }
   }
   ::placeholder {
     color: $colour-grey__default;

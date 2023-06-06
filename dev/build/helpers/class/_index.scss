@@ -75,6 +75,9 @@
 
 ._padding-bottom__large {
   padding-bottom: $spacing__large;
+  @include mixinResponsive("mobile") {
+    padding-bottom: $spacing__default;
+  }
 }
 
 ._padding-all__small-default {
@@ -89,11 +92,19 @@
 ._padding-top-bottom__large {
   padding-bottom: $spacing__large;
   padding-top: $spacing__large;
+  //   @include mixinResponsive("mobile") {
+  //     padding-bottom: $spacing__default;
+  //     padding-top: $spacing__default;
+  //   }
 }
 
 ._padding-top-bottom__xlarge {
   padding-bottom: calc($spacing__large * 2);
   padding-top: calc($spacing__large * 2);
+  @include mixinResponsive("mobile") {
+    padding-bottom: $spacing__default;
+    padding-top: $spacing__default;
+  }
 }
 
 // Borders
@@ -129,6 +140,10 @@
 // Style
 ._font-style__italic {
   font-style: italic !important;
+}
+
+._text-decoration__underline {
+  text-decoration: underline !important;
 }
 
 // Colours

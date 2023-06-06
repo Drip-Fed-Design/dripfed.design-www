@@ -23,6 +23,10 @@
     padding: $spacing__small $spacing__default;
     text-decoration: none;
     text-transform: uppercase;
+    @include mixinResponsive("mobile") {
+      margin-right: 5px;
+      padding: calc($spacing__default/ 2) $spacing__small;
+    }
     &:last-child {
       margin-right: unset !important;
     }

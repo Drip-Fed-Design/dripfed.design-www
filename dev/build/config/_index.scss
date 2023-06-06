@@ -13,15 +13,15 @@ $dir__images: "/dist/images/";
 // Breakpoints
 $breakpoint-width: (
   // narrow-mobile
-  xxsmall: 440px,
+  narrow: 440px,
   // mobile
-  xsmall: 650px,
+  xsmall: 800px,
   // wide-mobile
-  small: 940px,
+  small: 1000px,
   // tablet
-  medium: 1080px,
+  medium: 1280px,
   // desktop
-  large: 1300px
+  large: 1640px
 );
 
 // $breakpoint-height: (

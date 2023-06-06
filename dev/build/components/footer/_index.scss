@@ -13,6 +13,37 @@
 // ----------
 //
 .#{$prefix-name}-footer-container {
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("mobile") {
+    .__logo {
+      text-align: center;
+      margin-bottom: $spacing__default;
+      img {
+        height: auto;
+        width: 200px;
+      }
+    }
+    .__nav {
+      ul {
+        margin-bottom: $spacing__default;
+        text-align: center;
+      }
+    }
+    .__cta {
+      text-align: center;
+    }
+  }
+  @include mixinResponsive("narrow") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+  }
   .__nav {
     ul {
       list-style: none;
@@ -23,6 +54,9 @@
     p {
       line-height: unset;
       margin: 0 0 calc($spacing__small / 2);
+      @include mixinResponsive("mobile") {
+        text-align: center;
+      }
     }
   }
   .__legal a {
