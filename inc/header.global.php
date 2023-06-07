@@ -42,7 +42,7 @@ require(__DIR__ . '/../config/debug.global.php');
             "name": "<?= $globalTitle; ?>",
             "alternateName": "<?= $globalCompanyName; ?>",
             "url": "<?= $globalDomainRoot; ?>",
-            "logo": "<?= $globalDomainRoot; ?>dist/images/social/dfd-dripfed-design-schema-logo.jpg",
+            "logo": "<?= $globalDomainRoot; ?>dist/images/social/dfd-dripfed-design-schema-logo.png",
             "description": "<?= $globalDescription; ?>",
             "sameAs": [
                 "https://www.linkedin.com/company/drip-fed-design/",
