@@ -81,6 +81,16 @@
   //     transition: 500ms ease-out;
   //   }
 
+  &.-column__testimonials {
+    grid-template-columns: 0.2fr 1fr 0.2fr 0.1fr;
+    @include mixinResponsive("tablet") {
+      grid-template-columns: 1fr 0.1fr 0.1fr;
+    }
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr 0.05fr;
+    }
+  }
+
   // Spacing
   &.-column-gap__small {
     column-gap: $spacing__small;

@@ -71,11 +71,11 @@ require(__DIR__ . '/../config/debug.global.php');
                     <div class="<?= $globalPrefix; ?>-nav-container">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
                             <ul class="__links">
-                                <li><a href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See design plans</a>
-                                <a href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
+                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See design plans</a>
+                                <a data-cabin-event="Header / Login" href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
                             </div>
                         </div>
                     </div>

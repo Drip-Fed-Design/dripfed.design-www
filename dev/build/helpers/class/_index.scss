@@ -73,6 +73,10 @@
   padding-bottom: $spacing__small;
 }
 
+._padding-bottom__default {
+  padding-bottom: $spacing__default;
+}
+
 ._padding-bottom__large {
   padding-bottom: $spacing__large;
   @include mixinResponsive("mobile") {

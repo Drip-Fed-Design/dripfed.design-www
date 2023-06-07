@@ -1,10 +1,10 @@
-<section class="<?= $globalPrefix; ?>-contact-container"><a href="#triggerPromptTarget" class="__link triggerPrompt" title="Contact Drip Fed Design">&#32;</a></section>
+<section class="<?= $globalPrefix; ?>-contact-container"><a data-cabin-event="Prompt / Toggle" href="#triggerPromptTarget" class="__link triggerPrompt" title="Contact Drip Fed Design">&#32;</a></section>
 <section class="<?= $globalPrefix; ?>-prompt-container" id="triggerPromptTarget">
     <div class="__user">
-        <a href="#triggerPromptTarget" class="__close triggerPrompt"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close chat" alt="Close" width="15px" height="15px" /></a>
+        <a data-cabin-event="Prompt / Close" href="#triggerPromptTarget" class="__close triggerPrompt"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close chat" alt="Close" width="15px" height="15px" /></a>
         <div class="<?= $globalPrefix; ?>-grid-container -column__whatsapp">
             <div class="__mugshot">
-                <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/background/background-whatsapp-mugshot.jpg" width="40px" height="40px" />
+                <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/avatar/avatar-whatsapp-mugshot.jpg" width="40px" height="40px" />
             </div>
             <p class="_font-colour__grey-dark"><strong>Chris Watterston</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Usually replies within a few hours</span></p>
         </div>
@@ -19,17 +19,17 @@
     </div>
     <div class="__cta">
         <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-            <a href="https://wa.me/447515163815" class="__button -raw" title="Chat with Drip Fed Design on WhatsApp">
+            <a data-cabin-event="Prompt / WhatsApp" href="https://wa.me/447515163815" class="__button -raw" title="Chat with Drip Fed Design on WhatsApp">
                 <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
             </a>
-            <a href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>
+            <a data-cabin-event="Prompt / Form" href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>
         </div>
     </div>
 </section>
 <!-- Modal -->
 <section class="<?= $globalPrefix; ?>-modal-container" id="triggerFormTarget">
     <div class="<?= $globalPrefix; ?>-card-container _max-width__800">
-        <a href="#triggerPromptTarget" class="__close triggerForm"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close contact form" alt="Close" width="25px" height="25px" /></a>
+        <a data-cabin-event="Form / Close" href="#triggerPromptTarget" class="__close triggerForm"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close contact form" alt="Close" width="25px" height="25px" /></a>
         <div class=" __content">
             <p>We'll support you and your team, sharing a wealth of knowledge and experience across a range of sectors and industries. Fill in the form below and we'll do our best to get back to you within 24 hours.</p>
             <hr />
@@ -53,13 +53,13 @@
                         <div class="<?= $globalPrefix; ?>-grid-container -column__gdpr">
                             <input class="__checkbox" type="checkbox" name="gdpr" value="Concent given" required />
                             <div class="__gdpr">
-                                <label for="gdpr">I concent Drip Fed Ltd to use my information for my enquiry.</label>
+                                <label for="gdpr">I grant Drip Fed Ltd to use my information for my enquiry.</label>
                             </div>
                         </div>
                     </div>
                     <div class="__section">
                         <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                            <button class="__button -orange -wide" type="submit" title="Submit your message">Submit message</button>
+                            <button data-cabin-event="Form / Submit" class="__button -orange -wide" type="submit" title="Submit your message">Submit message</button>
                         </div>
                     </div>
                 </form>

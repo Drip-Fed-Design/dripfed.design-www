@@ -4,8 +4,8 @@
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
-                    <a href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
+                    <a data-cabin-event="CTA Lower / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -19,19 +19,19 @@
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
                     <ul class="_text-align__right">
-                        <li><a href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#anchor-designplans" title="Find a design subscription that suits you">Pricing & Plans<i class="_icon -arrow__r"></i></a></li>
-                        <li><a href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Get Started" href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Work" href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a design subscription that suits you">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Contact" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
-                            <a href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
+                            <a data-cabin-event="CTA Footer / Login" href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
                         </div>
                         <ul class="__legal">
-                            <li><a href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
-                            <li><a href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
-                            <li><a href="/cookies" title="Cookies Policy for Drip Fed Design">Cookies Policy</a></li>
+                            <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
+                            <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
+                            <li><a data-cabin-event="Footer / Cookies" href="/cookies" title="Cookies Policy for Drip Fed Design">Cookies Policy</a></li>
                         </ul>
                     </div>
                 </div>

@@ -53,3 +53,112 @@
     }
   }
 }
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- TESTIMONIALS ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-testimonials-container {
+  min-height: 300px;
+  position: relative;
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("wide-mobile") {
+    margin-bottom: 0;
+  }
+  @include mixinResponsive("narrow") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+  }
+  .__slide {
+    border-radius: $border-radius__default;
+    min-height: 300px;
+    overflow: hidden;
+    padding: $spacing__large $spacing__default;
+    h4 {
+      margin: 0 auto;
+      max-width: 600px;
+      position: relative;
+      width: 100%;
+      z-index: 2;
+    }
+    .__mugshot {
+      border-radius: $border-radius__circle;
+      height: 40px;
+      overflow: hidden;
+      position: relative;
+      width: 40px;
+      z-index: 2;
+    }
+    p {
+      line-height: unset;
+      margin: unset;
+      padding-left: calc($spacing__small / 1.5);
+      padding: unset;
+      position: relative;
+      z-index: 2;
+    }
+    // Modifier
+    &.__one,
+    &.__two,
+    &.__three,
+    &.__four {
+      position: relative;
+      &::before {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        content: " ";
+        height: 100px;
+        left: $spacing__default;
+        opacity: 0.4;
+        position: absolute;
+        top: $spacing__default;
+        width: 100px;
+        z-index: 1;
+      }
+    }
+    &.__one {
+      border: 4px solid $colour-primary__orange;
+      &::before {
+        background-image: url(#{$dir__images}icon/icon-speach-orange.svg);
+      }
+      @include mixinResponsive("tablet") {
+        display: none;
+      }
+    }
+    &.__two {
+      border: 4px solid $colour-primary__aqua;
+      background-color: $colour-white__default;
+      &::before {
+        background-image: url(#{$dir__images}icon/icon-speach-aqua.svg);
+        opacity: 1;
+      }
+    }
+    &.__three {
+      border: 4px solid $colour-primary__pink;
+      &::before {
+        background-image: url(#{$dir__images}icon/icon-speach-pink.svg);
+      }
+    }
+    &.__four {
+      border: 4px solid $colour-primary__blue;
+      &::before {
+        background-image: url(#{$dir__images}icon/icon-speach-blue.svg);
+      }
+      @include mixinResponsive("mobile") {
+        display: none;
+      }
+    }
+  }
+}
