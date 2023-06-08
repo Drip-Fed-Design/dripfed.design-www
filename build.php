@@ -23,7 +23,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <p>Drip Fed Design works in a similar way to a Netflix or Apple TV+ subscription. Subscribe for a single fixed monthly fee and consume as much as you can.</p>
                 <p> This enables any business, whatever the size, to access an unlimited drip of quality design, with each request completed one by one.</p>
                 <p>E.g. Startup in need of branding or MVP. Enterprise running FMCG campaign over the next six-month...</p>
-                <p>The easy opt-in which supports the scale of your business. Subscriptions make everything so much simpler.</p>
+                <p>The easy opt-in which supports the scale of your business. Design subscriptions make everything so much simpler.</p>
             </div>
             <div class="__why _text-align__center">
                 <img src="/dist/images/icon/icon-why.svg" alt="Why subscribe with <?= $globalTitle; ?>" width="360px" height="220px" />
@@ -70,7 +70,7 @@ require(__DIR__ . '/inc/header.global.php');
     <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
-            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the digital designer who started Drip Fed Design, having worked with a variety of startups and enterprises...</p>
+            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Powered by a designer who's previously worked with an exciting variety of startups and enterprises, and now responsible for launching Drip Fed Design.</p>
             <div class="__logos">
                 <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade" alt="Lucozade" width="125px" height="35.47px" />
                 <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro" alt="Hasbro" width="80px" height="80px" />
@@ -171,9 +171,9 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
         <div class="__details _padding-all__small-default _background-solid__white _border-radius__default">
             <h2>Design plans that'll suit your every need, with flexibility.</h2>
-            <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple subscription.</p>
+            <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
             <hr />
-            <p><strong>12 reasons why our plans detach any excuse:</strong></p>
+            <p><strong>12 reasons why our design subscription plans detach any excuse:</strong></p>
             <ul>
                 <li>
                     <p>Unlimited requests</p>
@@ -377,7 +377,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have an unanswered question?</strong><br />Reach out and send your question to us through our quick and simple <a data-cabin-event="FAQ / Unanswered" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have unanswered questions?</strong><br />Reach out and send your question to us through our quick and simple <a data-cabin-event="FAQ / Unanswered" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
         </div>
     </section>
 </div>

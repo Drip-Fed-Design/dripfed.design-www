@@ -23,11 +23,16 @@
   background-size: 50% auto;
   border-radius: $border-radius__circle;
   bottom: $spacing__default;
+  box-shadow: inset 0 -4px 0 $colour-button__inset;
   height: 80px;
   position: fixed;
   right: $spacing__default;
+  transition: all $transition-speed__default;
   width: 80px;
   z-index: 11;
+  &:hover {
+    box-shadow: inset 0 -4px 2px $colour-primary__green;
+  }
   @include mixinResponsive("narrow") {
     bottom: $spacing__small;
     right: $spacing__small;
