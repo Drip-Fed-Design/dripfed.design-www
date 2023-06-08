@@ -63,6 +63,13 @@ a {
   color: inherit;
   font-weight: $font-weight__medium;
   text-decoration: none;
+  transition: all $transition-speed__default;
+  &:hover {
+    color: $colour-primary__green;
+    ._icon {
+      transform: rotate(180deg) scale(1.1);
+    }
+  }
 }
 
 span {

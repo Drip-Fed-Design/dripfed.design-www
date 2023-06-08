@@ -26,12 +26,12 @@
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
-                            <a data-cabin-event="CTA Footer / Login" href="#anchor-login" class="__button -white" title="Log in to make or manage design requests">Client Log in</a>
+                            <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Client Log In</a>
                         </div>
                         <ul class="__legal">
+                            <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Manage Subscription</a></li>
                             <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
                             <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
-                            <li><a data-cabin-event="Footer / Cookies" href="/cookies" title="Cookies Policy for Drip Fed Design">Cookies Policy</a></li>
                         </ul>
                     </div>
                 </div>

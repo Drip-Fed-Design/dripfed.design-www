@@ -284,6 +284,7 @@
   background-position: center;
   background-repeat: no-repeat;
   display: inline-block;
+  transition: all $transition-speed__default;
   // Variations
   &.-arrow__r {
     background-image: url(#{$dir__images}icon/icon-arrow-r-white.svg);

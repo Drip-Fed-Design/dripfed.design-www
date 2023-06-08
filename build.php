@@ -38,17 +38,17 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Subscribe to a plan which suits your needs.</h4>
+                    <h4><strong>1.</strong> Choose a design subscription plan which suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>2.</strong> Receive email confirmation and intros within 2 hrs.</h4>
+                    <h4><strong>2.</strong> Receive an email confirmation and Basecamp access within 2 hrs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>3.</strong> Manage and collaborate requests using Basecamp.</h4>
+                    <h4><strong>3.</strong> Submit, manage and collaborate on all your design requests.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
