@@ -285,7 +285,7 @@ require(__DIR__ . '/inc/header.global.php');
                         <div class="__answer">
                             <p>It's easy. We'll provide you access to a billing portal, powered by Stripe- for reassurance that everything is safe and secure!</p>
                             <p>Within the portal, you'll be able to pause, cancel or upgrade your subscription at any time. This means if you enter a dry spell, you can pause your subscription until things pick up again. Super easy!</p>
-                            <p>It's worth remembering subscriptions are paid upfront. Therefore, if you pause or cancel 10 days after your monthly renewal, you'll still receive the same quality service for the remainder of the cycle. The service will switch over to a paused state at the end of the cycle.</p>
+                            <p>It's worth remembering subscriptions are paid upfront. Therefore, if you pause or cancel 10 days after your monthly renewal, you'll still receive the same quality service for the remainder of the current cycle. The service will switch over to a paused state at the end of the current cycle.</p>
                             <p>Please also be conscious that an active subscription is required for us to work through your requests. For example, if your subscription cycle ends while you still have requests in queue, these requests will be paused.</p>
                         </div>
                     </article>
@@ -308,13 +308,29 @@ require(__DIR__ . '/inc/header.global.php');
                         <div class="__answer">
                             <p>Once you've subscribed, a Basecamp setup will be automatically created for you. Instructions on how to submit requests will be included within Basecamp.</p>
                             <p>Basecamp will act as the central hub where everyone involved will record all requests and collaborations.</p>
-                            <p>Basecamp also supports an array of file formats, writing styles, and third-part connections. Therefore if you have a preferred format of submitting requests, we're open to the idea. Flexibility is nice, as long as it's recorded within Basecamp.</p>
+                            <p>Basecamp also supports an array of file formats, writing styles, and third-part connections. Therefore if you have a preferred format of submitting requests, we're open to the idea. Flexibility is nice, just as long as it's recorded and accessible within Basecamp.</p>
                         </div>
                     </article>
+                    <article id="what-to-expect-in-basecamp">
+                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                            <h4>What should I expect when I receive my Basecamp access?</h4>
+                            <a data-cabin-event="FAQ / 07" href="#what-to-expect-in-basecamp" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                        </div>
+                        <div class="__answer">
+                            <p>Basecamp is a very simple project management platform, therefore has all the features to achieve great things!</p>
+                            <p>You'll receive your own dedicated area within Basecamp, which will have some pre-defined tools setup. These tools are;</p>
+                            <p><strong>Design Request Table:</strong> A visual, Kanban-like space for adding and organising design requests. Design request are actioned and move across the workflow columns.</p>
+                            <p><strong>Campfire:</strong> The place for chatting casually with everyone added to Basecamp. Ask random questions, ask how everyone is, and share stuff without ceremony.</p>
+                            <p><strong>Message Board:</strong> Post announcements, pitch ideas, progress updates, etc. and keep feedback and threads on-topic.</p>
+                            <p><strong>Automatic Check-ins:</strong> Create recurring questions so we don't have to pester the whole invited team about what's going on or how things went.</p>
+
+                        </div>
+                    </article>
+
                     <article id="dont-like-the-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
-                            <a data-cabin-event="FAQ / 07" href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 08" href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Then we'll continue to revise the design until you love it!</p>
@@ -324,7 +340,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="any-refunds">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Are there any refunds?</h4>
-                            <a data-cabin-event="FAQ / 08" href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 09" href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Unfortunately not.</p>
@@ -335,7 +351,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="what-software-or-service-use">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What software or services do you use?</h4>
-                            <a data-cabin-event="FAQ / 09" href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 10" href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>We mainly spend out time using Figma for design work, and GitHub for committing our developments.</p>
@@ -344,7 +360,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="will-pricing-change-or-additional-costs">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Will the pricing change or are there any additional costs?</h4>
-                            <a data-cabin-event="FAQ / 10" href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 11" href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Our subscription feature single fixed monthly fee. What you see is what you pay.</p>
@@ -354,7 +370,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="web-development-or-coding-included">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Is web development or coding included?</h4>
-                            <a data-cabin-event="FAQ / 11" href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 12" href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Unfortunately not.</p>
@@ -368,7 +384,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="whos-is-drip-fed-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Who's behind Drip Fed Design?</h4>
-                            <a data-cabin-event="FAQ / 12" href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / 13" href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Drip Fed is run and managed by Chris Watterston, a digital designer, developer and manager with over 14 years experience across a range of industries.</p>

@@ -29,7 +29,7 @@
                             <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Client Log In</a>
                         </div>
                         <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Manage Subscription</a></li>
+                            <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Billing Portal</a></li>
                             <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
                             <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
                         </ul>
