@@ -22,6 +22,7 @@
             <a data-cabin-event="Prompt / WhatsApp" href="https://wa.me/447515163815" class="__button -raw" title="Chat with Drip Fed Design on WhatsApp">
                 <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
             </a>
+            <br />
             <a data-cabin-event="Prompt / Form" href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>
         </div>
     </div>
