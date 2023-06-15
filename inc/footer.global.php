@@ -14,7 +14,9 @@
     <footer class="<?= $globalPrefix; ?>-footer-container _max-width__1280 _padding-top-bottom__xlarge">
         <div class="<?= $globalPrefix; ?>-grid-container -column__half">
             <div class="__logo">
-                <img loading="lazy" src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                <a data-cabin-event="Footer / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>">
+                    <img loading="lazy" src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                </a>
             </div>
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
@@ -23,13 +25,14 @@
                         <li><a data-cabin-event="Footer / Work" href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a design subscription that suits you">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Contact" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Billing Portal<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
                             <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Client Log In</a>
                         </div>
                         <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Billing Portal</a></li>
+                            <li><a data-cabin-event="Footer / Terms Conditions" href="/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
                             <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
                             <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
                         </ul>

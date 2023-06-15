@@ -13,7 +13,8 @@
         <div class="__bubble">
             <p class="__name _font-size__secondary _font-colour__grey-default"><strong>Chris Watterston</strong></p>
             <p class="_font-size__secondary _font-colour__grey-dark">Hey, how are you?</p>
-            <p class="_font-size__secondary _font-colour__grey-dark">If you have any questions, or just want to find out more... drop me a message 🤟</p>
+            <p class="_font-size__secondary _font-colour__grey-dark">If you have any questions or want to find out more... just drop me a message 🤟</p>
+            <img alt="WhatsApp QR Code" src="<?= $globalDomainRoot; ?>dist/images/social/social-whatsapp-qrcode.jpg" width="80px" height="80px" />
             <p class="__time _font-size__secondary _font-colour__grey-default _text-align__right" id="current-time"></p>
         </div>
     </div>
