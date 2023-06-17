@@ -76,8 +76,8 @@ require(__DIR__ . '/../config/debug.global.php');
                                 <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See design plans</a>
-                                <a data-cabin-event="Header / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Client Log in</a>
+                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See your design plans</a>
+                                <a data-cabin-event="Header / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log in</a>
                             </div>
                         </div>
                     </div>

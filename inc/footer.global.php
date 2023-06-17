@@ -4,7 +4,7 @@
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
+                    <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
                     <a data-cabin-event="CTA Lower / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
-                            <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Client Log In</a>
+                            <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log In</a>
                         </div>
                         <ul class="__legal">
                             <li><a data-cabin-event="Footer / Terms Conditions" href="/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>

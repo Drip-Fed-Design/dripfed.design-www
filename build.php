@@ -38,17 +38,17 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Choose a design subscription plan which suits your needs.</h4>
+                    <h4><strong>1.</strong> Start a design subscription plan which suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>2.</strong> Receive an email confirmation and Basecamp access within 2 hrs.</h4>
+                    <h4><strong>2.</strong> You'll receive your email confirmation within 2 hrs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>3.</strong> Submit, manage and collaborate on all your design requests.</h4>
+                    <h4><strong>3.</strong> Submit & collaborate your requests using Basecamp.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
@@ -60,7 +60,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See design plans</a>
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
                     <a data-cabin-event="CTA Upper / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
@@ -170,7 +170,7 @@ require(__DIR__ . '/inc/header.global.php');
     </section>
     <section class="<?= $globalPrefix; ?>-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
         <div class="__details _padding-all__small-default _background-solid__white _border-radius__default">
-            <h2>Design plans that'll suit your every need, with flexibility.</h2>
+            <h2>Design plans that'll suit your every need, with flexibility and an open end.</h2>
             <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
             <hr />
             <p><strong>12 reasons why our design subscription plans detach any excuse:</strong></p>
@@ -225,7 +225,7 @@ require(__DIR__ . '/inc/header.global.php');
                 </div>
             </div>
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
-                <h4 class="_font-colour__red-notification"><strong>SAVE 10% with a</strong></h4>
+                <h4 class="_font-colour__red-notification"><strong>SAVE 10% on your</strong></h4>
                 <h3>Quarterly Cycle</h3>
                 <p>Jump into a quarterly plan if you've been here before and know what to expect, or experienced on the duration of a particular task or project.</p>
                 <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
