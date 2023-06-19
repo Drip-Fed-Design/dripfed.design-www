@@ -7,7 +7,7 @@
                     <div class="__mugshot">
                         <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/avatar/avatar-testimonial-mugshot.jpg" width="40px" height="40px" />
                     </div>
-                    <p class="_font-colour__grey-dark"><strong>Phil Goldsmith</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Lucozade Energy Asst. Brand Manager</span></p>
+                    <p class="_font-colour__grey-dark"><strong>Phil . G</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Lucozade Energy Asst. Brand Manager</span></p>
                 </div>
             </div>
             <div class="__slide __three"></div>

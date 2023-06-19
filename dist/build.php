@@ -1,24 +1,111 @@
-<?
-// Enable export as flat file
-$htmlExporting = false;
+<!DOCTYPE html>
+<html lang="en">
 
-// Exporting as flat file
-if ($htmlExporting === true) {
-    ob_start();
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta content="True" name="HandheldFriendly" />
 
-require(__DIR__ . '/inc/header.global.php');
-?>
-<div class="<?= $globalPrefix; ?>-body-container">
-    <section class="<?= $globalPrefix; ?>-intro-container _max-width__800 _padding-top-bottom__large">
+    <title>Design Subscription micro-agency in England, we're Drip Fed</title>
+    <meta name="description" content="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy." />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://dripfed.design/" />
+
+    <link rel="apple-touch-icon" href="https://dripfed.design/dist/images/social/apple-touch-icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Sharing details  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dripfed.design/" />
+    <meta property="og:title" content="Design Subscription micro-agency in England, we're Drip Fed" />
+    <meta property="og:description" content="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy." />
+    <meta property="og:image" content="https://dripfed.design/dist/images/social/social-dripfed-design-sharing.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ChrisWatterston" />
+    <meta name="twitter:creator" content="@ChrisWatterston" />
+    <meta name="twitter:title" content="Design Subscription micro-agency in England, we're Drip Fed" />
+    <meta name="twitter:description" content="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy." />
+    <meta name="twitter:image" content="https://dripfed.design/dist/images/social/social-dripfed-design-sharing.jpg" />
+
+    <!-- Schema Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Drip Fed Design Subscription",
+            "alternateName": "Drip Fed Ltd",
+            "url": "https://dripfed.design/",
+            "logo": "https://dripfed.design/dist/images/social/dfd-dripfed-design-schema-logo.png",
+            "description": "Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.",
+            "sameAs": [
+                "https://www.linkedin.com/company/drip-fed-design/",
+                "https://dripfed.design/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "postalCode": "TW16 6AX",
+                "addressCountry": "United Kingdom"
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="https://dripfed.design/dist/css/dfd.min.css">
+
+</head>
+
+<body id="home">
+    <main id="dfd-main-container">
+        <header class="dfd-header-container _max-width__1280">
+            <div class="dfd-grid-container -column__min-full -column-v__center">
+                <div class=" __logo">
+                    <a data-cabin-event="Header / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
+                        <img src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="309px" height="130px" />
+                    </a>
+                </div>
+                <nav class="__nav">
+                    <div class="dfd-nav-container">
+                        <div class="dfd-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
+                            <ul class="__links">
+                                <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li>
+                            </ul>
+                            <div class="__cta dfd-button-container">
+                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See your design plans</a>
+                                <a data-cabin-event="Header / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log in</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header><div class="dfd-body-container">
+    <section class="dfd-intro-container _max-width__800 _padding-top-bottom__large">
         <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design micro-agency</span><br />with a design <span class="_word-under">subscription</span> model<span class="_word-stop"></span></h1>
         <p class="_text-align__center">We carry out valued digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
     </section>
-    <? require(__DIR__ . '/inc/work.global.php'); ?>
-    <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
-        <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__xlarge">
+    <section class="dfd-carousel-container _max-width__1640 _margin-bottom__default" id="latest-work">
+    <div class="dfd-grid-container -column__carousel -column-gap__default" id="__carousel-main">
+        <div class="__slide __one">
+            <img loading="lazy" src="/dist/images/work/digital-design-subscription-01.jpg" alt="Design subscriptions work by Drip Fed Design" class="__image" width="900px" height="550px" />
+        </div>
+        <div class="__slide __two">
+            <img src="/dist/images/work/digital-design-subscription-02.jpg" alt="Design subscriptions work by Drip Fed Design" class="__image" width="900px" height="550px" />
+        </div>
+        <div class="__slide __three">
+            <img loading="lazy" src="/dist/images/work/digital-design-subscription-03.jpg" alt="Design subscriptions work by Drip Fed Design" class="__image" width="900px" height="550px" />
+        </div>
+        <div class="__slide __four">
+            <img loading="lazy" src="/dist/images/work/digital-design-subscription-04.jpg" alt="Design subscriptions work by Drip Fed Design" class="__image" width="900px" height="550px" />
+        </div>
+        <div class="__slide __five">
+            <img loading="lazy" src="/dist/images/work/digital-design-subscription-05.jpg" alt="Design subscriptions work by Drip Fed Design" class="__image" width="900px" height="550px" />
+        </div>
+    </div>
+</section>    <section class="dfd-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
+        <div class="dfd-grid-container -column__half -column-gap__xlarge">
             <div class="__how _text-align__center">
-                <img src="/dist/images/icon/icon-how.svg" alt="How <?= $globalTitle; ?> subscription works" width="360px" height="220px" />
+                <img src="/dist/images/icon/icon-how.svg" alt="How Drip Fed Design Subscription subscription works" width="360px" height="220px" />
                 <h2>HOW does it work?</h2>
                 <p>Drip Fed Design works in a similar way to a Netflix or Apple TV+ subscription. Subscribe for a single fixed monthly fee and consume as much as you can.</p>
                 <p> This enables any business, whatever the size, to access an unlimited drip of quality design, with each request completed one by one, in date ascending order (oldest first).</p>
@@ -26,7 +113,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <p>The easy opt-in which supports the scale of your business. Design subscriptions make everything so much simpler.</p>
             </div>
             <div class="__why _text-align__center">
-                <img src="/dist/images/icon/icon-why.svg" alt="Why subscribe with <?= $globalTitle; ?>" width="360px" height="220px" />
+                <img src="/dist/images/icon/icon-why.svg" alt="Why subscribe with Drip Fed Design Subscription" width="360px" height="220px" />
                 <h2>WHY a subscription?</h2>
                 <p>Drip Fed Design holds a unique position. We bridge the gap between a freelancer and a fixed-term contractor with open ended design subscription plans.</p>
                 <p>Our plans allow the ease and flexibility of a freelancer, but without the complex lock-in which comes with fixed-term contracts and permanent employment. You'll get the best of both worlds.</p>
@@ -35,40 +122,54 @@ require(__DIR__ . '/inc/header.global.php');
         </div>
         <div class="_padding-top-bottom__default" id="anchor-gettingstarted">
             <h3 class="_text-align__center _padding-bottom__small">Getting Setup</h3>
-            <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
+            <div class="dfd-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> subscription" width="100px" height="100px" />
+                    <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a Drip Fed Design Subscription subscription" width="100px" height="100px" />
                     <h4><strong>1.</strong> Start a design subscription plan which suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?>" width="100px" height="100px" />
+                    <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to Drip Fed Design Subscription" width="100px" height="100px" />
                     <h4><strong>2.</strong> You'll receive your email confirmation within 2 hrs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
+                    <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with Drip Fed Design Subscription" width="100px" height="100px" />
                     <h4><strong>3.</strong> Submit & collaborate your requests using Basecamp.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-cta-container _padding-top-bottom__xlarge _background-solid__black">
-        <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
+    <section class="dfd-cta-container _padding-top-bottom__xlarge _background-solid__black">
+        <div class="dfd-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
-                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
+                <div class="dfd-button-container _text-align__center">
                     <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
-                    <a data-cabin-event="CTA Upper / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a data-cabin-event="CTA Upper / Contact" href="#home" class="__button -white triggerForm" title="Contact Drip Fed Design Subscription to enquire about design subscriptions and more">Contact us</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
         </div>
     </section>
-    <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
-    <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
+        <section class="dfd-testimonials-container _max-width__1640 _padding-top__large" id="latest-work">
+        <div class="dfd-grid-container -column__testimonials -column-gap__default" id="__carousel-main">
+            <div class="__slide __one"></div>
+            <div class="__slide __two">
+                <h4 class="_font-colour__grey-dark _text-align__center _padding-bottom__default">I can't speak highly enough of Chris. He's incredible at what he does, adds so much value to any project or partnership and is an absolute joy to work with too!</h4>
+                <div class="dfd-grid-container -column__whatsapp -column-h__center -column-gap__small">
+                    <div class="__mugshot">
+                        <img alt="WhatsApp" src="https://dripfed.design/dist/images/avatar/avatar-testimonial-mugshot.jpg" width="40px" height="40px" />
+                    </div>
+                    <p class="_font-colour__grey-dark"><strong>Phil . G</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Lucozade Energy Asst. Brand Manager</span></p>
+                </div>
+            </div>
+            <div class="__slide __three"></div>
+            <div class="__slide __four"></div>
+        </div>
+    </section>    <section class="dfd-logos-container _max-width__1640 _padding-top__large">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
             <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Powered by a designer who's previously worked with an exciting variety of startups and enterprises, and now responsible for launching Drip Fed Design.</p>
             <div class="__logos">
@@ -82,12 +183,12 @@ require(__DIR__ . '/inc/header.global.php');
             </div>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
+    <section class="dfd-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
         <div class="__copy _padding-bottom__large _text-align__center _max-width__800">
             <h2>Let's get creative and work on it together.</h2>
             <p>We have over 14 years of experience and knowledge in our industry, spanning across both public and private sectors. Providing nothing but quality in the design and build of websites, apps, brands, digital competitions, and so much more. You're definitely in good hands!</p>
         </div>
-        <div class="__list <?= $globalPrefix; ?>-grid-container -column__third">
+        <div class="__list dfd-grid-container -column__third">
             <ul>
                 <li>
                     <h4>Websites</h4>
@@ -168,7 +269,7 @@ require(__DIR__ . '/inc/header.global.php');
             </ul>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
+    <section class="dfd-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
         <div class="__details _padding-all__small-default _background-solid__white _border-radius__default">
             <h2>Design plans that'll suit your every need, with flexibility and an open end.</h2>
             <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
@@ -216,11 +317,11 @@ require(__DIR__ . '/inc/header.global.php');
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
-                <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
+                <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with Drip Fed Design Subscription" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
                 <p>Our monthly cycle plan is what we'd recommend for starting out. It will also let you get a feel for how things work.</p>
                 <h2 class="_margin-bottom__small">£4,400 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
-                <div class="<?= $globalPrefix; ?>-button-container">
+                <div class="dfd-button-container">
                     <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly design subscription today">Get started today</a>
                 </div>
             </div>
@@ -229,20 +330,20 @@ require(__DIR__ . '/inc/header.global.php');
                 <h3>Quarterly Cycle</h3>
                 <p>Jump into a quarterly plan if you've been here before and know what to expect, or experienced on the duration of a particular task or project.</p>
                 <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
-                <div class="<?= $globalPrefix; ?>-button-container">
+                <div class="dfd-button-container">
                     <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly design subscription today">Save 10% Today</a>
                 </div>
                 <p class="_font-size__secondary _font-colour__grey-light">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
             </div>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-faq-container _background-solid__white _padding-top-bottom__xlarge">
+    <section class="dfd-faq-container _background-solid__white _padding-top-bottom__xlarge">
         <div class="_max-width__1280">
             <h3 class="_font-colour__grey-dark _margin-bottom__large">Frequently <br />asked questions.</h3>
-            <div class="<?= $globalPrefix; ?>-articles-container _margin-bottom__default">
-                <div class="<?= $globalPrefix; ?>-grid-container -column-h__center">
+            <div class="dfd-articles-container _margin-bottom__default">
+                <div class="dfd-grid-container -column-h__center">
                     <article id="just-employ-a-designer">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Why wouldn't I just employ a designer?</h4>
                             <a data-cabin-event="FAQ / Just Employee a Designer" href="#just-employ-a-designer" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -257,7 +358,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="how-quick-will-request-be-completed">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>How quick will my requests be completed?</h4>
                             <a data-cabin-event="FAQ / How Quick to Complete Requests" href="#how-quick-will-request-be-completed" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -270,7 +371,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="limit-on-requests">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Is there a limit on requests?</h4>
                             <a data-cabin-event="FAQ / Request Limits" href="#limit-on-requests" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -279,7 +380,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="manage-my-subscription">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>How do I manage my subscription?</h4>
                             <a data-cabin-event="FAQ / How to Manage Subscription" href="#manage-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -291,7 +392,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="pause-or-cancel-my-subscription">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>When should I use pause vs. cancel with my subscription?</h4>
                             <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -302,7 +403,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="how-to-make-request">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>How do I make and submit a request?</h4>
                             <a data-cabin-event="FAQ / How to Make Request" href="#how-to-make-request" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -313,7 +414,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="what-to-expect-in-basecamp">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>What should I expect when I receive my Basecamp access?</h4>
                             <a data-cabin-event="FAQ / Expect in Basecamp Access" href="#what-to-expect-in-basecamp" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -329,7 +430,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
 
                     <article id="dont-like-the-design">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
                             <a data-cabin-event="FAQ / If I Dont Like Design" href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -339,7 +440,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="any-refunds">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Are there any refunds?</h4>
                             <a data-cabin-event="FAQ / Any Refunds" href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -350,7 +451,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="what-software-or-service-use">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>What software or services do you use?</h4>
                             <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -359,7 +460,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="will-pricing-change-or-additional-costs">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Will the pricing change or are there any additional costs?</h4>
                             <a data-cabin-event="FAQ / Price Changes or Additional Costs" href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -369,7 +470,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="web-development-or-coding-included">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Is web development or coding included?</h4>
                             <a data-cabin-event="FAQ / Is Web Dev Included" href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -383,7 +484,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                     </article>
                     <article id="whos-is-drip-fed-design">
-                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                        <div class="dfd-grid-container -column__full-min">
                             <h4>Who's behind Drip Fed Design?</h4>
                             <a data-cabin-event="FAQ / Who runs Drip Fed" href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
@@ -399,15 +500,185 @@ require(__DIR__ . '/inc/header.global.php');
         </div>
     </section>
 </div>
-<?
+<section class="dfd-contact-container"><a data-cabin-event="Prompt / Toggle" href="#triggerPromptTarget" class="__link triggerPrompt" title="Contact Drip Fed Design">&#32;</a></section>
+<section class="dfd-prompt-container" id="triggerPromptTarget">
+    <div class="__user">
+        <a data-cabin-event="Prompt / Close" href="#triggerPromptTarget" class="__close triggerPrompt"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close chat" alt="Close" width="15px" height="15px" /></a>
+        <div class="dfd-grid-container -column__whatsapp">
+            <div class="__mugshot">
+                <img alt="WhatsApp" src="https://dripfed.design/dist/images/avatar/avatar-whatsapp-mugshot.jpg" width="40px" height="40px" />
+            </div>
+            <p class="_font-colour__grey-dark"><strong>Chris Watterston</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Usually replies within a few hours</span></p>
+        </div>
+    </div>
+    <div class="__message">
+        <div class="__bubble">
+            <p class="__name _font-size__secondary _font-colour__grey-default"><strong>Chris Watterston</strong></p>
+            <p class="_font-size__secondary _font-colour__grey-dark">Hey, how are you?</p>
+            <p class="_font-size__secondary _font-colour__grey-dark">If you have any questions or want to find out more... just drop me a message 🤟</p>
+            <img alt="WhatsApp QR Code" src="https://dripfed.design/dist/images/social/social-whatsapp-qrcode.jpg" width="80px" height="80px" />
+            <p class="__time _font-size__secondary _font-colour__grey-default _text-align__right" id="current-time"></p>
+        </div>
+    </div>
+    <div class="__cta">
+        <div class="dfd-button-container _text-align__center">
+            <a data-cabin-event="Prompt / WhatsApp" href="https://wa.me/message/WFGVYT6SEWKJD1" target="_blank" class="__button -raw" title="Chat with Drip Fed Design on WhatsApp">
+                <img alt="WhatsApp" src="https://dripfed.design/dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
+            </a>
+            <br />
+            <a data-cabin-event="Prompt / Form" href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact Drip Fed Design Subscription to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<section class="dfd-modal-container" id="triggerFormTarget">
+    <div class="dfd-card-container _max-width__800">
+        <a data-cabin-event="Form / Close" href="#triggerPromptTarget" class="__close triggerForm"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close contact form" alt="Close" width="25px" height="25px" /></a>
+        <div class=" __content">
+            <p>We'll support you and your team, sharing a wealth of knowledge and experience across a range of sectors and industries. Fill in the form below and we'll do our best to get back to you within 24 hours.</p>
+            <hr />
+            <section class="dfd-form-container">
+                <form name="form-enquiry" method="POST" data-netlify="true">
+                    <div class="dfd-grid-container -column__half -column-gap__default">
+                        <div class="__section">
+                            <label for="full-name">Full name</label>
+                            <input class="__input" type="text" name="full-name" placeholder="What shall we call you..." required />
+                        </div>
+                        <div class="__section">
+                            <label for="email-address">Email address</label>
+                            <input class="__input" type="email" name="email-address" placeholder="name@domain.com..." required />
+                        </div>
+                    </div>
+                    <div class="__section">
+                        <label for="message">How can we help</label>
+                        <textarea class="__textarea" name="message" rows="2" placeholder="What would you like to know? Maybe there is a design project that needs extra support..."></textarea>
+                    </div>
+                    <div class="__section">
+                        <div class="dfd-grid-container -column__gdpr">
+                            <input class="__checkbox" type="checkbox" name="gdpr" value="Concent given" required />
+                            <div class="__gdpr">
+                                <label for="gdpr">I grant Drip Fed Ltd to use my information for my enquiry.</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="__section">
+                        <div class="dfd-button-container _text-align__center">
+                            <button data-cabin-event="Form / Submit" class="__button -orange -wide" type="submit" title="Submit your message">Submit message</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</section>    <section class="dfd-cta-container _padding-top-bottom__xlarge _background-solid__black">
+        <div class="dfd-grid-container -column__third-cta -column-gap__xlarge">
+            <div class="_pattern -long-l"></div>
+            <div class="_padding-top-bottom__default">
+                <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
+                <div class="dfd-button-container _text-align__center">
+                    <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
+                    <a data-cabin-event="CTA Lower / Contact" href="#home" class="__button -white triggerForm" title="Contact Drip Fed Design Subscription to enquire about design subscriptions and more">Contact us</a>
+                </div>
+            </div>
+            <div class="_pattern -long-r"></div>
+        </div>
+    </section>
+    <footer class="dfd-footer-container _max-width__1280 _padding-top-bottom__xlarge">
+        <div class="dfd-grid-container -column__half">
+            <div class="__logo">
+                <a data-cabin-event="Footer / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
+                    <img loading="lazy" src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="309px" height="130px" />
+                </a>
+            </div>
+            <nav class="__nav">
+                <div class="dfd-grid-container -column__half">
+                    <ul class="_text-align__right">
+                        <li><a data-cabin-event="Footer / Get Started" href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Work" href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a design subscription that suits you">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Contact" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Billing Portal<i class="_icon -arrow__r"></i></a></li>
+                    </ul>
+                    <div class="_text-align__right">
+                        <div class="__cta dfd-button-container">
+                            <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log In</a>
+                        </div>
+                        <ul class="__legal">
+                            <li><a data-cabin-event="Footer / Terms Conditions" href="/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
+                            <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
+                            <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="__copyright">
+            <p>Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.</p>
+            <p class="_font-size__secondary">© 2023 Drip Fed Ltd. Company Number: 14871237</p>
+        </div>
+    </footer>
+    </main>
 
-require(__DIR__ . '/inc/contact.global.php');
-require(__DIR__ . '/inc/footer.global.php');
+    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+    <script>
+        // FAQ
+        function toggleFAQ(e) {
+            e.closest("article").querySelector(".__answer").classList.toggle("-show")
+        }
+        var triggerFAQ = document.querySelectorAll(".triggerFAQ");
+        triggerFAQ.forEach(function(e) {
+            e.addEventListener("click", function() {
+                toggleFAQ(this)
+            })
+        });
 
-// Exporting as flat file
-if ($htmlExporting === true) {
-    $dripfedHTML = ob_get_contents();
-    ob_end_clean();
-    file_put_contents('./dist' . $_SERVER['PHP_SELF'], $dripfedHTML);
-}
-?>
+        // Form toggle
+        function toggleFormClass() {
+            var formTarget = document.getElementById('triggerFormTarget');
+            formTarget.classList.toggle('__show');
+        }
+        var triggerLinks = document.getElementsByClassName('triggerForm');
+        for (var i = 0; i < triggerLinks.length; i++) {
+            triggerLinks[i].addEventListener('click', toggleFormClass);
+        }
+
+        // Form toggle
+        function togglePromptClass() {
+            var promptTarget = document.getElementById('triggerPromptTarget');
+            promptTarget.classList.toggle('__hide');
+        }
+        var triggerLinksPro = document.getElementsByClassName('triggerPrompt');
+        for (var i = 0; i < triggerLinksPro.length; i++) {
+            triggerLinksPro[i].addEventListener('click', togglePromptClass);
+        }
+
+        // Output time of chat
+        function displayCT() {
+            var e = new Date,
+                t = e.getHours(),
+                n = e.getMinutes();
+            e.getSeconds(), document.getElementById("current-time").textContent = t + ":" + n
+        }
+        window.addEventListener("load", displayCT);
+
+        // Scrolling anchors
+        document.addEventListener("DOMContentLoaded", function() {
+            for (var e = document.querySelectorAll('a[href^="#"]'), t = 0; t < e.length; t++) e[t].addEventListener("click", smoothScroll)
+        });
+
+        function smoothScroll(e) {
+            e.preventDefault();
+            var t = this.getAttribute("href");
+            document.querySelector(t).scrollIntoView({
+                behavior: "smooth"
+            })
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+
+    </body>
+
+    </html>
