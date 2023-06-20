@@ -66,7 +66,7 @@ require(__DIR__ . '/../config/debug.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-v__center">
                 <div class=" __logo">
                     <a data-cabin-event="Header / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>">
-                        <img src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                        <img src="/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
                     </a>
                 </div>
                 <nav class="__nav">

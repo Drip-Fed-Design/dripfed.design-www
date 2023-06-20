@@ -4,7 +4,7 @@
         <a data-cabin-event="Prompt / Close" href="#triggerPromptTarget" class="__close triggerPrompt"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close chat" alt="Close" width="15px" height="15px" /></a>
         <div class="<?= $globalPrefix; ?>-grid-container -column__whatsapp">
             <div class="__mugshot">
-                <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/avatar/avatar-whatsapp-mugshot.jpg" width="40px" height="40px" />
+                <img alt="WhatsApp" src="/dist/images/avatar/avatar-whatsapp-mugshot.jpg" width="40px" height="40px" />
             </div>
             <p class="_font-colour__grey-dark"><strong>Chris Watterston</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Usually replies within a few hours</span></p>
         </div>
@@ -14,14 +14,14 @@
             <p class="__name _font-size__secondary _font-colour__grey-default"><strong>Chris Watterston</strong></p>
             <p class="_font-size__secondary _font-colour__grey-dark">Hey, how are you?</p>
             <p class="_font-size__secondary _font-colour__grey-dark">If you have any questions or want to find out more... just drop me a message 🤟</p>
-            <img alt="WhatsApp QR Code" src="<?= $globalDomainRoot; ?>dist/images/social/social-whatsapp-qrcode.jpg" width="80px" height="80px" />
+            <img alt="WhatsApp QR Code" src="/dist/images/social/social-whatsapp-qrcode.jpg" width="80px" height="80px" />
             <p class="__time _font-size__secondary _font-colour__grey-default _text-align__right" id="current-time"></p>
         </div>
     </div>
     <div class="__cta">
         <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
             <a data-cabin-event="Prompt / WhatsApp" href="https://wa.me/message/WFGVYT6SEWKJD1" target="_blank" class="__button -raw" title="Chat with Drip Fed Design on WhatsApp">
-                <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
+                <img alt="WhatsApp" src="/dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
             </a>
             <br />
             <a data-cabin-event="Prompt / Form" href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>

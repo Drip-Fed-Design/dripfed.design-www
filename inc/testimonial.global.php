@@ -5,7 +5,7 @@
                 <h4 class="_font-colour__grey-dark _text-align__center _padding-bottom__default">I can't speak highly enough of Chris. He's incredible at what he does, adds so much value to any project or partnership and is an absolute joy to work with too!</h4>
                 <div class="<?= $globalPrefix; ?>-grid-container -column__whatsapp -column-h__center -column-gap__small">
                     <div class="__mugshot">
-                        <img alt="WhatsApp" src="<?= $globalDomainRoot; ?>dist/images/avatar/avatar-testimonial-mugshot.jpg" width="40px" height="40px" />
+                        <img alt="WhatsApp" src="/dist/images/avatar/avatar-testimonial-mugshot.jpg" width="40px" height="40px" />
                     </div>
                     <p class="_font-colour__grey-dark"><strong>Phil . G</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Lucozade Energy Asst. Brand Manager</span></p>
                 </div>
