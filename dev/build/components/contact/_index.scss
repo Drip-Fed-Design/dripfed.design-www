@@ -142,6 +142,7 @@
   &.__hide {
     opacity: 0 !important;
     pointer-events: none !important;
+    display: none !important;
   }
   .__user {
     background-color: $colour-white__default;
