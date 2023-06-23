@@ -139,6 +139,9 @@
   @include mixinResponsive("mobile") {
     animation-delay: 43.4s;
   }
+  &.__active {
+    animation-delay: 0s;
+  }
   &.__hide {
     opacity: 0 !important;
     pointer-events: none !important;

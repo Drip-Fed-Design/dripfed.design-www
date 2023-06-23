@@ -75,6 +75,7 @@
         function togglePromptClass() {
             var promptTarget = document.getElementById('triggerPromptTarget');
             promptTarget.classList.toggle('__hide');
+            promptTarget.classList.add('__active');
         }
         var triggerLinksPro = document.getElementsByClassName('triggerPrompt');
         for (var i = 0; i < triggerLinksPro.length; i++) {
