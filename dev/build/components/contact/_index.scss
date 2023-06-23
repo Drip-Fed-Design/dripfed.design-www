@@ -141,6 +141,7 @@
   }
   &.__active {
     animation-delay: 0s;
+    pointer-events: unset !important;
   }
   &.__hide {
     opacity: 0 !important;
