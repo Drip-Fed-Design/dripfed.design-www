@@ -77,7 +77,7 @@ require(__DIR__ . '/../config/debug.global.php');
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
                                 <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See your design plans</a>
-                                <a data-cabin-event="Header / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log in</a>
+                                <a data-cabin-event="Header / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log in</a>
                             </div>
                         </div>
                     </div>

@@ -29,7 +29,7 @@
                     </ul>
                     <div class="_text-align__right">
                         <div class="__cta <?= $globalPrefix; ?>-button-container">
-                            <a data-cabin-event="CTA Footer / Basecamp" href="https://launchpad.37signals.com/signin" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log In</a>
+                            <a data-cabin-event="CTA Footer / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate design requests">Log In</a>
                         </div>
                         <ul class="__legal">
                             <li><a data-cabin-event="Footer / Terms Conditions" href="/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>

@@ -48,7 +48,7 @@ require(__DIR__ . '/inc/header.global.php');
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>3.</strong> Submit & collaborate your requests using Basecamp.</h4>
+                    <h4><strong>3.</strong> Submit & collaborate your requests using Wrike.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
@@ -209,7 +209,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <p>Available experience, advice & consultation</p>
                 </li>
                 <li>
-                    <p>Basecamp to manage & collaborate requests</p>
+                    <p>Wrike to manage & collaborate projects</p>
                 </li>
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
@@ -298,7 +298,7 @@ require(__DIR__ . '/inc/header.global.php');
                         <div class="__answer">
                             <p>To be honest, it's totally up to you.</p>
                             <p>But for guidance, some clients pause subscriptions ahead of quiet periods or project budgets being confirmed. Pauses period tend to only last for a month or two.</p>
-                            <p>As for subscription cancellations, you should only proceed if you're certain our services are no longer required. If you decide to cancel, your Basecamp setup and all contained data will be removed after 6 months from your date of cancellation.</p>
+                            <p>As for subscription cancellations, you should only proceed if you're certain our services are no longer required. If you decide to cancel, your Wrike setup and all contained data will be removed after 6 months from your date of cancellation.</p>
                         </div>
                     </article>
                     <article id="how-to-make-request">
@@ -307,24 +307,22 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / How to Make Request" href="#how-to-make-request" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>Once you've subscribed, a Basecamp setup will be automatically created for you. Instructions on how to access and submit requests will be included within your introduction email and Basecamp.</p>
-                            <p>Basecamp will act as the central hub where everyone involved will record all requests and collaborations.</p>
-                            <p>Basecamp also supports an array of file formats, writing styles, and third-part connections. Therefore if you have a preferred format of submitting requests, we're open to the idea. Flexibility is nice, just as long as it's recorded and accessible within Basecamp.</p>
+                            <p>Once you've subscribed, a Wrike setup will be automatically created for you. Instructions on how to access and submit requests will be included within your introduction email and Wrike.</p>
+                            <p>Wrike will act as the central hub where everyone involved will record all requests and collaborations.</p>
+                            <p>Wrike also supports an array of file formats, writing styles, and third-part connections. Therefore if you have a preferred format of submitting requests, we're open to the idea. Flexibility is nice, just as long as it's recorded and accessible within Wrike.</p>
                         </div>
                     </article>
-                    <article id="what-to-expect-in-basecamp">
+                    <article id="what-to-expect-in-wrike">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>What should I expect when I receive my Basecamp access?</h4>
-                            <a data-cabin-event="FAQ / Expect in Basecamp Access" href="#what-to-expect-in-basecamp" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <h4>What should I expect when I receive my Wrike access?</h4>
+                            <a data-cabin-event="FAQ / Expect in Wrike Access" href="#what-to-expect-in-wrike" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>Basecamp is a very simple project management platform, therefore has all the features to achieve great things!</p>
-                            <p>You'll receive your own dedicated area within Basecamp, which will have some pre-defined tools setup. These tools are;</p>
-                            <p><strong>Design Request Table:</strong> This is a visual, Kanban-like space for adding and organising your design requests. These design request are then actioned, moving across the workflow columns.</p>
-                            <p><strong>Campfire:</strong> Just like a real Campfire, it's a space for chatting casually with everyone within your Basecamp area. Ask random questions, ask how everyone's feeling, add fun GIFs, sing a song, and share stuff without ceremony.</p>
-                            <p><strong>Message Board:</strong> A place to post announcements, pitch ideas, strategies, campaigns, anything coming up in the future, etc- keeping feedback on-topic.</p>
+                            <p>Wrike is a very simple and powerful project management platform, therefore has all the features to achieve great things!</p>
+                            <p>You'll receive your own dedicated space within Wrike, which will have some pre-defined tools setup. These tools are;</p>
+                            <p><strong>Request Table:</strong> This is a visual, Kanban-like space for adding and organising your design requests. These work request are then actioned, moving across the workflow columns.</p>
+                            <p><strong>Message Board:</strong> A place to place announcements, pitch ideas, strategies, campaigns, etc- keeping comments and feedback on-topic.</p>
                             <p><strong>Docs & Files:</strong> Provide brand guidelines, NDAs, copy, or photograph. A home for all kinds of documents, files, images, and spreadsheets. Organise in folders so they're easy to find.</p>
-                            <p><strong>Automatic Check-ins:</strong> At times, automation is king. Create a recurring post or questions to everyone involved in the team, ask weekly updates or see what everyone's up to over the weekend.</p>
                         </div>
                     </article>
 
@@ -355,7 +353,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>We mainly spend out time using Figma for design work, GitHub/VS Code for committing our code, and Basecamp for Project Management.</p>
+                            <p>We mainly spend out time using Figma for design work, GitHub/VS Code for committing our code, and Wrike for project management.</p>
                         </div>
                     </article>
                     <article id="will-pricing-change-or-additional-costs">
