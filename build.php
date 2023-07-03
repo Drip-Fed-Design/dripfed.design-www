@@ -326,10 +326,9 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>You'll receive your own dedicated space within Wrike, which will have some pre-defined tools setup. These tools are;</p>
                             <p><strong>Request Table:</strong> This is a visual, Kanban-like space for adding and organising your design requests. These work request are then actioned, moving across the workflow columns.</p>
                             <p><strong>Message Board:</strong> A place to place announcements, pitch ideas, strategies, campaigns, etc- keeping comments and feedback on-topic.</p>
-                            <p><strong>Docs & Files:</strong> Provide brand guidelines, NDAs, copy, or photograph. A home for all kinds of documents, files, images, and spreadsheets. Organise in folders so they're easy to find.</p>
+                            <p><strong>Docs & Files:</strong> This area can be found within the previously mentioned '01. Request Table' tool. It provides a birds eye view of all the attachments shared within all requests. Things such as brand guidelines, NDAs, copy, or photograph. A home for all kinds of documents, files, images, and spreadsheets- it makes everything so easy to find.</p>
                         </div>
                     </article>
-
                     <article id="dont-like-the-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
