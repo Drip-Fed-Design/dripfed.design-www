@@ -12,7 +12,7 @@ require(__DIR__ . '/inc/header.global.php');
 <div class="<?= $globalPrefix; ?>-body-container">
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__800 _padding-top-bottom__large">
         <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design micro-agency</span><br />with a design <span class="_word-under">subscription</span> model<span class="_word-stop"></span></h1>
-        <p class="_text-align__center">We carry out valued digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
+        <p class="_text-align__center">We carry out valuable digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
@@ -61,7 +61,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
-                    <a data-cabin-event="CTA Upper / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">Contact us</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">Book a call</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -213,21 +213,23 @@ require(__DIR__ . '/inc/header.global.php');
                 </li>
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
+            <hr />
+            <p><strong class="_font-colour__orange-primary">Still not convinced?</strong> To learn more about how Drip Fed Design works and how it can support your design needs, <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
                 <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
-                <p>Our monthly cycle plan is what we'd recommend for starting out. It will also let you get a feel for how things work.</p>
+                <p>Start your design journey with our popular, flexible monthly design subscription plan. Perfect for all your short-term design projects and tasks!</p>
                 <h2 class="_margin-bottom__small">£4,400 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly design subscription today">Get started today</a>
                 </div>
             </div>
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
-                <h4 class="_font-colour__red-notification"><strong>SAVE 10% on your</strong></h4>
+                <h4 class="_font-colour__red-notification"><strong>SAVE £440 per month</strong></h4>
                 <h3>Quarterly Cycle</h3>
-                <p>Jump into a quarterly plan if you've been here before and know what to expect, or experienced on the duration of a particular task or project.</p>
+                <p>Maximize value and ROI with our quarterly design subscription plan. The ideal choice for longer ongoing design projects and tasks!</p>
                 <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly design subscription today">Save 10% Today</a>

@@ -38,7 +38,7 @@ $globalCompanyNumber = '14871237';
 
 $globalTitle = 'Drip Fed Design Subscription';
 $globalTitleLong = 'Design Subscription micro-agency in England, we\'re Drip Fed';
-$globalDescription = 'Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.';
+$globalDescription = 'Digital design micro-agency with a design subscription model. Providing valuable digital design, with commitment and personality, lower costs and less bureaucracy.';
 $globalRobots = 'index,follow';
 
 //
