@@ -57,7 +57,7 @@ require(__DIR__ . '/../config/debug.global.php');
     </script>
 
     <link rel="stylesheet" type="text/css" href="<?= $globalDomainRoot; ?>dist/css/<?= $globalPrefix; ?>.min.css">
-
+    <meta name="facebook-domain-verification" content="l1dtq97by7ufj1g9rp51699dtn6un6" />
 </head>
 
 <body id="home">
