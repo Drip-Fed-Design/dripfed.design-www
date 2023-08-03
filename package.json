@@ -1,0 +1,10 @@
+{
+  "name": "drip-fed-design-blog",
+  "description": "Drip Fed Design Blog",
+  "scripts": {
+    "dev": "cd blog && npm run dev",
+    "build": "cd blog && npm run build",
+    "serve": "cd blog && npm run serve",
+    "netlify:deploy": "cd blog && netlify:deploy"
+  }
+}
