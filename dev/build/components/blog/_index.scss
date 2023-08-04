@@ -1,0 +1,108 @@
+// Copyright (c) 2023-present, Drip Fed Ltd. All rights reserved.
+// #{$prefix-name}
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- BLOG ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-blog-container {
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("wide-mobile") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+  }
+  .__listing,
+  .__article {
+    .__tags {
+      text-align: right;
+      span {
+        background-color: $colour-blue__trans;
+        border-radius: $border-radius__buttons;
+        display: inline-block;
+        font-size: $font-size__secondary;
+        margin-left: calc($spacing__small / 5);
+        padding: calc($spacing__small / 4) calc($spacing__small / 2);
+        color: $colour-grey__default;
+      }
+    }
+  }
+  .__listing {
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    img {
+      border-radius: $border-radius__buttons;
+    }
+    .__date {
+      color: $colour-primary__green;
+    }
+  }
+  .__article {
+    .__intro {
+      position: relative;
+      &:after {
+        background-image: url(#{$dir__images}pattern/pattern-short-full.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: " ";
+        height: 309px;
+        pointer-events: none;
+        position: absolute;
+        right: -257px;
+        top: -$spacing__large;
+        width: 457px;
+      }
+      .gatsby-image-wrapper {
+        border-radius: $border-radius__default;
+        max-height: 500px;
+      }
+      .__title {
+        background-color: $colour-white__default;
+        border-radius: $border-radius__default;
+        border: 2px solid $colour-primary__green;
+        box-shadow: $colour-primary__green 5px 10px 0;
+        margin-left: $spacing__default;
+        margin-top: -(calc($spacing__large * 2));
+        max-width: 600px;
+        padding: $spacing__small $spacing__default;
+        position: relative;
+        width: 100%;
+        z-index: +1;
+        * {
+          color: $colour-primary__black;
+        }
+      }
+    }
+    .__body {
+      .__spec {
+        color: $colour-primary__green;
+        display: block;
+        padding-bottom: $spacing__small;
+      }
+      ul {
+        margin-left: $spacing__large;
+        li {
+          padding: 0;
+        }
+      }
+      .__button {
+        width: fit-content;
+      }
+    }
+  }
+}

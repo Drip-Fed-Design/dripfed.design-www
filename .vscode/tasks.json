@@ -4,15 +4,27 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "PRODUCTION Compile - Compressed",
+      "label": "PRODUCTION site - Compressed",
       "type": "shell",
       "command": "sass --watch ./dev/build/_core.scss:./dist/css/dfd.min.css --no-source-map --style compressed;",
       "problemMatcher": []
     },
     {
-      "label": "OVERRIDE Compile - Compressed",
+      "label": "OVERRIDE site - Compressed",
       "type": "shell",
       "command": "sass --watch ./dev/build/_core.scss:./dripfed.design-www.dev-local/dist/css/dfd.min.css --no-source-map --style compressed;",
+      "problemMatcher": []
+    },
+    {
+      "label": "PRODUCTION blog - Compressed",
+      "type": "shell",
+      "command": "sass --watch ./dev/build/_blog.scss:./dev/blog/src/components/global.css --no-source-map --style compressed;",
+      "problemMatcher": []
+    },
+    {
+      "label": "BUILD blog - Gatsby",
+      "type": "shell",
+      "command": "cd ./dev/blog && npm run build",
       "problemMatcher": []
     }
   ]

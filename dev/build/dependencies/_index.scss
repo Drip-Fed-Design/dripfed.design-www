@@ -113,7 +113,8 @@ html {
   scroll-behavior: smooth;
 }
 
-main##{$prefix-name}-main-container {
+main##{$prefix-name}-main-container,
+#gatsby-focus-wrapper {
   background: $colour-primary__black;
   overflow: hidden;
   padding: $spacing__default 0;

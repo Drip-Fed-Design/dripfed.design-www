@@ -21,8 +21,8 @@
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
                     <ul class="_text-align__right">
+                        <li><a data-cabin-event="Footer / Blog" href="/blog" title="Take a look at our latest work, thoughts, and updates">Blog & Work Updates<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Get Started" href="#anchor-gettingstarted" title="Subscribing to Drip Fed Design is easy">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Work" href="#latest-work" title="Take a look at our latest work and projects">Latest Work<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a design subscription that suits you">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Contact" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your design subscription">Billing Portal<i class="_icon -arrow__r"></i></a></li>
