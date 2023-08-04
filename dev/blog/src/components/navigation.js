@@ -9,8 +9,8 @@ const Navigation = () => (
     <div class="dfd-grid-container -column__min-full -column-v__center">
       <div class=" __logo">
         <a
-          data-cabin-event="Header / Logo"
-          href="https://dripfed.design/blog/"
+          data-cabin-event="Blog / Header / Logo"
+          href="https://dripfed.design/blog"
           title="Return to Drip Fed Design blog home"
         >
           <img
@@ -27,7 +27,7 @@ const Navigation = () => (
             <ul class="__links">
               <li>
                 <a
-                  data-cabin-event="Header / Get Started"
+                  data-cabin-event="Blog / Header / Return"
                   href="https://dripfed.design/#anchor-gettingstarted"
                   title="Return to Drip Fed Design"
                 >
@@ -37,12 +37,12 @@ const Navigation = () => (
             </ul>
             <div class="__cta dfd-button-container">
               <a
-                data-cabin-event="Header / Plans"
+                data-cabin-event="Blog / Header / All Posts"
                 href="https://dripfed.design/blog"
                 class="__button -orange"
-                title="See all Drip Fed Design blog posts"
+                title="See all Drip Fed Design latest updates and posts"
               >
-                See all blog posts
+                View all latest posts
               </a>
             </div>
           </div>

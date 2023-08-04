@@ -60,18 +60,20 @@ class BlogPostTemplate extends React.Component {
                 <div class="dfd-button-container dfd-grid-container -column__half -column-h__center _padding-top__large">
                   {previous && (
                     <Link
-                      to={`../${previous.slug}`}
+                      to={`/blog/${previous.slug}`}
                       rel="prev"
                       class="__button -white"
+                      data-cabin-event="Blog / Post / Prev"
                     >
                       ← {previous.title}
                     </Link>
                   )}
                   {next && (
                     <Link
-                      to={`../${next.slug}`}
+                      to={`/blog/${next.slug}`}
                       rel="next"
                       class="__button -white"
+                      data-cabin-event="Blog / Post / Next"
                     >
                       {next.title} →
                     </Link>

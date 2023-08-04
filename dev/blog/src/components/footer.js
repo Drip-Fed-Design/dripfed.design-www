@@ -13,15 +13,15 @@ const Footer = () => (
           </h4>
           <div class="dfd-button-container _text-align__center">
             <a
-              data-cabin-event="CTA Lower / Plans"
-              href="#anchor-designplans"
+              data-cabin-event="Blog / CTA Lower / Plans"
+              href="https://dripfed.desgn/#anchor-designplans"
               class="__button -green"
               title="Find a design subscription that suits you"
             >
               See your design plans
             </a>
             <a
-              data-cabin-event="CTA Lower / Book Call"
+              data-cabin-event="Blog / CTA Lower / Book Call"
               href="https://dripfed.design/book"
               target="_blank"
               rel="noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => (
       <div class="dfd-grid-container -column__half">
         <div class="__logo">
           <a
-            data-cabin-event="Footer / Logo"
+            data-cabin-event="Blog / Footer / Logo"
             href="https://dripfed.design/"
             title="Digital design micro-agency with a design subscription model. Providing valuable digital design, with commitment and personality, lower costs and less bureaucracy."
           >
@@ -60,7 +60,7 @@ const Footer = () => (
             <ul class="_text-align__right">
               <li>
                 <a
-                  data-cabin-event="Footer / Return"
+                  data-cabin-event="Blog / Footer / Return"
                   href="https://dripfed.design/"
                   class="triggerForm"
                   title="Digital design micro-agency with a design subscription model."
@@ -70,7 +70,7 @@ const Footer = () => (
               </li>
               <li>
                 <a
-                  data-cabin-event="Footer / Get Started"
+                  data-cabin-event="Blog / Footer / Get Started"
                   href="https://dripfed.design/#anchor-gettingstarted"
                   title="Subscribing to Drip Fed Design is easy"
                 >
@@ -79,7 +79,7 @@ const Footer = () => (
               </li>
               <li>
                 <a
-                  data-cabin-event="Footer / Work"
+                  data-cabin-event="Blog / Footer / Work"
                   href="https://dripfed.design/#latest-work"
                   title="Take a look at our latest work and projects"
                 >
@@ -88,7 +88,7 @@ const Footer = () => (
               </li>
               <li>
                 <a
-                  data-cabin-event="Footer / Plans"
+                  data-cabin-event="Blog / Footer / Plans"
                   href="https://dripfed.design/#anchor-designplans"
                   title="Find a design subscription that suits you"
                 >
@@ -97,7 +97,7 @@ const Footer = () => (
               </li>
               <li>
                 <a
-                  data-cabin-event="Footer / Stripe"
+                  data-cabin-event="Blog / Footer / Stripe"
                   href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288"
                   target="_blank"
                   rel="noreferrer"
@@ -110,7 +110,7 @@ const Footer = () => (
             <div class="_text-align__right">
               <div class="__cta dfd-button-container">
                 <a
-                  data-cabin-event="CTA Footer / Wrike"
+                  data-cabin-event="Blog / CTA Footer / Wrike"
                   href="https://login.wrike.com/login/"
                   target="_blank"
                   rel="noreferrer"
@@ -123,7 +123,7 @@ const Footer = () => (
               <ul class="__legal">
                 <li>
                   <a
-                    data-cabin-event="Footer / Terms Conditions"
+                    data-cabin-event="Blog / Footer / Terms Conditions"
                     href="https://dripfed.design/termsconditions"
                     title="Terms and Conditions for Drip Fed Design Subscription"
                   >
@@ -132,7 +132,7 @@ const Footer = () => (
                 </li>
                 <li>
                   <a
-                    data-cabin-event="Footer / Terms"
+                    data-cabin-event="Blog / Footer / Terms"
                     href="https://dripfed.design/terms"
                     title="Terms of Use for Drip Fed Design"
                   >
@@ -141,7 +141,7 @@ const Footer = () => (
                 </li>
                 <li>
                   <a
-                    data-cabin-event="Footer / Privacy"
+                    data-cabin-event="Blog / Footer / Privacy"
                     href="https://dripfed.design/privacy"
                     title="Privacy policy for Drip Fed Design"
                   >

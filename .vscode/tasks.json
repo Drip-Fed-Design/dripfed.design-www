@@ -20,6 +20,12 @@
       "type": "shell",
       "command": "sass --watch ./dev/build/_blog.scss:./blog/src/components/global.css --no-source-map --style compressed;",
       "problemMatcher": []
+    },
+    {
+      "label": "BUILD blog - Gatsby",
+      "type": "shell",
+      "command": "cd ./dev/blog && npm run build",
+      "problemMatcher": []
     }
   ]
 }
