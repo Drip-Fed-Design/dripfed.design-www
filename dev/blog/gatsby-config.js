@@ -3,7 +3,7 @@ require("dotenv").config({
 });
 
 module.exports = {
-  pathPrefix: "blog/",
+  pathPrefix: "/blog",
   assetPrefix: "",
   siteMetadata: {
     title:
