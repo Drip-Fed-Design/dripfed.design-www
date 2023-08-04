@@ -3,6 +3,8 @@ require("dotenv").config({
 });
 
 module.exports = {
+  pathPrefix: "blog/",
+  assetPrefix: "",
   siteMetadata: {
     title:
       "Digital design, marketing & dev blog by Drip Fed Design, a design subscription agency",

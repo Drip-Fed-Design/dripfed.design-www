@@ -24,7 +24,13 @@
     {
       "label": "BUILD blog - Gatsby",
       "type": "shell",
-      "command": "cd ./dev/blog && npm run build",
+      "command": "cd ./dev/blog && npm run build --prefix-paths",
+      "problemMatcher": []
+    },
+    {
+      "label": "DEVELOP blog - Gatsby",
+      "type": "shell",
+      "command": "cd ./dev/blog && npm run dev --prefix-paths",
       "problemMatcher": []
     }
   ]
