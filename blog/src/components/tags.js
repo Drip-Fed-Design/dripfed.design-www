@@ -1,16 +1,12 @@
-import React from 'react'
-
-import * as styles from './tags.module.css'
+import React from "react";
 
 const Tags = ({ tags }) =>
   tags?.length > 0 && (
-    <small className={styles.tags}>
+    <small class="__tags">
       {tags.map((tag) => (
-        <div key={tag} className={styles.tag}>
-          {tag}
-        </div>
+        <span key={tag}>{tag}</span>
       ))}
     </small>
-  )
+  );
 
-export default Tags
+export default Tags;
