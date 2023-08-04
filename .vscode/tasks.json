@@ -18,7 +18,7 @@
     {
       "label": "PRODUCTION blog - Compressed",
       "type": "shell",
-      "command": "sass --watch ./dev/build/_blog.scss:./blog/src/components/global.css --no-source-map --style compressed;",
+      "command": "sass --watch ./dev/build/_blog.scss:./dev/blog/src/components/global.css --no-source-map --style compressed;",
       "problemMatcher": []
     },
     {
