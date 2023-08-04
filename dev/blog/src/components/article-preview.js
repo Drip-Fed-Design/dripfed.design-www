@@ -17,10 +17,7 @@ const ArticlePreview = ({ posts }) => {
           {posts.map((post) => {
             return (
               <li key={post.slug}>
-                <Link
-                  to={`/blog/${post.slug}`}
-                  data-cabin-event="Blog / Listing / Open"
-                >
+                <Link to={post.slug} data-cabin-event="Blog / Listing / Open">
                   <GatsbyImage alt="" image={post.heroImage.gatsbyImage} />
                   <h2>{post.title}</h2>
                 </Link>
