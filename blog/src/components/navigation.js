@@ -29,30 +29,20 @@ const Navigation = () => (
                 <a
                   data-cabin-event="Header / Get Started"
                   href="https://dripfed.design/#anchor-gettingstarted"
-                  title="Scale your business with a simple design subscription"
+                  title="Return to Drip Fed Design"
                 >
-                  Scale your business<i class="_icon -arrow__r"></i>
+                  Return to Drip Fed Design<i class="_icon -arrow__r"></i>
                 </a>
               </li>
             </ul>
             <div class="__cta dfd-button-container">
               <a
                 data-cabin-event="Header / Plans"
-                href="https://dripfed.design/#anchor-designplans"
+                href="https://dripfed.design/blog"
                 class="__button -orange"
-                title="Find a design subscription that suits you"
+                title="See all Drip Fed Design blog posts"
               >
-                See your design plans
-              </a>
-              <a
-                data-cabin-event="Header / Book Call"
-                href="https://dripfed.design/book"
-                target="_blank"
-                rel="noreferrer"
-                class="__button -white"
-                title="Book an introduction call with Drip Fed Design, find out about our design subscriptions and more"
-              >
-                Book a call
+                See all blog posts
               </a>
             </div>
           </div>
