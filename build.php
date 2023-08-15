@@ -31,6 +31,9 @@ require(__DIR__ . '/inc/header.global.php');
                 <p>Drip Fed Design holds a unique position. We bridge the gap between a freelancer and a fixed-term contractor with open ended design subscription plans.</p>
                 <p>Our plans allow the ease and flexibility of a freelancer, but without the complex lock-in which comes with fixed-term contracts and permanent employment. You'll get the best of both worlds.</p>
                 <p>Cancel or pause any time, no long-term contracts to lock you in. Simple, straightforward, and fair, just great design delivered as it should be.</p>
+                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
+                    <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank">Learn about our subscription</a>
+                </div>
             </div>
         </div>
         <div class="_padding-top-bottom__default" id="anchor-gettingstarted">
@@ -256,6 +259,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>And you're not even locked-in... SH*T!!</p>
                             <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
+                            <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank">what is a design subscription, how it works, and the benefits</a>.</p>
                         </div>
                     </article>
                     <article id="how-quick-will-request-be-completed">
