@@ -14,7 +14,7 @@ const Footer = () => (
           <div class="dfd-button-container _text-align__center">
             <a
               data-cabin-event="Blog / CTA Lower / Plans"
-              href="https://dripfed.desgn/#anchor-designplans"
+              href="https://dripfed.design/#anchor-designplans"
               class="__button -green"
               title="Find a design subscription that suits you"
             >
