@@ -6,8 +6,7 @@ module.exports = {
   pathPrefix: "/blog",
   assetPrefix: "",
   siteMetadata: {
-    title:
-      "Digital design, marketing & dev blog by Drip Fed Design, a design subscription agency",
+    title: "Drip Fred Design",
     description:
       "Sharing our knowledge expertise in quality digital design and marketing, web development. Providing value, with commitment, personality, lower costs and less bureaucracy.",
   },

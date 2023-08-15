@@ -1,11 +1,14 @@
 {
-  "name": "Digital design, marketing & dev blog by Drip Fed Design, a design subscription agency",
+  "name": "Drip Fed Design",
   "description": "Sharing our knowledge expertise in quality digital design and marketing, web development. Providing value, with commitment, personality, lower costs and less bureaucracy.",
   "keywords": [
     "drip fed design",
     "design subscription",
     "design as a service",
-    "micro-agency in England UK"
+    "micro-agency in England UK",
+    "unlimited design service",
+    "monthly design subscription",
+    "unlimited digital design"
   ],
   "repository": "https://dripfed.design/blog",
   "success_url": "/",
