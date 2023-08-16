@@ -11,8 +11,9 @@ require(__DIR__ . '/inc/header.global.php');
 ?>
 <div class="<?= $globalPrefix; ?>-body-container">
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__800 _padding-top-bottom__large">
-        <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design micro-agency</span><br />with a design <span class="_word-under">subscription</span> model<span class="_word-stop"></span></h1>
+        <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design agency</span><br />offering an <span class="_word-under">unlimited design</span> subscription<span class="_word-stop"></span></h1>
         <p class="_text-align__center">We carry out valuable digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
+        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary">Monthly Fixed Cost - No Contracts - No Hourly Rates - Design as a Service</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
@@ -22,35 +23,35 @@ require(__DIR__ . '/inc/header.global.php');
                 <h2>HOW does it work?</h2>
                 <p>Drip Fed Design works in a similar way to a Netflix or Apple TV+ subscription. Subscribe for a single fixed monthly fee and consume as much as you can.</p>
                 <p> This enables any business, whatever the size, to access an unlimited drip of quality design, with each request completed one by one, in date ascending order (oldest first).</p>
-                <p>E.g. Startup in need of branding or MVP. Enterprise running a marketing campaign over the next six-month...</p>
-                <p>The easy opt-in which supports the scale of your business. Design subscriptions make everything so much simpler.</p>
+                <p>E.g. Startup need branding or MVP. Enterprise running a marketing campaign over the next six-month...</p>
+                <p>The easy opt-in which supports the scale of your business. A design as a service subscription make everything so much simpler.</p>
             </div>
             <div class="__why _text-align__center">
                 <img src="/dist/images/icon/icon-why.svg" alt="Why subscribe with <?= $globalTitle; ?>" width="360px" height="220px" />
                 <h2>WHY a subscription?</h2>
-                <p>Drip Fed Design holds a unique position. We bridge the gap between a freelancer and a fixed-term contractor with open ended design subscription plans.</p>
+                <p>Drip Fed Design holds a unique position. We bridge the gap between a freelancer and a fixed-term contractor with open ended unlimited design subscription plans.</p>
                 <p>Our plans allow the ease and flexibility of a freelancer, but without the complex lock-in which comes with fixed-term contracts and permanent employment. You'll get the best of both worlds.</p>
                 <p>Cancel or pause any time, no long-term contracts to lock you in. Simple, straightforward, and fair, just great design delivered as it should be.</p>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank">Learn about our subscription</a>
+                    <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about our subscription</a>
                 </div>
             </div>
         </div>
         <div class="_padding-top-bottom__default" id="anchor-gettingstarted">
-            <h3 class="_text-align__center _padding-bottom__small">Getting Setup</h3>
+            <h3 class="_text-align__center _padding-bottom__small">Get Started in 3 Steps</h3>
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Start a design subscription plan which suits your needs.</h4>
+                    <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
+                    <h4><strong>1.</strong> Start a design subscription which suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>2.</strong> You'll receive your email confirmation within 2 hrs.</h4>
+                    <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?> unlimited design" width="100px" height="100px" />
+                    <h4><strong>2.</strong> You'll receive your email confirmation within 1 hour.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
-                    <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
+                    <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Unlimited design requests with <?= $globalTitle; ?>" width="100px" height="100px" />
                     <h4><strong>3.</strong> Submit & collaborate your requests using Wrike.</h4>
                     <span class="_split -orange"></span>
                 </div>
@@ -61,10 +62,10 @@ require(__DIR__ . '/inc/header.global.php');
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your books.</h4>
+                <h4 class="_text-align__center _padding-bottom__small">Scale your business, not your costs.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a design subscription that suits you">See your design plans</a>
-                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">Book a call</a>
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Find your design plan</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book an intro</a>
                 </div>
             </div>
             <div class="_pattern -long-r"></div>
@@ -73,21 +74,21 @@ require(__DIR__ . '/inc/header.global.php');
     <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
-            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Powered by a designer who's previously worked with an exciting variety of startups and enterprises, and now responsible for launching Drip Fed Design.</p>
+            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the digital designer who has worked on a wide variety of startups and enterprises, and started Drip Fed Design.</p>
             <div class="__logos">
-                <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade" alt="Lucozade" width="125px" height="35.47px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro" alt="Hasbro" width="80px" height="80px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena" alt="Ribena" width="84.86px" height="60.6px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera" alt="Kyocera" width="150px" height="40.42px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee" alt="UCC Coffee" width="90px" height="41.84px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox" alt="Xbox" width="135px" height="40.09px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory" alt="Suntory" width="130px" height="17.69px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade brand designer" alt="Lucozade" width="125px" height="35.47px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro brand designer" alt="Hasbro" width="80px" height="80px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena brand designer" alt="Ribena" width="84.86px" height="60.6px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera brand designer" alt="Kyocera" width="150px" height="40.42px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee brand designer" alt="UCC Coffee" width="90px" height="41.84px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox brand designer" alt="Xbox" width="135px" height="40.09px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory brand designer" alt="Suntory" width="130px" height="17.69px" />
             </div>
         </div>
     </section>
     <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
         <div class="__copy _padding-bottom__large _text-align__center _max-width__800">
-            <h2>Let's get creative and work on it together.</h2>
+            <h2>Let's get creative and work on ideas together.</h2>
             <p>We have over 14 years of experience and knowledge in our industry, spanning across both public and private sectors. Providing nothing but quality in the design and build of websites, apps, brands, digital competitions, and so much more. You're definitely in good hands!</p>
         </div>
         <div class="__list <?= $globalPrefix; ?>-grid-container -column__third">
@@ -173,7 +174,7 @@ require(__DIR__ . '/inc/header.global.php');
     </section>
     <section class="<?= $globalPrefix; ?>-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
         <div class="__details _padding-all__small-default _background-solid__white _border-radius__default">
-            <h2>Design plans that'll suit your every need, with flexibility and an open end.</h2>
+            <h2>Unlimited design that'll meet your needs, with flexibility at every angle.</h2>
             <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
             <hr />
             <p><strong>12 reasons why our design subscription plans detach any excuse:</strong></p>
@@ -209,7 +210,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <p>High quality & professional design</p>
                 </li>
                 <li>
-                    <p>Available experience, advice & consultation</p>
+                    <p>Senior experience, advice & consultation</p>
                 </li>
                 <li>
                     <p>Wrike to manage & collaborate projects</p>
@@ -217,25 +218,25 @@ require(__DIR__ . '/inc/header.global.php');
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
             <hr />
-            <p><strong class="_font-colour__orange-primary">Still not convinced?</strong> To learn more about how Drip Fed Design works and how it can support your design needs, <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
+            <p><strong class="_font-colour__orange-primary">Not convinced?</strong> To learn more about how Drip Fed Design works and how it can support your design needs, <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
                 <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
                 <p>Start your design journey with our popular, flexible monthly design subscription plan. Perfect for all your short-term design projects and tasks!</p>
-                <h2 class="_margin-bottom__small">£4,400 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
+                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
-                    <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly design subscription today">Get started today</a>
+                    <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly unlimited design subscription today">Get started now</a>
                 </div>
             </div>
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
-                <h4 class="_font-colour__red-notification"><strong>SAVE £440 per month</strong></h4>
+                <h4 class="_font-colour__red-notification"><strong>SAVE £594 per month</strong></h4>
                 <h3>Quarterly Cycle</h3>
-                <p>Maximize value and ROI with our quarterly design subscription plan. The ideal choice for longer ongoing design projects and tasks!</p>
-                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
+                <p>Maximise value and ROI with our quarterly design subscription plan. The ideal choice for longer ongoing design projects and tasks!</p>
+                <h2 class="_margin-bottom__small">£3,366 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
-                    <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly design subscription today">Save 10% Today</a>
+                    <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Save 15% now</a>
                 </div>
                 <p class="_font-size__secondary _font-colour__grey-light">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
             </div>

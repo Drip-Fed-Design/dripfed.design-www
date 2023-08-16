@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "Drip Fred Design",
     description:
-      "Sharing our knowledge expertise in quality digital design and marketing, web development. Providing value, with commitment, personality, lower costs and less bureaucracy.",
+      "We offer valuable unlimited design subscriptions, lowering your costs and bureaucracy. Drip Fed are a Design as a Service agency.",
   },
   plugins: [
     "gatsby-transformer-sharp",
