@@ -45,8 +45,11 @@ require(__DIR__ . '/../config/debug.global.php');
             "logo": "<?= $globalDomainRoot; ?>dist/images/social/dfd-dripfed-design-schema-logo.png",
             "description": "<?= $globalDescription; ?>",
             "sameAs": [
+                "<?= $globalDomainRoot; ?>",
                 "https://www.linkedin.com/company/drip-fed-design/",
-                "<?= $globalDomainRoot; ?>"
+                "https://www.facebook.com/dripfeddesign/",
+                "https://dribbble.com/dripfeddesign",
+                "https://twitter.com/chriswatterston"
             ],
             "address": {
                 "@type": "PostalAddress",
