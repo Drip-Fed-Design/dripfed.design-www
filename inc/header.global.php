@@ -74,11 +74,11 @@ require(__DIR__ . '/../config/debug.global.php');
                         <div class="<?= $globalPrefix; ?>-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
                             <ul class="__links">
                                 <!-- <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li> -->
-                                <li><a data-cabin-event="Header / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a design subscriptions and how does a design subscription work" target="_blank">Learn about subscriptions<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a design subscription that suits you">See your design plans</a>
-                                <a data-cabin-event="Header / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">Book a call</a>
+                                <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business">Find your design plan</a>
+                                <a data-cabin-event="Header / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscriptions design as a service">Book an intro</a>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ const Footer = () => (
         <div class="_pattern -long-l"></div>
         <div class="_padding-top-bottom__default">
           <h4 class="_text-align__center _padding-bottom__small">
-            Scale your business, not your books.
+            Scale your business, not your costs.
           </h4>
           <div class="dfd-button-container _text-align__center">
             <a
