@@ -22,6 +22,9 @@
     padding-left: $spacing__small;
     padding-right: $spacing__small;
   }
+  & > .__intro > .__title > h1 {
+    margin-bottom: $spacing__default;
+  }
   .__listing,
   .__article {
     .__tags {
