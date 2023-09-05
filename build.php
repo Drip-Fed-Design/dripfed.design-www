@@ -13,7 +13,7 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__800 _padding-top-bottom__large">
         <h1 class="_text-align__center">Drip Fed is a <span class="_word-wrap">digital design agency</span><br />offering an <span class="_word-under">unlimited design</span> subscription<span class="_word-stop"></span></h1>
         <p class="_text-align__center">We carry out valuable digital design work for our clients, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
-        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary">Monthly Fixed Cost - No Contracts - No Hourly Rates - Design as a Service</p>
+        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary">Monthly Fixed Cost - Cancel Anytime - No Contracts - No Hourly Rates - Design as a Service</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
