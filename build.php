@@ -213,7 +213,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <p>Senior experience, advice & consultation</p>
                 </li>
                 <li>
-                    <p>Wrike to manage & collaborate projects</p>
+                    <p>Wrike to plan, manage & collaborate</p>
                 </li>
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
@@ -224,10 +224,21 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
                 <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
+                <? require(__DIR__ . '/inc/spots.global.php'); ?>
                 <p>Start your design journey with our popular, flexible monthly design subscription plan. Perfect for all your short-term design projects and tasks!</p>
                 <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
-                    <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly unlimited design subscription today">Get started now</a>
+                    <?
+                    if ($remainingSpots === 0) {
+                        echo '
+                            <a data-cabin-event="Waiting List / Monthly" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today"  target="_blank">Join waiting list</a>
+                        ';
+                    } else {
+                        echo '
+                            <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/bIYfZS5pp2ZE4tGdQR" class="__button -orange -wide" title="Start your monthly unlimited design subscription today">Get started now</a>
+                        ';
+                    }
+                    ?>
                 </div>
             </div>
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
@@ -236,7 +247,17 @@ require(__DIR__ . '/inc/header.global.php');
                 <p>Maximise value and ROI with our quarterly design subscription plan. The ideal choice for longer ongoing design projects and tasks!</p>
                 <h2 class="_margin-bottom__small">£3,366 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
-                    <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Save 15% now</a>
+                    <?
+                    if ($remainingSpots === 0) {
+                        echo '
+                            <a data-cabin-event="Waiting List / Quarterly" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today" target="_blank">Join waiting list</a>
+                        ';
+                    } else {
+                        echo '
+                            <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/fZe9Bu6tt7fU6BO8wy" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Save 15% now</a>
+                        ';
+                    }
+                    ?>
                 </div>
                 <p class="_font-size__secondary _font-colour__grey-light">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
             </div>
