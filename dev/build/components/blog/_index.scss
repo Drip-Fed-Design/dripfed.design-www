@@ -119,6 +119,32 @@
       }
     }
     .__body {
+      > div > div:first-child {
+        background-color: $colour-white__default;
+        border-radius: $border-radius__default;
+        border: 2px solid $colour-primary__orange;
+        box-shadow: $colour-primary__orange 5px 10px 0;
+        margin-bottom: $spacing__default;
+        padding: $spacing__small $spacing__default;
+        p,
+        ::marker {
+          color: $colour-primary__black;
+          a {
+            color: $colour-notification__green;
+          }
+        }
+        li p {
+          margin: 0;
+        }
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: $colour-primary__black;
+          margin-top: calc($spacing__default * 2);
+        }
+      }
       .__spec {
         color: $colour-primary__green;
         display: block;
@@ -134,8 +160,11 @@
         width: fit-content;
       }
       blockquote {
+        border-left: 5px solid $colour-grey__default;
+        margin: $spacing__default 0 $spacing__default $spacing__small;
         p {
-          border-left: 5px solid $colour-grey__default;
+          font-family: Garamond, serif;
+          font-style: italic;
           padding-left: $spacing__small;
         }
       }
