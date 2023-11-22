@@ -69,7 +69,7 @@ require(__DIR__ . '/../config/debug.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-v__center">
                 <div class=" __logo">
                     <a data-cabin-event="Header / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>">
-                        <img src="/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                        <img src="/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="240" height="130" />
                     </a>
                 </div>
                 <nav class="__nav">
@@ -81,7 +81,7 @@ require(__DIR__ . '/../config/debug.global.php');
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
                                 <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business">Find your design plan</a>
-                                <a data-cabin-event="Header / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscriptions design as a service">Book an intro</a>
+                                <a data-cabin-event="Header / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service">Let's chat</a>
                             </div>
                         </div>
                     </div>
