@@ -38,7 +38,7 @@ require(__DIR__ . '/inc/header.global.php');
             </div>
         </div>
         <div class="_padding-top-bottom__default" id="anchor-gettingstarted">
-            <h3 class="_text-align__center _padding-bottom__small">Get Started in 3 Steps</h3>
+            <h3 class="_text-align__center _padding-bottom__small">Get started in just 60 seconds</h3>
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
@@ -47,7 +47,7 @@ require(__DIR__ . '/inc/header.global.php');
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?> unlimited design" width="100px" height="100px" />
-                    <h4><strong>2.</strong> You'll receive an email confirmation within 1 hour.</h4>
+                    <h4><strong>2.</strong> Receive email confirmation & intro within minutes.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
@@ -64,7 +64,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Save £19,200<sup>*</sup> - Start Solving Problems.</h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Find your design plan</a>
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
                     <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
                 </div>
                 <p class="_text-align__center _font-size__secondary">*compared to the average salary of a full-time senior product designer.</p>
@@ -175,10 +175,10 @@ require(__DIR__ . '/inc/header.global.php');
     </section>
     <section class="<?= $globalPrefix; ?>-plans-container _max-width__1280 _padding-top-bottom__xlarge _margin-top-bottom__xlarge" id="anchor-designplans">
         <div class="__details _padding-all__small-default _background-solid__white _border-radius__default">
-            <h2>Unlimited design that'll meet your needs, with flexibility at every angle.</h2>
-            <p>We've worked with startups in fuelling a launch, and we've supported enterprises on design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
+            <h2>Unlock unlimited design in 60 seconds.</h2>
+            <p>We've worked with startups in launching best-in-class digital products, and enterprises on large scale design systems. It's reassuring to know there is a wealth of knowledge and experience all within a simple design subscription.</p>
             <hr />
-            <p><strong>12 reasons why our design subscription plans detach any excuse:</strong></p>
+            <p><strong>12 awesome perks that come with our best-in-class design subscription plans:</strong></p>
             <ul>
                 <li>
                     <p>Unlimited requests</p>
@@ -219,7 +219,7 @@ require(__DIR__ . '/inc/header.global.php');
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* There may be the need for a video call or two, depending on request complexity.</p>
             <hr />
-            <p><strong class="_font-colour__orange-primary">Not convinced?</strong> To learn more about how Drip Fed Design works and how it can support your design needs, <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
+            <p><strong class="_font-colour__orange-primary">Not convinced?</strong> Learn more about how Drip Fed Design works and how it can support your design needs, <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
@@ -255,7 +255,7 @@ require(__DIR__ . '/inc/header.global.php');
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/3cs14Y7xx43I6BO148" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Save 15% now</a>
+                            <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/3cs14Y7xx43I6BO148" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Save 15% Now</a>
                         ';
                     }
                     ?>
