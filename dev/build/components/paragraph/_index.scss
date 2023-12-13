@@ -30,6 +30,7 @@ ol,
 
 p {
   line-height: calc($font-size__primary + 10px);
+  text-wrap: balance;
   @include mixinResponsive("mobile") {
     line-height: calc($font-size__primary + 5px);
   }

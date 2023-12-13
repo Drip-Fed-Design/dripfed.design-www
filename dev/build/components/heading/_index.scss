@@ -23,6 +23,11 @@ h5 {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  a {
+    color: $colour-notification__green;
+    font-size: inherit;
+    text-decoration: underline;
+  }
 }
 
 h1 {
