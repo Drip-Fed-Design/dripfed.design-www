@@ -24,9 +24,12 @@ h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   a {
-    color: $colour-notification__green;
+    color: $colour-primary__green;
     font-size: inherit;
     text-decoration: underline;
+    &:hover {
+      color: $colour-notification__green;
+    }
   }
 }
 
