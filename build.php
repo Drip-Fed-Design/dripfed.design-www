@@ -37,7 +37,37 @@ require(__DIR__ . '/inc/header.global.php');
                 </div>
             </div>
         </div>
-
+    </section>
+    <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _margin-bottom__large">
+        <div class="_background-solid__white _padding-all__small-default _border-radius__default">
+            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the experienced digital product designer who's worked with a diverse variety of startups and enterprises.</p>
+            <div class="__logos">
+                <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade brand designer" alt="Lucozade" width="125px" height="35.47px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro brand designer" alt="Hasbro" width="80px" height="80px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena brand designer" alt="Ribena" width="84.86px" height="60.6px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera brand designer" alt="Kyocera" width="150px" height="40.42px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee brand designer" alt="UCC Coffee" width="90px" height="41.84px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox brand designer" alt="Xbox" width="135px" height="40.09px" />
+                <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory brand designer" alt="Suntory" width="130px" height="17.69px" />
+            </div>
+        </div>
+    </section>
+    <section class="<?= $globalPrefix; ?>-cta-container _padding-top-bottom__xlarge _background-solid__black">
+        <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
+            <div class="_pattern -long-l"></div>
+            <div class="_padding-top-bottom__default">
+                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £19,200</strong><sup class="_font-colour__grey-default">*</sup></h4>
+                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
+                </div>
+                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
+            </div>
+            <div class="_pattern -long-r"></div>
+        </div>
+    </section>
+    <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
+    <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__xlarge _padding-top__large">
             <div class="__how _text-align__center">
                 <img src="/dist/images/icon/icon-how.svg" alt="How <?= $globalTitle; ?> subscription works" width="360px" height="220px" />
@@ -56,35 +86,6 @@ require(__DIR__ . '/inc/header.global.php');
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about our subscription</a>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="<?= $globalPrefix; ?>-cta-container _padding-top-bottom__xlarge _background-solid__black">
-        <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
-            <div class="_pattern -long-l"></div>
-            <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">SAVE £19,200<sup class="_font-colour__grey-default">*</sup> - Start solving design problems.</h4>
-                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
-                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
-                </div>
-                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
-            </div>
-            <div class="_pattern -long-r"></div>
-        </div>
-    </section>
-    <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
-    <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _padding-top__large">
-        <div class="_background-solid__white _padding-all__small-default _border-radius__default">
-            <p class="_font-colour__grey-dark _text-align__center _font-size__secondary">Work with the digital product designer who's worked with a diverse variety of startups and enterprises.</p>
-            <div class="__logos">
-                <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade brand designer" alt="Lucozade" width="125px" height="35.47px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro brand designer" alt="Hasbro" width="80px" height="80px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-ribena.png" title="Ribena brand designer" alt="Ribena" width="84.86px" height="60.6px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-kyocera.png" title="Kyocera brand designer" alt="Kyocera" width="150px" height="40.42px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-ucccoffee.png" title="UCC Coffee brand designer" alt="UCC Coffee" width="90px" height="41.84px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-xbox.png" title="Xbox brand designer" alt="Xbox" width="135px" height="40.09px" />
-                <img loading="lazy" src="/dist/images/brand/brand-tp-suntory.png" title="Suntory brand designer" alt="Suntory" width="130px" height="17.69px" />
             </div>
         </div>
     </section>
@@ -188,25 +189,25 @@ require(__DIR__ . '/inc/header.global.php');
                     <p>Unlimited brands</p>
                 </li>
                 <li>
-                    <p>Unlimited users</p>
-                </li>
-                <li>
                     <p>Fixed monthly fee</p>
-                </li>
-                <li>
-                    <p>Pause anytime</p>
                 </li>
                 <li>
                     <p>Cancel anytime</p>
                 </li>
                 <li>
+                    <p>Pause anytime</p>
+                </li>
+                <li>
                     <p>Unlimited revisions</p>
                 </li>
                 <li>
-                    <p>No calls or meetings*</p>
+                    <p>No meetings*</p>
                 </li>
                 <li>
-                    <p>No contracts or lock-in</p>
+                    <p>1:1 async comms</p>
+                </li>
+                <li>
+                    <p>No contracts</p>
                 </li>
                 <li>
                     <p>High quality & professional design</p>
@@ -227,8 +228,8 @@ require(__DIR__ . '/inc/header.global.php');
                 <img loading="lazy" src="/dist/images/icon/icon-abacus-ani.gif" class="_image__circle -border-green _margin-top-bottom__small" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <h3>Monthly Cycle</h3>
                 <? require(__DIR__ . '/inc/spots.global.php'); ?>
-                <p>Start your design journey with our popular, flexible monthly design subscription plan. Perfect for all your short-term design projects and tasks!</p>
-                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month</span></h2>
+                <p>Start your design journey with our popular, flexible monthly design subscription plan. Perfect for all your short-term design projects and tasks.</p>
+                <h2 class="_margin-bottom__small">£3,960 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <?
                     if ($remainingSpots === 0) {
@@ -246,8 +247,8 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="__quarterly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default">
                 <h4 class="_font-colour__red-notification"><strong>SAVE £594 per month</strong></h4>
                 <h3>Quarterly Cycle</h3>
-                <p>Maximise value and ROI with our quarterly design subscription plan. The ideal choice for longer ongoing design projects and tasks!</p>
-                <h2 class="_margin-bottom__small">£3,366 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month**</span></h2>
+                <p>Maximise value and ROI with a quarterly design subscription plan. The ideal choice for your longer ongoing design projects and tasks.</p>
+                <h2 class="_margin-bottom__small">£3,366 <span class="_font-colour__black-light _font-style__italic _font-size__secondary">/per month***</span></h2>
                 <div class="<?= $globalPrefix; ?>-button-container">
                     <?
                     if ($remainingSpots === 0) {
@@ -261,7 +262,7 @@ require(__DIR__ . '/inc/header.global.php');
                     }
                     ?>
                 </div>
-                <p class="_font-size__secondary _font-colour__grey-light">** Paid quarterly. Pause and cancel take effect after remainder of full cycle.</p>
+                <p class="_font-size__secondary _font-colour__grey-light">** Cancellations take effect after remainder of full cycle. Pause is immediate.</p>
             </div>
         </div>
     </section>

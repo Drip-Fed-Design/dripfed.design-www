@@ -2,7 +2,7 @@
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">SAVE £19,200<sup class="_font-colour__grey-default">*</sup> - Start solving design problems.</h4>
+                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £19,200</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
                     <a data-cabin-event="CTA Lower / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about unlimited design subscriptions and design as a service">Contact us</a>
@@ -43,7 +43,7 @@
         </div>
         <div class="__copyright">
             <p>Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.</p>
-            <p class="_font-size__secondary">© 2023 <?= $globalCompanyName; ?>. Company Number: <?= $globalCompanyNumber; ?></p>
+            <p class="_font-size__secondary">© 2024 <?= $globalCompanyName; ?>. Company Number: <?= $globalCompanyNumber; ?></p>
         </div>
     </footer>
     </main>
