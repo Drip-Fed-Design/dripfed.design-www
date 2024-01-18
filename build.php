@@ -56,7 +56,7 @@ require(__DIR__ . '/inc/header.global.php');
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £19,200</strong><sup class="_font-colour__grey-default">*</sup></h4>
+                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
                     <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
@@ -280,7 +280,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>You could... if it's the right fit for you.</p>
                             <p>But before jumping on that ship, consider the time and money you'll spent, recruiting in a hope to find the right designer, with experience.</p>
                             <p>Also weigh up the average salary of that full-time senior product designer, currently excess of £72k. Then stacked on top of that, you'll have pensions, bonuses, company NI, and other benefits (e.g. company car, gym membership, healthcare, etc).</p>
-                            <p>In comparison, our monthly subscription would cost you at most £52,800 per year- that's an instant saving of £19,200!</p>
+                            <p>In comparison, our monthly subscription would cost you at most £47,520 per year- that's an instant saving of £24,480!</p>
                             <p>And you're not even locked-in... SH*T!!</p>
                             <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
