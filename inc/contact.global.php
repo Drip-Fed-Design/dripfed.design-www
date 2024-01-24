@@ -6,7 +6,7 @@
             <div class="__mugshot">
                 <img alt="WhatsApp" src="/dist/images/avatar/avatar-whatsapp-mugshot.jpg" width="40px" height="40px" />
             </div>
-            <p class="_font-colour__grey-dark"><strong>Chris Watterston</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Usually replies within a few hours</span></p>
+            <p class="_font-colour__grey-dark"><strong>Chris Watterston</strong><br /><span class="_font-size__secondary _font-colour__grey-dark">Replies within a few hours</span></p>
         </div>
     </div>
     <div class="__message">
