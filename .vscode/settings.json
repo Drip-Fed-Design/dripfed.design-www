@@ -4,6 +4,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
   "html.format.indentInnerHtml": true,
   "editor.tabSize": 4,
   "editor.detectIndentation": false,

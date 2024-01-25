@@ -16,8 +16,8 @@ const Navigation = () => (
           <img
             src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg"
             alt="Drip Fed Design Blog"
-            width="309px"
-            height="130px"
+            width="240"
+            height="130"
           />
         </a>
       </div>

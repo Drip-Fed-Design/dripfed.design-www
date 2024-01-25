@@ -18,7 +18,8 @@ $globalVersion = '1.0';
 // ----------
 // ----------
 //
-$remainingSpots = 2;
+$remainingSpotsDesign = 2;
+$remainingSpotsPlus = 1;
 
 //
 // ------------------------------------------------------------
