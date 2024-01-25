@@ -211,11 +211,11 @@ require(__DIR__ . '/inc/header.global.php');
                     <?
                     if ($remainingSpotsDesign === 0) {
                         echo '
-                            <a data-cabin-event="Waiting List / Monthly" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today"  target="_blank">Join waiting list</a>
+                            <a data-cabin-event="Waiting List / Design" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today"  target="_blank">Join waiting list</a>
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Monthly" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -orange -wide" title="Start your monthly unlimited design subscription today">Get started now</a>
+                            <a data-cabin-event="Subscribe / Design" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -orange -wide" title="Start your monthly unlimited design subscription today">Get started now</a>
                         ';
                     }
                     ?>
@@ -235,11 +235,11 @@ require(__DIR__ . '/inc/header.global.php');
                     <?
                     if ($remainingSpotsPlus === 0) {
                         echo '
-                            <a data-cabin-event="Waiting List / Quarterly" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today" target="_blank">Join waiting list</a>
+                            <a data-cabin-event="Waiting List / Plus" href="https://www.wrike.com/form/eyJhY2NvdW50SWQiOjYxNjA4MDIsInRhc2tGb3JtSWQiOjEwOTgzNTJ9CTQ4NDc2MDQ4OTQ3NjIJOGJkYmVlZTU3ZmJmN2ZhZWMyNGNlNTk2MGI5YTUwYzljZDBlNTk0MWRkZGI0NzEwZWZlMGY0NjY4YzJlOTNlOQ==" class="__button -orange -wide" title="Join our unlimited design subscription waiting list today" target="_blank">Join waiting list</a>
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Quarterly" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Get started now</a>
+                            <a data-cabin-event="Subscribe / Plus" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -orange -wide" title="Start your quarterly unlimited design subscription today">Get started now</a>
                         ';
                     }
                     ?>
