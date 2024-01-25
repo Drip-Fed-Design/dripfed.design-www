@@ -358,7 +358,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                     <article id="web-development-or-coding-included">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>What is your Plus+ subscription, does it include web development?</h4>
+                            <h4>What is the Plus+ subscription, does it include web development?</h4>
                             <a data-cabin-event="FAQ / Is Web Dev Included" href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
@@ -372,7 +372,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                     <article id="web-development-languages-support">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>What web development languages do you support?</h4>
+                            <h4>What web development languages are supported?</h4>
                             <a data-cabin-event="FAQ / Web Dev Lang" href="#web-development-languages-support" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
