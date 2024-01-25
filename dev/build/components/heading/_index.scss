@@ -72,7 +72,7 @@ h5 {
   display: inline-block;
   font-size: $font-size__primary;
   font-weight: $font-weight__medium;
-  margin-top: calc($spacing__small / 2);
+  //   margin-top: calc($spacing__small / 2);
   padding: calc($spacing__small / 3) calc($spacing__small / 2);
   @include mixinAnimationSpotsLeft;
   @include mixinResponsive("mobile") {

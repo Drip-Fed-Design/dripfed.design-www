@@ -81,13 +81,22 @@
   //     transition: 500ms ease-out;
   //   }
 
-  &.-column__testimonials {
-    grid-template-columns: 0.2fr 1fr 0.2fr 0.1fr;
+  &.-column__testimonials-row1 {
+    grid-template-columns: 0.2fr 1fr 0.3fr 1fr;
     @include mixinResponsive("tablet") {
-      grid-template-columns: 1fr 0.1fr 0.1fr;
+      grid-template-columns: 1fr 0.3fr 1fr;
     }
     @include mixinResponsive("mobile") {
-      grid-template-columns: 1fr 0.05fr;
+      grid-template-columns: 1fr;
+    }
+  }
+  &.-column__testimonials-row2 {
+    grid-template-columns: 1fr 1.2fr 0.2fr;
+    @include mixinResponsive("tablet") {
+      grid-template-columns: 1fr 1fr 0.1fr;
+    }
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr;
     }
   }
 

@@ -24,7 +24,7 @@
                 <img alt="WhatsApp" src="/dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
             </a>
             <br />
-            <a data-cabin-event="Prompt / Form" href="#triggerPromptTarget" class="__button -raw triggerForm" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or use our <span class="_text-decoration__underline">contact form</span>.</a>
+            <a data-cabin-event="Prompt / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">or <span class="_text-decoration__underline">email us</span>.</a>
         </div>
     </div>
 </section>

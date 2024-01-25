@@ -16,7 +16,7 @@
         <div class="<?= $globalPrefix; ?>-grid-container -column__half">
             <div class="__logo">
                 <a data-cabin-event="Footer / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>">
-                    <img loading="lazy" src="/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="309px" height="130px" />
+                    <img loading="lazy" src="/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="240" height="130" />
                 </a>
             </div>
             <nav class="__nav">
