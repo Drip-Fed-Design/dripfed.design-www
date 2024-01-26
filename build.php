@@ -39,7 +39,7 @@ require(__DIR__ . '/inc/header.global.php');
             </div>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640 _margin-bottom__large">
+    <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
             <p class="_font-colour__grey-dark _text-align__center">We've provided digital product designer and development to a diverse variety of startups and businesses.</p>
             <div class="__logos">
