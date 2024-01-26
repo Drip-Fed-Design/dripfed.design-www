@@ -1,4 +1,4 @@
-    <section class="<?= $globalPrefix; ?>-testimonials-container _max-width__1640 _padding-top__large" id="latest-work">
+    <section class="<?= $globalPrefix; ?>-testimonials-container _max-width__1640 _padding-top__default" id="latest-work">
         <div class="<?= $globalPrefix; ?>-grid-container -column__testimonials-row1 -column-gap__default -column-row__default" id="__carousel-main">
             <div class="__slide __one"></div>
             <div class="__slide __two __active">
@@ -23,7 +23,7 @@
         </div>
     </section>
 
-    <section class="<?= $globalPrefix; ?>-testimonials-container _max-width__1640 _padding-top__default" id="latest-work">
+    <section class="<?= $globalPrefix; ?>-testimonials-container _max-width__1640 _padding-top__default _margin-bottom__large" id="latest-work">
         <div class="<?= $globalPrefix; ?>-grid-container -column__testimonials-row2 -column-gap__default -column-row__default" id="__carousel-main">
             <div class="__slide __one __active">
                 <h4 class="_font-colour__grey-dark _text-align__center _padding-bottom__default">Chris was key in launching our Ribena Hasbro AR consumer experience on pack and mobile. He managed the whole digital experience from end-to-end, thank you!</h4>
