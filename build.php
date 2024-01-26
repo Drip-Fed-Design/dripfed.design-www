@@ -54,6 +54,20 @@ require(__DIR__ . '/inc/header.global.php');
         </div>
     </section>
     <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
+    <section class="<?= $globalPrefix; ?>-cta-container _padding-top-bottom__xlarge _background-solid__black">
+        <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
+            <div class="_pattern -long-l"></div>
+            <div class="_padding-top-bottom__default">
+                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
+                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
+                </div>
+                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
+            </div>
+            <div class="_pattern -long-r"></div>
+        </div>
+    </section>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__xlarge _padding-top__large">
             <div class="__how _text-align__center">
