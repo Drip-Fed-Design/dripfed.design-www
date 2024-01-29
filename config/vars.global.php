@@ -47,9 +47,9 @@ if ($htmlExporting === true) {
 $globalCompanyName = 'Drip Fed Ltd';
 $globalCompanyNumber = '14871237';
 
-$globalTitle = 'Drip Fed unlimited design subscription';
+$globalTitle = 'Unlimited design & development for startups';
 $globalTitleLong = 'Unlimited design subscription agency, Drip Fed Design as a Service';
-$globalDescription = 'Your valued unlimited design subscription, lowering your costs and bureaucracy. Drip Fed is a Design as a Service agency.';
+$globalDescription = 'Quality unlimited design and development subscriptions for startups, lowering costs and bureaucracy. Drip Fed, a Design as a Service agency';
 $globalRobots = 'index,follow';
 
 //

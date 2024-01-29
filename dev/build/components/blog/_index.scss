@@ -144,6 +144,9 @@
           color: $colour-primary__black;
           margin-top: calc($spacing__default * 2);
         }
+        .gatsby-image-wrapper {
+          margin: calc($spacing__default / 2) 0 $spacing__default;
+        }
       }
       .__spec {
         color: $colour-primary__green;

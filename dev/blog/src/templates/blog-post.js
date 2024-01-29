@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby";
 import get from "lodash/get";
 import { renderRichText } from "gatsby-source-contentful/rich-text";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
-import { BLOCKS } from "@contentful/rich-text-types";
+// import { BLOCKS } from "@contentful/rich-text-types";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import readingTime from "reading-time";
 
@@ -25,10 +25,19 @@ class BlogPostTemplate extends React.Component {
 
     const options = {
       renderNode: {
-        [BLOCKS.EMBEDDED_ASSET]: (node) => {
-          const { gatsbyImage, description } = node.data.target;
+        "embedded-asset-block": (node) => {
+          const { gatsbyImageData } = node.data.target;
+          const { title, description } = node.data.target;
+          if (!gatsbyImageData) {
+            // asset is not an image
+            return null;
+          }
           return (
-            <GatsbyImage image={getImage(gatsbyImage)} alt={description} />
+            <GatsbyImage
+              image={gatsbyImageData}
+              title={title}
+              alt={description}
+            />
           );
         },
       },
@@ -112,6 +121,15 @@ export const pageQuery = graphql`
       }
       body {
         raw
+        references {
+          ... on ContentfulAsset {
+            contentful_id
+            __typename
+            gatsbyImageData
+            title
+            description
+          }
+        }
       }
       tags
       description {

@@ -9,8 +9,10 @@ const Footer = () => (
         <div class="_pattern -long-l"></div>
         <div class="_padding-top-bottom__default">
           <h4 class="_text-align__center _padding-bottom__small">
-            Scale your business, not your costs.
+            Start solving design problems & <strong>SAVE £24,480</strong>
+            <sup class="_font-colour__grey-default">*</sup>
           </h4>
+
           <div class="dfd-button-container _text-align__center">
             <a
               data-cabin-event="Blog / CTA Lower / Plans"
@@ -18,7 +20,7 @@ const Footer = () => (
               class="__button -green"
               title="Find a design subscription that suits you"
             >
-              See your design plans
+              Sign up in just 60 seconds
             </a>
             <a
               data-cabin-event="Blog / CTA Lower / Book Call"
@@ -31,6 +33,10 @@ const Footer = () => (
               Book a call
             </a>
           </div>
+          <p class="_text-align__center _font-size__secondary _font-colour__grey-default">
+            *compared to the average salary of a full-time senior product
+            designer.
+          </p>
         </div>
         <div class="_pattern -long-r"></div>
       </div>
@@ -50,8 +56,8 @@ const Footer = () => (
               loading="lazy"
               src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg"
               alt="Drip Fed Design brand logo"
-              width="309px"
-              height="130px"
+              width="240"
+              height="130"
             />
           </a>
         </div>
@@ -158,7 +164,7 @@ const Footer = () => (
           Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.
         </p>
         <p class="_font-size__secondary">
-          © 2023 Drip Fed Ltd. Company Number: 14871237
+          © 2024 Drip Fed Ltd. Company Number: 14871237
         </p>
       </div>
     </footer>
