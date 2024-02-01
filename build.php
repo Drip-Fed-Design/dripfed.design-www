@@ -13,7 +13,7 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
         <h1 class="_text-align__center">Solve problems & <span class="_word-wrap">launch</span> products with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
         <!-- <center><a data-cabin-event="Intro / Spots Left" href="#anchor-designplans" title="Find a unlimited design subscription design as a service for you startup and business"><? require(__DIR__ . '/inc/spots.global.php'); ?></a></center> -->
-        <p class="_text-align__center">We provide high-end digital product design & build solutions, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
+        <p class="_text-align__center">We provide high-end digital product design & 0-1 product build solutions, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
         <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Get Products Launched <span class="_icon -tick"></span>Remove Blockers <span class="_icon -tick"></span>Proactive Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>Cancel Anytime</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
