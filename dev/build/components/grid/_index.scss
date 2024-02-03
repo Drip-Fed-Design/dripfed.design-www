@@ -58,28 +58,79 @@
 
   // Carousel columns
   &.-column__carousel {
-    grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 0.2fr;
+    grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr 0.15fr;
     transition: 0.6s ease-out;
+    .__six {
+      transition: $transition-speed__default ease-out;
+    }
     // Set sizes on hover
     &:has(.__one:hover) {
-      grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr 0.2fr;
+      grid-template-columns: 1fr 0.15fr 0.15fr 0.15fr 0.15fr 0.15fr;
     }
     &:has(.__two:hover) {
-      grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 0.2fr;
+      grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr 0.15fr;
     }
     &:has(.__three:hover) {
-      grid-template-columns: 0.2fr 0.2fr 1fr 0.2fr 0.2fr;
+      grid-template-columns: 0.15fr 0.15fr 1fr 0.15fr 0.15fr 0.15fr;
     }
     &:has(.__four:hover) {
-      grid-template-columns: 0.2fr 0.2fr 0.2fr 1fr 0.2fr;
+      grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr 0.15fr 0.15fr;
     }
     &:has(.__five:hover) {
-      grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
+      grid-template-columns: 0.15fr 0.15fr 0.15fr 0.15fr 1fr 0.15fr;
+    }
+    &:has(.__six:hover) {
+      .__six:hover {
+        opacity: 0.8;
+        transform: scale(1.02);
+      }
+    }
+    @include mixinResponsive("tablet") {
+      grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr;
+      .__five {
+        display: none;
+      }
+      // Set sizes on hover
+      &:has(.__one:hover) {
+        grid-template-columns: 1fr 0.15fr 0.15fr 0.15fr 0.15fr;
+      }
+      &:has(.__two:hover) {
+        grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr;
+      }
+      &:has(.__three:hover) {
+        grid-template-columns: 0.15fr 0.15fr 1fr 0.15fr 0.15fr;
+      }
+      &:has(.__four:hover) {
+        grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr 0.15fr;
+      }
+    }
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr 0.25fr;
+      .__one,
+      .__five,
+      .__three,
+      .__four {
+        display: none;
+      }
     }
   }
   //   :where(.__one, .__two, .__three, .__four, .__five) {
   //     transition: 500ms ease-out;
   //   }
+
+  //   Portfolio columns
+  &.-column__portfolio {
+    column-gap: $spacing__default;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: $spacing__default;
+    align-items: center;
+    @include mixinResponsive("tablet") {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include mixinResponsive("mobile") {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 
   &.-column__testimonials-row1 {
     grid-template-columns: 0.2fr 1fr 0.3fr 1fr;
