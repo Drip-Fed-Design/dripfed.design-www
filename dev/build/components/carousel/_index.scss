@@ -184,3 +184,33 @@
     }
   }
 }
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- PORTFOLIO ----------
+// ----------
+// ----------
+//
+.#{$prefix-name}-portfolio-container {
+  position: relative;
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("narrow") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+  }
+  .__image {
+    transition: all $transition-speed__default;
+    &:hover {
+      box-shadow: $colour-primary__green 5px 10px 0;
+    }
+  }
+}

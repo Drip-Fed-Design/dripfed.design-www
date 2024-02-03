@@ -4,8 +4,8 @@
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Lower / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
-                    <a data-cabin-event="CTA Lower / Contact" href="#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about unlimited design subscriptions and design as a service">Contact us</a>
+                    <a data-cabin-event="CTA Lower / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
+                    <a data-cabin-event="CTA Lower / Contact" href="<?= $globalDomainRoot; ?>#home" class="__button -white triggerForm" title="Contact <?= $globalTitle; ?> to enquire about unlimited design subscriptions and design as a service">Contact us</a>
                 </div>
                 <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
             </div>
@@ -22,10 +22,10 @@
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
                     <ul class="_text-align__right">
-                        <li><a data-cabin-event="Footer / Blog" href="/blog" title="Take a look at our latest work, thoughts, and updates">Blog & Work Updates<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Get Started" href="#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Contact" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Blog" href="<?= $globalDomainRoot; ?>blog" title="Take a look at our latest work, thoughts, and updates">Blog & Work Updates<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Get Started" href="<?= $globalDomainRoot; ?>#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service">Getting Started<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Contact" href="<?= $globalDomainRoot; ?>#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your unlimited design subscription, design as a service">Billing Portal<i class="_icon -arrow__r"></i></a></li>
                     </ul>
                     <div class="_text-align__right">
@@ -33,9 +33,9 @@
                             <a data-cabin-event="CTA Footer / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate unlimited design requests, design as a service">Log In</a>
                         </div>
                         <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Terms Conditions" href="/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
-                            <li><a data-cabin-event="Footer / Terms" href="/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
-                            <li><a data-cabin-event="Footer / Privacy" href="/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
+                            <li><a data-cabin-event="Footer / Terms Conditions" href="<?= $globalDomainRoot; ?>termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
+                            <li><a data-cabin-event="Footer / Terms" href="<?= $globalDomainRoot; ?>terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
+                            <li><a data-cabin-event="Footer / Privacy" href="<?= $globalDomainRoot; ?>privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

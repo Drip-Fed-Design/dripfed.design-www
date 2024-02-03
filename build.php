@@ -117,7 +117,7 @@ require(__DIR__ . '/inc/header.global.php');
             </ul>
             <ul>
                 <li>
-                    <h4>Digital Marketing</h4>
+                    <h4>MVP</h4>
                 </li>
                 <li>
                     <h4>Product Design</h4>
