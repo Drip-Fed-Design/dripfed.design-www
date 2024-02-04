@@ -19,6 +19,10 @@
     @include mixinResponsive("mobile") {
       grid-template-columns: 1fr;
     }
+    &.-charity {
+      padding-left: $spacing__small;
+      padding-right: $spacing__small;
+    }
   }
   &.-column__half-min {
     grid-template-columns: max-content max-content;

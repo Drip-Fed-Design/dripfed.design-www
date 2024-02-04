@@ -41,7 +41,7 @@ require(__DIR__ . '/inc/header.global.php');
     </section>
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
-            <p class="_font-colour__grey-dark _text-align__center">We've provided digital product designer and development to a diverse variety of startups and businesses.</p>
+            <p class="_font-colour__grey-dark _text-align__center">We've provided digital product design and development to a diverse variety of startups and businesses.</p>
             <div class="__logos">
                 <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade brand designer" alt="Lucozade" width="125px" height="35.47px" />
                 <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro brand designer" alt="Hasbro" width="80px" height="80px" />
