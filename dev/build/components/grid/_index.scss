@@ -75,16 +75,16 @@
       grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr 0.15fr;
     }
     &:has(.__three:hover) {
-      grid-template-columns: 0.15fr 0.15fr 1fr 0.15fr 0.15fr 0.15fr;
-    }
-    &:has(.__four:hover) {
       grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr 0.15fr 0.15fr;
     }
-    &:has(.__five:hover) {
+    &:has(.__four:hover) {
       grid-template-columns: 0.15fr 0.15fr 0.15fr 0.15fr 1fr 0.15fr;
     }
-    &:has(.__six:hover) {
-      .__six:hover {
+    &:has(.__five:hover) {
+      grid-template-columns: 0.15fr 0.15fr 0.15fr 0.15fr 0.15fr 1fr;
+    }
+    &:has(.__button:hover) {
+      .__button:hover {
         opacity: 0.8;
         transform: scale(1.02);
       }
@@ -102,10 +102,10 @@
         grid-template-columns: 0.15fr 1fr 0.15fr 0.15fr 0.15fr;
       }
       &:has(.__three:hover) {
-        grid-template-columns: 0.15fr 0.15fr 1fr 0.15fr 0.15fr;
+        grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr 0.15fr;
       }
       &:has(.__four:hover) {
-        grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr 0.15fr;
+        grid-template-columns: 0.15fr 0.15fr 0.15fr 1fr;
       }
     }
     @include mixinResponsive("mobile") {

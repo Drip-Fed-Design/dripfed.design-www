@@ -23,7 +23,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Choose a <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design subscription for you startup and business">design subscription</a> that suits you.</h4>
+                    <h4><strong>1.</strong> Choose a <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design subscription plan for you startup and business">design package</a> that suits your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
@@ -58,12 +58,12 @@ require(__DIR__ . '/inc/header.global.php');
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
+                <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
                     <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
                 </div>
-                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
+                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
             </div>
             <div class="_pattern -long-r"></div>
         </div>
@@ -162,7 +162,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-gap__small">
                 <img loading="lazy" src="/dist/images/icon/icon-getshitdone-ani.gif" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <div class="__titles _text-align__left">
-                    <h2><strong>Plans that'll get sh*t done!</strong></h2>
+                    <h2><strong>Packages that'll get sh*t done!</strong></h2>
                     <h4 class="_font-colour__grey-dark">or, you can just wait and achieve nothing.</h4>
                 </div>
             </div>
