@@ -54,6 +54,9 @@
       //     transform: translateX(-20px) scale(1.02);
       //   }
     }
+    &.__button {
+      @include mixinAnimationWorkButton(4s);
+    }
   }
 }
 

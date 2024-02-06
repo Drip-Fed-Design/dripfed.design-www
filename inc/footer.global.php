@@ -2,12 +2,12 @@
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
             <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Start solving design problems & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
+                <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Lower / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
                     <a data-cabin-event="CTA Lower / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service">Let's chat</a>
                 </div>
-                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to the average salary of a full-time senior product designer.</p>
+                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
             </div>
             <div class="_pattern -long-r"></div>
         </div>

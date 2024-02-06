@@ -9,7 +9,7 @@ const Footer = () => (
         <div class="_pattern -long-l"></div>
         <div class="_padding-top-bottom__default">
           <h4 class="_text-align__center _padding-bottom__small">
-            Start solving design problems & <strong>SAVE £24,480</strong>
+            Start building digital products & <strong>SAVE £24,480</strong>
             <sup class="_font-colour__grey-default">*</sup>
           </h4>
 
@@ -34,8 +34,8 @@ const Footer = () => (
             </a>
           </div>
           <p class="_text-align__center _font-size__secondary _font-colour__grey-default">
-            *compared to the average salary of a full-time senior product
-            designer.
+            *compared to an avg. salary of a full-time senior product designer
+            (exc. development).
           </p>
         </div>
         <div class="_pattern -long-r"></div>
