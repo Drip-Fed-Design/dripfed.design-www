@@ -7,7 +7,7 @@
             <img src="/dist/images/work/digital-design-subscription-02.jpg" alt="Unlimited design subscriptions work by Drip Fed Design agency" class="__image" width="900px" height="550px" />
         </div>
         <div class="__slide __button">
-            <a data-cabin-event="Portfolio / More Work" href="<?= $globalDomainRoot; ?>portfolio" title="Explore design work completed by the designer behind <?= $globalTitle; ?>">
+            <a data-cabin-event="Portfolio / More Work" href="<?= $globalDomainRoot; ?>portfolio" title="Explore design work completed by the designer behind <?= $globalTitle; ?>" hreflang="en">
                 <img loading="lazy" src="/dist/images/work/digital-design-subscription-button.jpg" alt="Unlimited design subscriptions work by Drip Fed Design agency" class="__image" width="900px" height="550px" />
             </a>
         </div>

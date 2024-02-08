@@ -13,35 +13,46 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
         <h1 class="_text-align__center">Solve problems & <span class="_word-wrap">launch</span> products with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
         <!-- <center><a data-cabin-event="Intro / Spots Left" href="#anchor-designplans" title="Find a unlimited design subscription design as a service for you startup and business"><? require(__DIR__ . '/inc/spots.global.php'); ?></a></center> -->
-        <p class="_text-align__center">We provide high-end digital product design & 0-1 product build solutions, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
-        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Get Products Launched <span class="_icon -tick"></span>Remove Blockers <span class="_icon -tick"></span>Proactive Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>Cancel Anytime</p>
+        <p class="_text-align__center">We provide end-to-end product design & development solutions for startups and teams launching products, with a ton of commitment and personality, lower costs and less bureaucracy.</p>
+        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Launch Products FAST<span class="_icon -tick"></span>Remove Blockers <span class="_icon -tick"></span>Proactive Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>Cancel Anytime</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="_padding-bottom__large" id="anchor-gettingstarted">
-            <h3 class="_text-align__center _padding-bottom__small">Get started in just 60 seconds 🚀</h3>
+            <h3 class="_text-align__center _padding-bottom__small">Start building in just 60 seconds 🚀</h3>
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Choose a <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design subscription plan for you startup and business">design package</a> that suits your needs.</h4>
+                    <h4><strong>1.</strong> Choose the <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design or development subscription plan for you startup and business product needs" hreflang="en">subscription plan</a> for your needs.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?> unlimited design" width="100px" height="100px" />
-                    <h4><strong>2.</strong> Receive your confirmation & introduction emails.</h4>
+                    <h4><strong>2.</strong> Receive confirmation & onboarding emails.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Unlimited design requests with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>3.</strong> Submit unlimited design requests through Wrike.</h4>
+                    <h4><strong>3.</strong> Submit unlimited design requests with Wrike.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
         </div>
+
+        <!-- <div class="_padding-all__small-default _border-radius__default">
+            <h2><strong>After a month or two have passed, then what?</strong></h2>
+            <hr />
+            <p>After a month has passed, it's decision time!</p>
+            <p>You can either take the designs and end your journey with DesignMe...</p>
+            <p>Or, if you prefer ongoing support and collaboration, we hop on a Design Retainer and support you until you no longer need us.</p>
+            <p>On the Retainer, we'll be by your side, providing top-quality, dedicated design services whenever you need them.</p>
+        </div> -->
+
     </section>
+
     <section class="<?= $globalPrefix; ?>-logos-container _max-width__1640">
         <div class="_background-solid__white _padding-all__small-default _border-radius__default">
-            <p class="_font-colour__grey-dark _text-align__center">We've provided digital product design and development to a diverse variety of startups and businesses.</p>
+            <p class="_font-colour__grey-dark _text-align__center">We've designed, built, and launched products to a diverse variety of startups and businesses.</p>
             <div class="__logos">
                 <img loading="lazy" src="/dist/images/brand/brand-tp-lucozade.png" title="Lucozade brand designer" alt="Lucozade" width="125px" height="35.47px" />
                 <img loading="lazy" src="/dist/images/brand/brand-tp-hasbro.png" title="Hasbro brand designer" alt="Hasbro" width="80px" height="80px" />
@@ -60,8 +71,8 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design subscription that suits you">Sign up in just 60 seconds</a>
-                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design subscription and more">Book a call</a>
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design and development subscription that suits you" hreflang="en">Sign up in just 60 seconds</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design and development subscription and more" hreflang="en">Book a call</a>
                 </div>
                 <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
             </div>
@@ -87,7 +98,7 @@ require(__DIR__ . '/inc/header.global.php');
         </div>
     </section>
     <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-        <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn more about our design subscription</a>
+        <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank" hreflang="en">Learn more about our design subscription</a>
     </div>
     <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
         <div class="__copy _padding-bottom__large _text-align__center _max-width__800">
@@ -162,7 +173,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-gap__small">
                 <img loading="lazy" src="/dist/images/icon/icon-getshitdone-ani.gif" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
                 <div class="__titles _text-align__left">
-                    <h2><strong>Packages that'll get sh*t done!</strong></h2>
+                    <h2><strong>Plans that'll get sh*t done!</strong></h2>
                     <h4 class="_font-colour__grey-dark">or, you can just wait and achieve nothing.</h4>
                 </div>
             </div>
@@ -208,7 +219,7 @@ require(__DIR__ . '/inc/header.global.php');
             </ul>
             <p class="_font-size__secondary _font-colour__grey-light">* We know there's a need for a video call or two, depending on request complexity.</p>
             <hr />
-            <p><strong class="_font-colour__orange-primary">Not convinced?</strong> Reach out to us through <a data-cabin-event="Subscribe / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -white" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">email</a> or <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more">book a 20 min intro call</a>.</p>
+            <p><strong class="_font-colour__orange-primary">Not convinced?</strong> Reach out to us through <a data-cabin-event="Subscribe / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -white" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more">email</a> or <a data-cabin-event="Subscribe / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our design subscriptions and more" hreflang="en">book a 20 min intro call</a>.</p>
         </div>
         <div class="__plans">
             <div class="__monthly _text-align__center _padding-all__small-default _background-solid__white _border-radius__default _margin-bottom__default">
@@ -273,7 +284,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="just-employ-a-designer">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Why wouldn't I just employ a designer?</h4>
-                            <a data-cabin-event="FAQ / Just Employee a Designer" href="#just-employ-a-designer" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Just Employee a Designer" href="#just-employ-a-designer" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>You could... if it's the right fit for you.</p>
@@ -283,13 +294,13 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>And you're not even locked-in... SH*T!!</p>
                             <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
-                            <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank">what is a design subscription, how it works, and the benefits</a>.</p>
+                            <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
                         </div>
                     </article>
                     <article id="how-quick-will-request-be-completed">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How quick will my requests be completed?</h4>
-                            <a data-cabin-event="FAQ / How Quick to Complete Requests" href="#how-quick-will-request-be-completed" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / How Quick to Complete Requests" href="#how-quick-will-request-be-completed" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Honestly, it depends on the complexity of the task.</p>
@@ -306,7 +317,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="limit-on-requests">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Is there a limit on requests?</h4>
-                            <a data-cabin-event="FAQ / Request Limits" href="#limit-on-requests" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Request Limits" href="#limit-on-requests" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>No. Once you've subscribed, you can submit as many design requests as you'd like. Each request will be delivered one by one.</p>
@@ -315,7 +326,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="manage-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I manage my subscription?</h4>
-                            <a data-cabin-event="FAQ / How to Manage Subscription" href="#manage-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / How to Manage Subscription" href="#manage-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>It's easy. We'll provide you access to a <a data-cabin-event="FAQ / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your unlimited design subscription, design as a service">billing portal</a>, powered by Stripe- for reassurance that everything is safe and secure!</p>
@@ -328,7 +339,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="pause-or-cancel-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>When should I use pause vs. cancel with my subscription?</h4>
-                            <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>To be honest, it's totally up to you.</p>
@@ -339,7 +350,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="how-to-make-request">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I make and submit a request?</h4>
-                            <a data-cabin-event="FAQ / How to Make Request" href="#how-to-make-request" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / How to Make Request" href="#how-to-make-request" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Once you've subscribed, a Wrike setup will be automatically created for you. Instructions on how to access and submit requests will be included within your introduction email and Wrike.</p>
@@ -350,7 +361,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="what-to-expect-in-wrike">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What should I expect when I receive my Wrike access?</h4>
-                            <a data-cabin-event="FAQ / Expect in Wrike Access" href="#what-to-expect-in-wrike" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Expect in Wrike Access" href="#what-to-expect-in-wrike" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Wrike is a very simple and powerful project management platform, therefore has all the features to achieve great things!</p>
@@ -363,7 +374,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="dont-like-the-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
-                            <a data-cabin-event="FAQ / If I Dont Like Design" href="#dont-like-the-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / If I Dont Like Design" href="#dont-like-the-design" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Then we'll continue to revise the design until you love it!</p>
@@ -373,7 +384,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="web-development-or-coding-included">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What is the Plus+ subscription, does it include web development?</h4>
-                            <a data-cabin-event="FAQ / Is Web Dev Included" href="#web-development-or-coding-included" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Is Web Dev Included" href="#web-development-or-coding-included" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Yes. You're spot on!</p>
@@ -387,7 +398,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="web-development-languages-support">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What web development languages are supported?</h4>
-                            <a data-cabin-event="FAQ / Web Dev Lang" href="#web-development-languages-support" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Web Dev Lang" href="#web-development-languages-support" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>We support a range of web technologies, spanning through Front-End to Back-End, and Server Side Rendering (SSR).</p>
@@ -402,13 +413,13 @@ require(__DIR__ . '/inc/header.global.php');
                             <p><strong>But, wait!</strong></p>
                             <p>This doesn't mean you're stuck with these technologies. We have a wide network which we can lean into for you, supporting any development stack or setup desire...</p>
                             <p>As an example, take this website. We built this site with PHP for local development ease, but compiled into static HTML files for high optimisation and SEO, hosted on Netlify.
-                            <p>Want to know more? <a data-cabin-event="FAQ / Dev Capabilities" href="#home" class="triggerForm">Reach out to us</a>.</p>
+                            <p>Want to know more? <a data-cabin-event="FAQ / Dev Capabilities" href="#home" class="triggerForm" hreflang="en">Reach out to us</a>.</p>
                         </div>
                     </article>
                     <article id="any-refunds">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Are there any refunds?</h4>
-                            <a data-cabin-event="FAQ / Any Refunds" href="#any-refunds" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Any Refunds" href="#any-refunds" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Unfortunately not.</p>
@@ -419,7 +430,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="what-software-or-service-use">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What software or services do you use?</h4>
-                            <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>We mainly spend out time using Figma for design, VSCode/Github for building our designs, Wrike for project management, and Slack or WhatsApp for communication.</p>
@@ -428,7 +439,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="will-pricing-change-or-additional-costs">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Will the pricing change or are there any additional costs?</h4>
-                            <a data-cabin-event="FAQ / Price Changes or Additional Costs" href="#will-pricing-change-or-additional-costs" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Price Changes or Additional Costs" href="#will-pricing-change-or-additional-costs" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Our subscription feature single fixed monthly fee. What you see is what you pay.</p>
@@ -438,7 +449,7 @@ require(__DIR__ . '/inc/header.global.php');
                     <article id="whos-is-drip-fed-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Who's behind Drip Fed Design?</h4>
-                            <a data-cabin-event="FAQ / Who runs Drip Fed" href="#whos-is-drip-fed-design" class="triggerFAQ"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <a data-cabin-event="FAQ / Who runs Drip Fed" href="#whos-is-drip-fed-design" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>Drip Fed is run and managed by Chris Watterston, a digital designer, developer and manager with over 14 years experience across a range of sectors and industries.</p>
@@ -448,7 +459,7 @@ require(__DIR__ . '/inc/header.global.php');
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have unanswered questions?</strong><br />Reach out and send your question to us through our quick and simple <a data-cabin-event="FAQ / Unanswered" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have unanswered questions?</strong><br />Reach out and send your question to us through our quick and simple <a data-cabin-event="FAQ / Unanswered" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form" hreflang="en">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
         </div>
     </section>
 </div>

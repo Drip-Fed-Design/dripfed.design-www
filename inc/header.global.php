@@ -47,14 +47,29 @@ require(__DIR__ . '/../config/debug.global.php');
             "sameAs": [
                 "<?= $globalDomainRoot; ?>",
                 "https://www.linkedin.com/company/drip-fed-design/",
-                "https://www.facebook.com/dripfeddesign/",
-                "https://dribbble.com/dripfeddesign",
-                "https://twitter.com/chriswatterston"
+                "https://www.facebook.com/dripfeddesign",
+                "https://dribbble.com/chriswatterston",
+                "https://twitter.com/chriswatterston",
+                "https://www.instagram.com/chriswatterston",
+                "https://www.youtube.com/@dripfeddesign"
             ],
             "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "Pentire Fordbridge Road",
                 "postalCode": "TW16 6AX",
+                "addressLocality": "Middlesex",
+                "addressRegion": "Middlesex",
                 "addressCountry": "United Kingdom"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.397337,
+                "longitude": -0.421178
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "hello@dripfed.design",
+                "telephone": "+44 7901 660338"
             }
         }
     </script>
@@ -68,7 +83,7 @@ require(__DIR__ . '/../config/debug.global.php');
         <header class="<?= $globalPrefix; ?>-header-container _max-width__1280">
             <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-v__center">
                 <div class=" __logo">
-                    <a data-cabin-event="Header / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>">
+                    <a data-cabin-event="Header / Logo" href="<?= $globalDomainRoot; ?>" title="<?= $globalDescription; ?>" hreflang="en">
                         <img src="<?= $globalDomainRoot; ?>dist/images/brand/brand-dripfed-design-logo-full.svg" alt="<?= $globalTitle; ?> brand logo" width="240" height="130" />
                     </a>
                 </div>
@@ -80,8 +95,8 @@ require(__DIR__ . '/../config/debug.global.php');
                                 <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design & build<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business">Find your package</a>
-                                <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service">Let's chat</a>
+                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Choose design plan</a>
+                                <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service" hreflang="en">Let's chat</a>
                             </div>
                         </div>
                     </div>
