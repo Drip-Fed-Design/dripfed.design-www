@@ -17,7 +17,11 @@ require(__DIR__ . '/inc/header.global.php');
             <section class="<?= $globalPrefix; ?>-intro-container _padding-bottom__default">
                 <h1><span class="_word-wrap">Thank you</span> for your interest in receiving FREE access to our unlimited design services.</h1>
                 <br />
-                <h2>Please fill out the <strong>charity entry form</strong>, cross your fingers, and <span class="_word-under">start planning</span> what we're going to work on!</h2>
+                <h4>Please fill out the <strong>charity entry form</strong>, cross your fingers, and start planning what we're going to work on!</h4>
+                <br />
+                <div class="__cta <?= $globalPrefix; ?>-button-container">
+                    <a data-cabin-event="Portfolio / Charity" href="<?= $globalDomainRoot; ?>portfolio" class="__button -orange" title="Explore design work completed by the designer behind <?= $globalTitle; ?>" hreflang="en">Want to see our work?</a>
+                </div>
                 <p>Charities can apply for our unlimited design services from Monday, February 5, 2024 until the closing date of Friday, February 23, 2024.</p>
                 <p>The winner will be picked at random, announced on social media, and directly contacted within 3 days of closing date.</p>
                 <p class="_font-size__secondary _font-colour__grey-default">The winning charity will continue to be considered a service user and, as such, must agree to adhere to Drip Fed Ltd's <a data-cabin-event="Charity / Terms Conditions" href="<?= $globalDomainRoot; ?>termsconditions" title="Terms and Conditions for Drip Fed Design Subscription" class="_font-size__secondary">Terms of Service & Conditions</a>.</p>
