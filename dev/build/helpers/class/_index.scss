@@ -163,6 +163,10 @@
   color: $colour-grey__dark !important;
 }
 
+._font-colour__white-default {
+  color: $colour-white__default !important;
+}
+
 ._font-colour__grey-default {
   color: $colour-grey__default !important;
 }
@@ -245,16 +249,19 @@
 ._image__circle {
   background: $colour-white__default;
   border-radius: $border-radius__circle;
-  padding: 10px;
+  padding: 5px;
   // Modifier
   &.-border-orange {
-    border: 4px solid $colour-primary__orange;
+    border: 3px solid $colour-primary__orange;
   }
   &.-border-green {
-    border: 4px solid $colour-primary__green;
+    border: 3px solid $colour-primary__green;
   }
   &.-border-aqua {
-    border: 4px solid $colour-primary__aqua;
+    border: 3px solid $colour-primary__aqua;
+  }
+  &.-border-pink {
+    border: 3px solid $colour-primary__pink;
   }
 }
 
@@ -323,5 +330,77 @@
     margin-left: 5px;
     margin-right: 5px;
     width: 16px;
+  }
+  &.-star {
+    background-image: url(#{$dir__images}icon/icon-star-green.svg);
+    height: 22px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-onerequest {
+    background-image: url(#{$dir__images}icon/icon-onerequest-orange.svg);
+    height: 26px;
+    margin-bottom: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-tworequest {
+    background-image: url(#{$dir__images}icon/icon-tworequest-orange.svg);
+    height: 26px;
+    margin-bottom: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-date {
+    background-image: url(#{$dir__images}icon/icon-date-green.svg);
+    height: 20px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-figma {
+    background-image: url(#{$dir__images}icon/icon-figma-green.svg);
+    height: 21px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-slack {
+    background-image: url(#{$dir__images}icon/icon-slack-green.svg);
+    height: 21px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-unlimited {
+    background-image: url(#{$dir__images}icon/icon-unlimited-green.svg);
+    height: 21px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-pause {
+    background-image: url(#{$dir__images}icon/icon-pause-green.svg);
+    height: 21px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
+  }
+  &.-fast {
+    background-image: url(#{$dir__images}icon/icon-fast-green.svg);
+    height: 21px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26px;
   }
 }

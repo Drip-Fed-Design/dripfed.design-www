@@ -103,6 +103,6 @@ require(__DIR__ . '/inc/footer.global.php');
 if ($htmlExporting === true) {
     $dripfedHTML = ob_get_contents();
     ob_end_clean();
-    file_put_contents('./dist' . $_SERVER['PHP_SELF'], $dripfedHTML);
+    file_put_contents('./dist/charity', $dripfedHTML);
 }
 ?>

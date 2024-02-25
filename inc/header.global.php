@@ -96,7 +96,7 @@ require(__DIR__ . '/../config/debug.global.php');
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
                                 <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Choose design plan</a>
-                                <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service" hreflang="en">Let's chat</a>
+                                <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service" hreflang="en">Book call</a>
                             </div>
                         </div>
                     </div>
