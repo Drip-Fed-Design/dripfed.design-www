@@ -44,6 +44,11 @@
   }
   &.-column__full-min {
     grid-template-columns: 1fr min-content;
+    &.-r {
+      @include mixinResponsive("mobile") {
+        grid-template-columns: 1fr;
+      }
+    }
   }
 
   // 3 columns
