@@ -75,7 +75,28 @@ require(__DIR__ . '/../config/debug.global.php');
     </script>
 
     <link rel="stylesheet" type="text/css" href="<?= $globalDomainRoot; ?>dist/css/<?= $globalPrefix; ?>.min.css">
-    <meta name="facebook-domain-verification" content="l1dtq97by7ufj1g9rp51699dtn6un6" />
+
+    <? if ($htmlExporting === true) { ?>
+        <!-- Hotjar Tracking Code for dripfed.design -->
+        <script>
+            (function(h, o, t, j, a, r) {
+                h.hj = h.hj || function() {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {
+                    hjid: 3881240,
+                    hjsv: 6
+                };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+    <? } else {
+        echo '<!-- [hotjar-disabled] -->';
+    } ?>
 </head>
 
 <body id="home">
