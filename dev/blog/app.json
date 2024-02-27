@@ -1,18 +1,13 @@
 {
   "name": "Drip Fed Design",
-  "description": "Quality unlimited design and development subscriptions for startups, lowering costs and bureaucracy. Drip Fed, a Design as a Service agency",
+  "description": "Trusted partner for startups, agencies, and teams that need extra design and development resource. Launch products FAST with an unlimited design subscription",
   "keywords": [
-    "design as a service",
-    "design subscription",
-    "design agency",
-    "unlimited design service",
+    "design for startups",
     "unlimited design subscription",
-    "unlimited development service",
-    "unlimited development subscription",
-    "unlimited digital design",
-    "monthly design subscription",
-    "design as a subscription",
-    "drip fed design"
+    "Launch products fast",
+    "design and development resource",
+    "unlimited design service",
+    "Trusted partner for startups"
   ],
   "repository": "https://dripfed.design/blog",
   "success_url": "/",

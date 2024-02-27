@@ -47,9 +47,9 @@ if ($htmlExporting === true) {
 $globalCompanyName = 'Drip Fed Ltd';
 $globalCompanyNumber = '14871237';
 
-$globalTitle = 'Design & dev subscription for startups & teams launching products';
-$globalTitleLong = 'Product design & development subscription for startups and teams launching products';
-$globalDescription = 'Best-in-Class unlimited product design and development subscription for startups and teams launching products. Design as a Service agency';
+$globalTitle = 'Launch products FAST with unlimited design subscription for startups'; // Max 75 characters
+$globalTitleLong = 'Launch products FAST with unlimited design subscription for startups'; // Max 75 characters
+$globalDescription = 'Trusted partner for startups, agencies, and teams that need extra design and development resource. Launch products FAST with an unlimited design subscription'; // Max 160 characters
 $globalRobots = 'index,follow';
 
 //

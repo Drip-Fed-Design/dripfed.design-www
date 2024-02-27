@@ -61,11 +61,6 @@ require(__DIR__ . '/../config/debug.global.php');
                 "addressRegion": "Middlesex",
                 "addressCountry": "United Kingdom"
             },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.397337,
-                "longitude": -0.421178
-            },
             "contactPoint": {
                 "@type": "ContactPoint",
                 "email": "hello@dripfed.design",
@@ -116,7 +111,7 @@ require(__DIR__ . '/../config/debug.global.php');
                                 <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design & build<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Choose design plan</a>
+                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Pricing plans</a>
                                 <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service" hreflang="en">Book call</a>
                             </div>
                         </div>
