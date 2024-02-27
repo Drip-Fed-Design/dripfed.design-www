@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "Drip Fred Design",
     description:
-      "Quality unlimited design and development subscriptions for startups, lowering costs and bureaucracy. Drip Fed, a Design as a Service agency",
+      "Trusted partner for startups, agencies, and teams that need extra design and development resource. Launch products FAST with an unlimited design subscription",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

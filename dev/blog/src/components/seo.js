@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { Helmet } from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+import * as React from "react";
+import { Helmet } from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby";
 
-const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
+const Seo = ({ description = "", lang = "en", meta = [], title, image }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -14,10 +14,10 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
         }
       }
     `
-  )
+  );
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = description || site.siteMetadata.description;
+  const defaultTitle = site.siteMetadata?.title;
 
   return (
     <Helmet
@@ -26,7 +26,8 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
       }}
       title={title}
       defaultTitle={defaultTitle}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      //   titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle ? `%s` : null}
       meta={[
         {
           name: `description`,
@@ -70,7 +71,7 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
         },
       ].concat(meta)}
     />
-  )
-}
+  );
+};
 
-export default Seo
+export default Seo;
