@@ -18,7 +18,7 @@ require(__DIR__ . '/inc/header.global.php');
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="_padding-bottom__large" id="anchor-gettingstarted">
-            <h3 class="_text-align__center _padding-bottom__small">Start in just 60 seconds 🚀</h3>
+            <h3 class="_text-align__center _padding-bottom__small">Start in as little as <span class="_word-wrap">60 seconds</span> 🚀</h3>
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
@@ -67,7 +67,7 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="_padding-top-bottom__default">
                 <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design and development subscription that suits you" hreflang="en">Sign up in just 60 seconds</a>
+                    <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design and development subscription that suits you" hreflang="en">Get started in just 60 seconds</a>
                     <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design and development subscription and more" hreflang="en">Book a call</a>
                 </div>
                 <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>

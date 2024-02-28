@@ -20,7 +20,7 @@ const Footer = () => (
               class="__button -green"
               title="Find a design subscription that suits you"
             >
-              Sign up in just 60 seconds
+              Get started in just 60 seconds
             </a>
             <a
               data-cabin-event="Blog / CTA Lower / Book Call"
