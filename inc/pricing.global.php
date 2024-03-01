@@ -69,7 +69,7 @@
                 <?
                 // functionRemainingSpots($remainingSpotsDesign);
                 ?>
-                <div class="<?= $globalPrefix; ?>-button-container">
+                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <?
                     if ($remainingSpotsDesign === 0) {
                         echo '
@@ -77,7 +77,8 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Design" href="https://dripfed.design/book" class="__button -orange -wide _text-align__center" title="Start your monthly unlimited design subscription today, book a 20-min introduction call">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Design Call" href="https://dripfed.design/book" class="__button -orange _text-align__center" target="_blank"  title="Book a 20-min introduction call to a monthly unlimited design subscription today">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Design Start" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -aqua _text-align__center" target="_blank" title="Start your monthly unlimited design subscription now">Get started now</a>
                         ';
                     }
                     ?>
@@ -165,7 +166,7 @@
                 <?
                 // functionRemainingSpots($remainingSpotsPlus);
                 ?>
-                <div class="<?= $globalPrefix; ?>-button-container">
+                <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <?
                     if ($remainingSpotsPlus === 0) {
                         echo '
@@ -173,7 +174,8 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Plus" href="https://dripfed.design/book-plus" class="__button -orange -wide _text-align__center" title="Start your unlimited digital product design and build subscription today, book a 20-min introduction call">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Plus Call" href="https://dripfed.design/book-plus" class="__button -orange _text-align__center" target="_blank" title="Book a 20-min introduction call to a monthly unlimited design and build subscription today">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Plus Start" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -aqua _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription now">Get started now</a>
                         ';
                     }
                     ?>
