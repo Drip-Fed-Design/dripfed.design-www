@@ -11,6 +11,7 @@
 //
 .#{$prefix-name}-button-container {
   position: relative;
+  z-index: +2;
   .__button {
     border-radius: $border-radius__buttons;
     border: unset;

@@ -75,26 +75,99 @@ require(__DIR__ . '/inc/header.global.php');
             <div class="_pattern -long-r"></div>
         </div>
     </section>
-    <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
-        <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__xlarge _padding-top__large">
-            <div class="__how _text-align__center">
-                <img src="/dist/images/icon/icon-how.svg" alt="How <?= $globalTitle; ?> subscription works" width="360px" height="220px" />
-                <h2>HOW does it work?</h2>
-                <p>Drip Fed Design works in a similar way to a Netflix or Apple TV+ subscription. Subscribe for a monthly fixed fee and consume as much as you can.</p>
-                <p>This enables any startup or business, whatever their size or stage, open ended access to an unlimited source of quality digital design.</p>
-                <p>Easy and unlimited design access, through a subscription that makes everything so much simpler.</p>
+    <section class="<?= $globalPrefix; ?>-workwith-container _max-width__1000 _padding-top-bottom__large">
+        <div class="__heading _text-align__center _max-width__800">
+            <h2>Who do we build relationships with?</h2>
+            <p>We love to meet new people, but our solutions might not be the best for everyone. We work best with:</p>
+        </div>
+        <div class="<?= $globalPrefix; ?>-grid-container -column__half -column-gap__large -column-row__default _padding-top__default _padding-bottom__default">
+            <div class="__startups">
+                <div class="__details">
+                    <h3>Startups & Accelerators</h3>
+                    <p>We love working amongst the excitement and fast pace of launching new products with startups and accelerators.</p>
+                    <p>Whether you need a proof of concept, an MVP brought to life, or working on an existing product, you're in good hands. This is our passion, and we're good at it!</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>What to expect from our subscriptions:</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Launch an MVP in Avg. 2-3 months
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                User focused, end-to-end product design
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Independently driven fast workflow
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Ability to support infrastructure stack
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="__example">
+                    <img src="/dist/images/work/digital-design-subscription-startup.jpg" alt="Fast unlimited design subscriptions and build development subscriptions for startups and startup accelerators" class="__image" width="100%" height="auto" loading="lazy" />
+                </div>
             </div>
-            <div class="__why _text-align__center">
-                <img src="/dist/images/icon/icon-why.svg" alt="Why subscribe with <?= $globalTitle; ?>" width="360px" height="220px" />
-                <h2>WHY a subscription?</h2>
-                <p>Drip Fed Design holds a unique position. We bridge the gap between a freelancer and a fixed-term contractor.</p>
-                <p>We enable the ease and flexibility of a freelancer, but without the complex lock-in which come with fixed-term contracts and permanent employment. You'll get the best of both worlds.</p>
-                <p>Cancel or pause any time, no long-term contracts to lock you in. It's straightforward and fair, just how great design should be delivered.</p>
+            <div class="__agencies">
+                <div class="__details">
+                    <h3>Agencies & Teams</h3>
+                    <p>We have in-house and creative agency experience in our blood, previously working with some of the largest FMCG brands.</p>
+                    <p>If your agency or team needs FAST, on-tap design or development resource, we're ready and available. Forget hiring, as we'll likely deliver in the time it would take to find someone.</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>What to expect from our subscriptions:</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Avg. 2 site designs delivered in 1 month
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                User focused, high-end product design
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Digital Design System foundation
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="_icon -star"></i>
+                                Proactive comms & sharing of progress
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="__example">
+                    <img src="/dist/images/work/digital-design-subscription-agency.jpg" alt="Fast unlimited design subscriptions and build development subscriptions for startups and startup accelerators" class="__image" width="100%" height="auto" loading="lazy" />
+                </div>
             </div>
         </div>
     </section>
     <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
-        <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank" hreflang="en">Learn more about our design subscription</a>
+        <a data-cabin-event="Content / Portfolio" href="<?= $globalDomainRoot; ?>portfolio" class="__button -orange" title="Explore design work completed for startups and creative agency <?= $globalTitle; ?>" hreflang="en">See our work</a>
+        <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -white" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" hreflang="en">Learn about our design subscription</a>
     </div>
     <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
         <div class="__copy _padding-bottom__large _text-align__center _max-width__800">

@@ -35,7 +35,7 @@
     </div>
 </section>
 <!-- Modal -->
-<section class="<?= $globalPrefix; ?>-modal-container" id="triggerFormTarget">
+<!-- <section class="<?= $globalPrefix; ?>-modal-container" id="triggerFormTarget">
     <div class="<?= $globalPrefix; ?>-card-container _max-width__800">
         <a data-cabin-event="Form / Close" href="#triggerPromptTarget" class="__close triggerForm"><img loading="lazy" src="/dist/images/icon/icon-close-grey.svg" title="Close contact form" alt="Close" width="25px" height="25px" /></a>
         <div class=" __content">
@@ -74,4 +74,4 @@
             </section>
         </div>
     </div>
-</section>
+</section> -->
