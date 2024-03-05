@@ -72,6 +72,72 @@
   }
 }
 
+.#{$prefix-name}-workwith-container {
+  position: relative;
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  @include mixinResponsive("narrow") {
+    padding-left: $spacing__small;
+    padding-right: $spacing__small;
+  }
+  .__heading {
+    p {
+      margin-top: 0;
+    }
+  }
+  .__startups,
+  .__agencies {
+    align-self: start;
+    background-color: $colour-white__default;
+    border-radius: $border-radius__default;
+    overflow: hidden;
+    position: relative;
+    .__details {
+      padding: $spacing__default * 1.5;
+    }
+    .__example {
+      margin-bottom: -10px;
+      overflow: hidden;
+      width: 100%;
+    }
+    h3,
+    h2,
+    span {
+      color: $colour-primary__black;
+      line-height: calc($font-size__primary * 2);
+    }
+    p {
+      color: $colour-grey__dark;
+      text-wrap: unset;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        padding: 0;
+        p {
+          margin: calc($spacing__small / 2) 0 0;
+        }
+      }
+    }
+  }
+  &:before {
+    background-image: url(#{$dir__images}pattern/pattern-long-double-full.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+    height: 85px;
+    pointer-events: none;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    z-index: 0;
+  }
+}
+
 .#{$prefix-name}-logos-container {
   position: relative;
   z-index: 2;
@@ -230,7 +296,7 @@
       margin-top: calc($spacing__default + $spacing__small);
       width: 100%;
       p {
-        margin: 0;
+        margin-bottom: 0;
       }
     }
   }
