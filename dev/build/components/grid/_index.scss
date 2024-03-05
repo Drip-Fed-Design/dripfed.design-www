@@ -172,6 +172,9 @@
   }
   &.-column-gap__large {
     column-gap: $spacing__large;
+    @include mixinResponsive("tablet") {
+      column-gap: $spacing__default;
+    }
   }
   &.-column-gap__xlarge {
     column-gap: calc($spacing__large * 2);
