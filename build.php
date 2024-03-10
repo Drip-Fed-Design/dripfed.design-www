@@ -1,6 +1,6 @@
 <?
 // Enable export as flat file
-$htmlExporting = true;
+$htmlExporting = false;
 
 // Exporting as flat file
 if ($htmlExporting === true) {

@@ -26,7 +26,7 @@
                     <li>
                         <p>
                             <i class="_icon -onerequest"></i>
-                            One active requests at a time
+                            One active request at a time
                         </p>
                     </li>
                     <li>
