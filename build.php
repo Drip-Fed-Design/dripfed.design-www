@@ -1,6 +1,6 @@
 <?
 // Enable export as flat file
-$htmlExporting = false;
+$htmlExporting = true;
 
 // Exporting as flat file
 if ($htmlExporting === true) {
@@ -245,18 +245,29 @@ require(__DIR__ . '/inc/header.global.php');
                 <div class="<?= $globalPrefix; ?>-grid-container -column-h__center">
                     <article id="just-employ-a-designer">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>Why wouldn't I just employ a designer?</h4>
+                            <h4>Why wouldn't I just employ a full-time designer, or developer?</h4>
                             <a data-cabin-event="FAQ / Just Employee a Designer" href="#just-employ-a-designer" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>You could... if it's the right fit for you.</p>
                             <p>But before jumping on that ship, consider the time and money you'll spent, recruiting in a hope to find the right designer, with experience.</p>
-                            <p>Also weigh up the average salary of that full-time senior product designer, currently excess of £72k. Then stacked on top of that, you'll have pensions, bonuses, company NI, and other benefits (e.g. company car, gym membership, healthcare, etc).</p>
+                            <p>Then weigh up the average salary of that full-time senior product designer, currently excess of £72k. Then stacked on top of that, you'll have pensions, bonuses, company NI, and other benefits (e.g. company car, gym membership, healthcare, etc).</p>
                             <p>In comparison, our monthly subscription would cost you at most £47,520 per year- that's an instant saving of £24,480!</p>
                             <p>And you're not even locked-in... SH*T!!</p>
-                            <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription.</p>
+                            <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription, which you can pause or cancel anything.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
                             <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
+                        </div>
+                    </article>
+                    <article id="how-long-stay-subscribed">
+                        <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
+                            <h4>How long do I stay subscribed for?</h4>
+                            <a data-cabin-event="FAQ / Stay Subscribed" href="#how-long-stay-subscribed" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                        </div>
+                        <div class="__answer">
+                            <p>It's completely up to you. and your need for our service. A subscription can run for 2 to 3 months, or even stretch to 12 months.</p>
+                            <p>After a subscription has come to an end, we don't need to go our separate ways either. Depending on what we've built together, we can offer you a small monthly retainer to continue our support.</p>
+                            <p><a data-cabin-event="FAQ / Development" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a> to find out more.</p>
                         </div>
                     </article>
                     <article id="how-quick-will-request-be-completed">
@@ -266,13 +277,13 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                         <div class="__answer">
                             <p>Honestly, it depends on the complexity of the task.</p>
-                            <p>When a request has been submitted, we will review it within 2 hours of your submission, give it a complexity score and assign a realistic deadline.</p>
+                            <p>When a request has been submitted, we will review it within 2 hours, giving it a complexity score and assign a realistic deadline.</p>
                             <p>Most common design requests are completed within 3 working days, or less.</p>
                             <p>More complex task or project requests can take slightly longer to receive an initial draft. But generally this is within 7 working days. Our general complexity scoring levels are as follows;</p>
                             <p>- <strong>Low:</strong> Within 3 working days, or less.</p>
                             <p>- <strong>Medium:</strong> Within 5 working days, or less.</p>
                             <p>- <strong>High:</strong> Within 10 working days, or less.</p>
-                            <p>Everything we create will be original and of very high quality, created from a blank canvas with all your requirements and goals in mind.</p>
+                            <p>Everything we create will be original and of very high quality, created from a blank canvas with all your requirements, goals, and end user in mind.</p>
                             <p>Furthermore, don't forget you'll be provided with progress updates throughout every task and project stage, proactively, with potential realtime design access.</p>
                         </div>
                     </article>
@@ -282,7 +293,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / Request Limits" href="#limit-on-requests" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>No. Once you've subscribed, you can submit as many design requests as you'd like. Each request will be delivered one by one.</p>
+                            <p>No. Once you've subscribed, you can submit as many design requests as you'd like. Each request will be delivered in turn.</p>
                         </div>
                     </article>
                     <article id="manage-my-subscription">
@@ -340,7 +351,7 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                         <div class="__answer">
                             <p>Then we'll continue to revise the design until you love it!</p>
-                            <p>We're aiming for 100% satisfaction.</p>
+                            <p>We aim for 100% satisfaction.</p>
                         </div>
                     </article>
                     <article id="web-development-or-coding-included">
@@ -350,11 +361,11 @@ require(__DIR__ . '/inc/header.global.php');
                         </div>
                         <div class="__answer">
                             <p>Yes. You're spot on!</p>
-                            <p>We noticed a growing number of our clients wanted their approved designs followed through and built into working products.</p>
+                            <p>We noticed a growing number of our clients wanted their designs followed through and built into MVP or final products.</p>
                             <p>Our passion is in bringing digital products to life, so this is exactly what we're aiming for!</p>
-                            <p>This means we will not only design that dreamy landing page, but also take it all the way through to create you a host-able package of code.</p>
+                            <p>This means we will not only design that dreamy landing page or dashboard interface, but also take it all the way through to building a host-able package of code.</p>
                             <p>Just keep in mind that web development tend to take longer than design, approximately x3 the duration. Therefore the delivery timescales for the development work would increase. But, this depends on project complexity, which I'm sure you understand.</p>
-                            <p>Want to know more? <a data-cabin-event="FAQ / Development" href="#home" class="triggerForm">Reach out to us</a>.</p>
+                            <p>Want to know more? <a data-cabin-event="FAQ / Development" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a>.</p>
                         </div>
                     </article>
                     <article id="web-development-languages-support">
@@ -373,9 +384,9 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>- Shopify (Liquid)</p>
                             <p>- Search Engine Optimisation (SEO)</p>
                             <p><strong>But, wait!</strong></p>
-                            <p>This doesn't mean you're stuck with these technologies. We have a wide network which we can lean into for you, supporting any development stack or setup desire...</p>
-                            <p>As an example, take this website. We built this site with PHP for local development ease, but compiled into static HTML files for high optimisation and SEO, hosted on Netlify.
-                            <p>Want to know more? <a data-cabin-event="FAQ / Dev Capabilities" href="#home" class="triggerForm" hreflang="en">Reach out to us</a>.</p>
+                            <p>This doesn't mean you're stuck with these technologies. We have a wide network which we can lean into for you, supporting any development stack or setup desire.</p>
+                            <p>As an example, take this website. We built this site with dynamic PHP within our local development environment, but compile into static pages for high optimisation and SEO, hosted on Netlify.
+                            <p>Want to know more? <a data-cabin-event="FAQ / Dev Capabilities" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a>.</p>
                         </div>
                     </article>
                     <article id="any-refunds">
@@ -395,7 +406,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>We mainly spend out time using Figma for design, VSCode/Github for building our designs, Wrike for project management, and Slack or WhatsApp for communication.</p>
+                            <p>We spend most of our time using Figma for design, VSCode/Github for code, Wrike for project management, and Slack or WhatsApp for communication.</p>
                         </div>
                     </article>
                     <article id="will-pricing-change-or-additional-costs">
@@ -414,14 +425,15 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / Who runs Drip Fed" href="#whos-is-drip-fed-design" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>Drip Fed is run and managed by Chris Watterston, a digital designer, developer and manager with over 14 years experience across a range of sectors and industries.</p>
-                            <p>Throughout his career, Chris has worked as a freelancer, fixed-term contractor, and as a permanent employee. Noticing a gap and opportunity within the creative hiring market, Drip Fed Design was born!</p>
-                            <p>Clients will be working directly with Chris, keeping everything simple and closely connected. This ensures you get the highest possible design quality, and service.</p>
+                            <p>Drip Fed is run and managed by Chris Watterston, a visionary Digital Product Designer and Developer with a rich 15+ year history of turning ideas into award-winning products for startups, agencies, and teams. Making me your go-to for designing and building high-impact digital solutions FAST and efficiently.</p>
+                            <p>My expertise spreads: Web Design, Brand Design, Digital Marketing, User Experience Design (UX, UED), Search Engine Optimisation (SEO), Web Development, and Host Infrastructure.</p>
+                            <p>Clients will be working directly with Chris, keeping everything simple and closely connected. This ensures you get the highest possible design and build quality.</p>
+                            <p>If you're only passing by, feel free to connect with me on <a data-cabin-event="FAQ / LinkedIn" href="https://www.linkedin.com/in/chriswatterston/" class="__button -raw" title="Connect with Chris Watterston on LinkedIn" hreflang="en" target="_blank">LinkedIn</a>.</p>
                         </div>
                     </article>
                 </div>
             </div>
-            <p class="_font-colour__grey-dark"><strong>Still have unanswered questions?</strong><br />Reach out and send your question to us through our quick and simple <a data-cabin-event="FAQ / Unanswered" href="#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form" hreflang="en">contact form</a>, we'll do our best to get back to you within 24 hours.</p>
+            <p class="_font-colour__grey-dark"><strong>Still have unanswered questions?</strong><br />Reach out and <a data-cabin-event="FAQ / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">send your question to us</a>, we'll get back to you within 24 hours.</p>
         </div>
     </section>
 </div>
