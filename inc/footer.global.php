@@ -36,6 +36,7 @@
                             <li><a data-cabin-event="Footer / Terms Conditions" href="<?= $globalDomainRoot; ?>termsconditions" title="Terms and Conditions for Drip Fed Design Subscription" hreflang="en">Terms & Conditions</a></li>
                             <li><a data-cabin-event="Footer / Terms" href="<?= $globalDomainRoot; ?>terms" title="Terms of Use for Drip Fed Design" hreflang="en">Terms of Use</a></li>
                             <li><a data-cabin-event="Footer / Privacy" href="<?= $globalDomainRoot; ?>privacy" title="Privacy policy for Drip Fed Design" hreflang="en">Privacy Policy</a></li>
+                            <li><a rel="me" href="https://mastodon.social/@chriswatterston" style="display: none !important;">Mastodon</a></li>
                         </ul>
                     </div>
                 </div>

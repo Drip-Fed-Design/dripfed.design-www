@@ -51,7 +51,8 @@ require(__DIR__ . '/../config/debug.global.php');
                 "https://dribbble.com/chriswatterston",
                 "https://twitter.com/chriswatterston",
                 "https://www.instagram.com/chriswatterston",
-                "https://www.youtube.com/@dripfeddesign"
+                "https://www.youtube.com/@dripfeddesign",
+                "https://mastodon.social/@chriswatterston"
             ],
             "address": {
                 "@type": "PostalAddress",
