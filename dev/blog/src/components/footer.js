@@ -107,7 +107,7 @@ const Footer = () => (
                   href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288"
                   target="_blank"
                   rel="noreferrer"
-                  title="Manage, pause or cancel your design subscription"
+                  title="Manage or cancel your design subscription"
                 >
                   Billing Portal<i class="_icon -arrow__r"></i>
                 </a>
