@@ -62,7 +62,7 @@
                     <li>
                         <p>
                             <i class="_icon -pause"></i>
-                            Pause or cancel anytime
+                            Cancel at anytime
                         </p>
                     </li>
                 </ul>

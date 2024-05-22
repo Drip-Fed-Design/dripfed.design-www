@@ -13,7 +13,7 @@ require(__DIR__ . '/inc/header.global.php');
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
         <h1 class="_text-align__center">Design & launch products <span class="_word-wrap">FAST</span> with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
         <p class="_text-align__center">Trusted partner for startups, agencies, & teams that need end-to-end product design & development resource FAST. We design and build products, with a ton of commitment, lower costs and less bureaucracy.</p>
-        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Launch Products FAST<span class="_icon -tick"></span>Proactive 1:1 Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>No commitments, pause or cancel anytime</p>
+        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Launch Products FAST<span class="_icon -tick"></span>Proactive 1:1 Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>No commitments, cancel anytime</p>
     </section>
     <? require(__DIR__ . '/inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
@@ -254,7 +254,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>Then weigh up the average salary of that full-time senior product designer, currently excess of £72k. Then stacked on top of that, you'll have pensions, bonuses, company NI, and other benefits (e.g. company car, gym membership, healthcare, etc).</p>
                             <p>In comparison, our monthly subscription would cost you at most £47,520 per year- that's an instant saving of £24,480!</p>
                             <p>And you're not even locked-in... SH*T!!</p>
-                            <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription, which you can pause or cancel anything.</p>
+                            <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription, which you can cancel at anything.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
                             <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
                         </div>
@@ -302,22 +302,21 @@ require(__DIR__ . '/inc/header.global.php');
                             <a data-cabin-event="FAQ / How to Manage Subscription" href="#manage-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>It's easy. We'll provide you access to a <a data-cabin-event="FAQ / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your unlimited design subscription, design as a service">billing portal</a>, powered by Stripe- for reassurance that everything is safe and secure!</p>
-                            <p>Within the portal, you'll be able to pause, cancel or upgrade your subscription at any time. This means if you enter a dry spell, you can pause your subscription until things pick up again. Super easy!</p>
+                            <p>It's easy. We'll provide you access to a <a data-cabin-event="FAQ / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage or cancel your unlimited design subscription, design as a service">billing portal</a>, powered by Stripe- for reassurance that everything is safe and secure!</p>
+                            <p>Within the portal, you'll be able to cancel or upgrade your subscription at any time. This means if you enter a dry spell, you can cancel (put on hold) your subscription until things pick up again. Super easy!</p>
                             <p>It's worth remembering subscriptions are paid upfront. Therefore, if you decide to cancel 10 days after your renewal, you'll still receive the same quality service for the remainder of the month.</p>
-                            <p>If you decide to pause your subscription, this change is immediate. This will results in any ongoing or active work to be immediately paused until the you decide to continue your subscription.</p>
                             <p>Please be conscious that an active subscription is required for us to work through your requests. If your subscription cycle unfortunately ends while you still have requests in queue, these requests will be put on hold.</p>
                         </div>
                     </article>
                     <article id="pause-or-cancel-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>When should I use pause vs. cancel with my subscription?</h4>
+                            <h4>When should I use cancel my subscription?</h4>
                             <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
-                            <p>To be honest, it's totally up to you.</p>
-                            <p>But for guidance, some clients pause subscriptions ahead of quiet periods or project budgets being confirmed. Pauses period tend to only last for a month or two.</p>
-                            <p>As for subscription cancellations, you should only proceed if you're certain our services are no longer required. If you decide to cancel your subscription, your Wrike account setup and all contained data will be removed after 3 months from your date of cancellation.</p>
+                            <p>The wildest thing is, it is completely up to you!</p>
+                            <p>But for guidance, some clients tend to cancel subscriptions ahead of quiet periods or project budgets being confirmed. These cancelled periods tend to only last for a month or two.</p>
+                            <p>As for indefinite cancellations, you should only proceed if you're certain our services are no longer required. If you decide to take this route, your Wrike account setup and all contained data will be removed after 3 months from your date of indefinite cancellation.</p>
                         </div>
                     </article>
                     <article id="how-to-make-request">
