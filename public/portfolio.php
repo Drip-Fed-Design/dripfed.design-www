@@ -2,7 +2,7 @@
 require('../inc/header.global.php');
 
 // Set the path to the directory containing images
-$directoryPath = '../dist/images/portfolio/';
+$directoryPath = 'dist/images/portfolio/';
 
 // Open the directory
 $dir = opendir($directoryPath);
