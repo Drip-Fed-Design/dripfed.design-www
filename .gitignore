@@ -2,6 +2,7 @@
 # config/vars.secret.php
 
 # Output LOGS data files
+/var/logs/
 /logs/*
 /logs/access_log
 /logs/error_log
@@ -11,8 +12,15 @@
 # /sitemap.xml
 # /sitemap.xml.gz
 
+# PHPUnit
+phpunit.xml
+
 # Composer
-vendor/*
+composer.phar
+/vendor/
+
+# Enviroment
+.env
 
 # SCSS
 .sass-cache/
