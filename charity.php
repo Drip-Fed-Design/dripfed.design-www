@@ -1,14 +1,4 @@
-<?
-// Enable export as flat file
-$htmlExporting = false;
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    ob_start();
-}
-
-require(__DIR__ . '/inc/header.global.php');
-?>
+<? require(__DIR__ . '/inc/header.global.php'); ?>
 <div class="<?= $globalPrefix; ?>-body-container _max-width__1280 _padding-top-bottom__large">
 
     <!-- <div class="<?= $globalPrefix; ?>-grid-container -column__half -charity -column-gap__default"> -->
@@ -96,13 +86,4 @@ require(__DIR__ . '/inc/header.global.php');
         </div> -->
     </div>
 </div>
-<?
-require(__DIR__ . '/inc/footer.global.php');
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    $dripfedHTML = ob_get_contents();
-    ob_end_clean();
-    file_put_contents('./dist/charity', $dripfedHTML);
-}
-?>
+<? require(__DIR__ . '/inc/footer.global.php'); ?>
