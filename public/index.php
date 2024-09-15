@@ -1,11 +1,11 @@
-<? require(__DIR__ . '/inc/header.global.php'); ?>
+<? require('../inc/header.global.php'); ?>
 <div class="<?= $globalPrefix; ?>-body-container">
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
         <h1 class="_text-align__center">Design & launch products <span class="_word-wrap">FAST</span> with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
         <p class="_text-align__center">Trusted partner for startups, agencies, & teams that need end-to-end product design & development resource FAST. We design and build products, with a ton of commitment, lower costs and less bureaucracy.</p>
         <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Launch Products FAST<span class="_icon -tick"></span>Proactive 1:1 Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>No commitments, cancel anytime</p>
     </section>
-    <? require(__DIR__ . '/inc/work.global.php'); ?>
+    <? require('../inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="_padding-bottom__large" id="anchor-gettingstarted">
             <h3 class="_text-align__center _padding-bottom__small">Start in as little as <span class="_word-wrap">60 seconds</span> 🚀</h3>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <? require(__DIR__ . '/inc/testimonial.global.php'); ?>
+    <? require('../inc/testimonial.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-cta-container _padding-top-bottom__xlarge _background-solid__black">
         <div class="<?= $globalPrefix; ?>-grid-container -column__third-cta -column-gap__xlarge">
             <div class="_pattern -long-l"></div>
@@ -229,7 +229,7 @@
             </ul>
         </div>
     </section>
-    <? require(__DIR__ . '/inc/pricing.global.php'); ?>
+    <? require('../inc/pricing.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-faq-container _background-solid__white _padding-top-bottom__xlarge">
         <div class="_max-width__1280">
             <h3 class="_font-colour__grey-dark _margin-bottom__large">Frequently <br />asked questions.</h3>
@@ -429,6 +429,6 @@
     </section>
 </div>
 <?
-require(__DIR__ . '/inc/contact.global.php');
-require(__DIR__ . '/inc/footer.global.php');
+require('../inc/contact.global.php');
+require('../inc/footer.global.php');
 ?>

@@ -1,4 +1,4 @@
-<? require(__DIR__ . '/inc/header.global.php'); ?>
+<? require('../inc/header.global.php'); ?>
 <div class="<?= $globalPrefix; ?>-body-container _max-width__1280 _padding-top-bottom__large">
 
     <!-- <div class="<?= $globalPrefix; ?>-grid-container -column__half -charity -column-gap__default"> -->
@@ -86,4 +86,4 @@
         </div> -->
     </div>
 </div>
-<? require(__DIR__ . '/inc/footer.global.php'); ?>
+<? require('../inc/footer.global.php'); ?>
