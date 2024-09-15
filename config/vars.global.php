@@ -34,7 +34,8 @@ $remainingSpotsPlus = 1;
 // } else {
 //     $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
 // }
-$globalDomainRoot = 'http://dripfed.design-www.dev-local/';
+// $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
+$globalDomainRoot = 'https://dripfed.design/';
 
 //
 // ------------------------------------------------------------
