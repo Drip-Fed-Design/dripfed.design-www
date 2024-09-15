@@ -30,11 +30,11 @@ $remainingSpotsPlus = 1;
 // ----------
 //
 // if (getenv('ENVIRONMENT_STATE') === 'production') {
-if ($htmlExporting === true) {
-    $globalDomainRoot = 'https://dripfed.design/';
-} else {
-    $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
-}
+//     $globalDomainRoot = 'https://dripfed.design/';
+// } else {
+//     $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
+// }
+$globalDomainRoot = 'http://dripfed.design-www.dev-local/';
 
 //
 // ------------------------------------------------------------

@@ -1,12 +1,4 @@
 <?php
-// Enable export as flat file
-$htmlExporting = false;
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    ob_start();
-}
-
 require(__DIR__ . '/inc/header.global.php');
 
 // Set the path to the directory containing images
@@ -42,7 +34,6 @@ closedir($dir);
 //     // return $a['height'] - $b['height'];
 // });
 ?>
-
 <section class="<?= $globalPrefix; ?>-portfolio-container _max-width__1280 _margin-top-bottom__large">
     <div class="<?= $globalPrefix; ?>-grid-container -column__portfolio">
         <?php
@@ -67,15 +58,7 @@ closedir($dir);
         ?>
     </div>
 </section>
-
 <?php
 require(__DIR__ . '/inc/contact.global.php');
 require(__DIR__ . '/inc/footer.global.php');
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    $dripfedHTML = ob_get_contents();
-    ob_end_clean();
-    file_put_contents('./dist/portfolio.html', $dripfedHTML);
-}
 ?>

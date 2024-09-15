@@ -1,14 +1,4 @@
-<?
-// Enable export as flat file
-$htmlExporting = false;
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    ob_start();
-}
-
-require(__DIR__ . '/inc/header.global.php');
-?>
+<? require(__DIR__ . '/inc/header.global.php'); ?>
 <div class="<?= $globalPrefix; ?>-body-container">
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
         <h1 class="_text-align__center">Design & launch products <span class="_word-wrap">FAST</span> with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
@@ -70,7 +60,7 @@ require(__DIR__ . '/inc/header.global.php');
                 <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
                 <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
                     <a data-cabin-event="CTA Upper / Plans" href="#anchor-designplans" class="__button -green" title="Find a unlimited design and development subscription that suits you" hreflang="en">Get started in just 60 seconds</a>
-                    <a data-cabin-event="CTA Upper / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design and development subscription and more" hreflang="en">Book a call</a>
+                    <a data-cabin-event="CTA Upper / Book Call" href="<?= $globalDomainRoot; ?>book-call" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited design and development subscription and more" hreflang="en">Book a call</a>
                 </div>
                 <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
             </div>
@@ -169,7 +159,7 @@ require(__DIR__ . '/inc/header.global.php');
     </section>
     <div class="<?= $globalPrefix; ?>-button-container _text-align__center">
         <a data-cabin-event="Content / Portfolio" href="<?= $globalDomainRoot; ?>portfolio" class="__button -orange" title="Explore design work completed for startups and creative agency <?= $globalTitle; ?>" hreflang="en">See our work</a>
-        <a data-cabin-event="Content / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -white" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" hreflang="en">Learn about our design subscription</a>
+        <a data-cabin-event="Content / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -white" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" hreflang="en">Learn about our design subscription</a>
     </div>
     <section class="<?= $globalPrefix; ?>-services-container _max-width__1280 _padding-top-bottom__large _margin-top-bottom__xlarge">
         <div class="__copy _padding-bottom__large _text-align__center _max-width__800">
@@ -258,7 +248,7 @@ require(__DIR__ . '/inc/header.global.php');
                             <p>And you're not even locked-in... SH*T!!</p>
                             <p>Finally, with a cherry on top, you'll have an added load of keeping that employee busy to gain your ROI. Unable to put their wage on pause for a month or two if things get a little quiet- unlike our design subscription, which you can cancel at anything.</p>
                             <p>We're here for individuals, startups, enterprises, and teams with a continuing need for design and growth.</p>
-                            <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" target="_blank" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
+                            <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
                         </div>
                     </article>
                     <article id="how-long-stay-subscribed">
@@ -441,11 +431,4 @@ require(__DIR__ . '/inc/header.global.php');
 <?
 require(__DIR__ . '/inc/contact.global.php');
 require(__DIR__ . '/inc/footer.global.php');
-
-// Exporting as flat file
-if ($htmlExporting === true) {
-    $dripfedHTML = ob_get_contents();
-    ob_end_clean();
-    file_put_contents('./dist/index.html', $dripfedHTML);
-}
 ?>
