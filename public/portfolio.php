@@ -1,8 +1,8 @@
 <?php
-require(__DIR__ . '/inc/header.global.php');
+require('../inc/header.global.php');
 
 // Set the path to the directory containing images
-$directoryPath = 'dist/images/portfolio/';
+$directoryPath = '../dist/images/portfolio/';
 
 // Open the directory
 $dir = opendir($directoryPath);
@@ -59,6 +59,6 @@ closedir($dir);
     </div>
 </section>
 <?php
-require(__DIR__ . '/inc/contact.global.php');
-require(__DIR__ . '/inc/footer.global.php');
+require('../inc/contact.global.php');
+require('../inc/footer.global.php');
 ?>
