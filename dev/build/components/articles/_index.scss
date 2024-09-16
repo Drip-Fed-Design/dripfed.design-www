@@ -11,13 +11,7 @@
 //
 .#{$prefix-name}-articles-container {
   article {
-    background-color: $colour-grey__light;
-    border-radius: $border-radius__content;
-    margin-bottom: 10px;
-    max-width: $column-one__800;
     padding: $spacing__small;
-    width: $column-one__800;
-    z-index: +1;
     @include mixinResponsive("mobile") {
       width: 100%;
     }
@@ -25,16 +19,60 @@
       color: $colour-primary__black;
     }
     p {
-      color: $colour-grey__dark;
+      text-wrap: pretty;
     }
-    .__answer {
-      display: none;
-      height: 0;
-      transition: all $transition-speed__default;
-      &.-show {
-        display: unset;
-        height: fit-content;
+    &.-question {
+      background-color: $colour-grey__light;
+      border-radius: $border-radius__content;
+      margin-bottom: 10px;
+      max-width: $column-one__800;
+      padding: $spacing__small;
+      width: $column-one__800;
+      z-index: +1;
+      p {
+        color: $colour-grey__dark;
+      }
+      .__answer {
+        display: none;
+        height: 0;
         transition: all $transition-speed__default;
+        &.-show {
+          display: unset;
+          height: fit-content;
+          transition: all $transition-speed__default;
+        }
+      }
+    }
+    &.-latest {
+      p {
+        a {
+          color: $colour-primary__green;
+          &:hover {
+            color: $colour-notification__green;
+          }
+        }
+      }
+      .__inline-image {
+        margin: $spacing__default 0;
+        padding-inline: $spacing__default;
+      }
+      ._post-date {
+        border-top: 1px solid $colour-primary__blue;
+        margin-top: $spacing__default;
+        padding-top: $spacing__default;
+      }
+      .__keywords {
+        margin-top: calc($spacing__small / 2);
+        li {
+          background-color: $colour-blue__trans;
+          border-radius: $border-radius__buttons;
+          display: inline-block;
+          font-size: $font-size__secondary;
+          margin-right: 2px;
+          margin-bottom: 2px;
+          padding: calc($spacing__small / 4) calc($spacing__small / 2);
+          color: $colour-grey__default;
+        }
       }
     }
   }

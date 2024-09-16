@@ -1,0 +1,27 @@
+{
+  "name": "chriswatterston/dripfeddesign",
+  "description": "Trusted partner for startups, agencies, and teams that need extra design and development resource. Launch products FAST with an unlimited design subscription",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Chris Watterston",
+      "email": "hello@dripfed.design"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "contentful/core": "^3.2",
+    "contentful/contentful": "^6.4",
+    "contentful/rich-text": "^3.4",
+    "icamys/php-sitemap-generator": "^4.4"
+  },
+  "scripts": {
+    "build-contentful-json": [
+      "php -q scripts/contentful.blog.php"
+    ],
+    "build-sitemap-xml": [
+      "php -q scripts/sitemap.build.php"
+    ]
+  }
+}

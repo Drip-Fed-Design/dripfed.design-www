@@ -4,7 +4,7 @@
         <div class="<?= $globalPrefix; ?>-grid-container -column__min-full -column-gap__small">
             <img loading="lazy" src="/dist/images/icon/icon-getshitdone-ani.gif" alt="Request designs with <?= $globalTitle; ?>" width="100px" height="100px" />
             <div class="__titles _text-align__left">
-                <h2><strong>One simple fee that'll get sh*t done!</strong></h2>
+                <h2><strong>One simple price that'll get it done!</strong></h2>
                 <h4 class="_font-colour__grey-dark">No surprises or hidden costs, just ongoing design and product build on tap.</h4>
             </div>
         </div>
@@ -77,11 +77,12 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Design Call" href="' . $globalDomainRoot . 'book-design" class="__button -orange _text-align__center" target="_blank"  title="Book a 20-min introduction call to a monthly unlimited design subscription today">Book a 20-min call</a>
-                            <a data-cabin-event="Subscribe / Design Start" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -aqua _text-align__center" target="_blank" title="Start your monthly unlimited design subscription now">Get started now</a>
+                            <a data-cabin-event="Subscribe / Design Call" href="' . $globalDomainRoot . 'book-design" class="__button -orange _text-align__center -wide" target="_blank"  title="Book a 20-min introduction call to a monthly unlimited design subscription today">Book a 20-min call</a>
+                            <!-- <a data-cabin-event="Subscribe / Design Start" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -aqua _text-align__center" target="_blank" title="Start your monthly unlimited design subscription now">Get started now</a> -->
                         ';
                     }
                     ?>
+                    <p class="_text-align__center _font-size__secondary">Alternatively, keep it casual and talk through <a href="https://wa.me/message/WFGVYT6SEWKJD1" title="Chat through WhatsApp" class="_font-size__secondary">WhatsApp</a>?</p>
                 </div>
             </div>
 
@@ -174,11 +175,12 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Plus Call" href="' . $globalDomainRoot . 'book-plus" class="__button -orange _text-align__center" target="_blank" title="Book a 20-min introduction call to a monthly unlimited design and build subscription today">Book a 20-min call</a>
-                            <a data-cabin-event="Subscribe / Plus Start" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -aqua _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription now">Get started now</a>
+                            <a data-cabin-event="Subscribe / Plus Call" href="' . $globalDomainRoot . 'book-plus" class="__button -aqua _text-align__center -wide" target="_blank" title="Book a 20-min introduction call to a monthly unlimited design and build subscription today">Book a 20-min call</a>
+                            <!-- <a data-cabin-event="Subscribe / Plus Start" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -aqua _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription now">Get started now</a> -->
                         ';
                     }
                     ?>
+                    <p class="_text-align__center _font-size__secondary">Alternatively, keep it casual and talk through <a href="https://wa.me/message/WFGVYT6SEWKJD1" title="Chat through WhatsApp" class="_font-size__secondary">WhatsApp</a>?</p>
                 </div>
             </div>
         </div>
@@ -186,7 +188,7 @@
             <div class="<?= $globalPrefix; ?>-grid-container -column__full-min -r -column-v__center -column-gap__large -column-row__default _margin-top-bottom__small">
                 <div class="__titles _text-align__left">
                     <h3 class="_font-colour__white-default">Interested in a one-time project only?</h3>
-                    <p class="_font-colour__white-default">If you have a project but feel it doesn't suit the plans above, let's have a quick chat. Alternatively, you can email us at <a data-cabin-event="One-Time Project / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about a one-time project for design and build" hreflang="en">hello@dripfed.design</a>. We respond fast!</p>
+                    <p class="_font-colour__white-default">If you have a project but feel it doesn't suit the plans above, let's have a quick chat. Alternatively, you can email us at <a data-cabin-event="One-Time Project / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about a one-time project for design and build" hreflang="en">hello@dripfed.design</a> or through <a href="https://wa.me/message/WFGVYT6SEWKJD1" title="Chat through WhatsApp">WhatsApp</a>. We respond fast!</p>
                 </div>
                 <div class="<?= $globalPrefix; ?>-button-container __talk">
                     <a data-cabin-event="One-Time Project / Talk" href="<?= $globalDomainRoot; ?>book-project" class="__button -aqua -wide _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription today, book a 20-min introduction call">Let's talk</a>

@@ -1,51 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<?
+require(__DIR__ . '/../config/vars.global.php');
+require(__DIR__ . '/../config/debug.global.php');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <meta content="True" name="HandheldFriendly" />
+// Local meta formatting
+$includeFullSchema = false;
+$includeShareSchema = false;
+$includeBackToHomepage = true;
+$articleMetaTitle = 'Terms & Conditions';
+$articleMetaPublishDate = date('now');
+$articleMetaUpdateDate = $articleMetaPublishDate;
+$articleMetaDesc = 'Our Terms & Conditions for Drip Fed Design services, design micro-agency with a design subscription model';
+$articleMetaKeywords = '';
+$articleMetaImage = $globalDomainRoot . 'dist/images/social/social-dripfed-design-sharing.jpg';
+$articleMetaUrl = 'termsconditions';
 
-    <title>Terms & Conditions for Drip Fed Design Services</title>
-    <meta name="description" content="Our Terms & Conditions for Drip Fed Design services, design micro-agency with a design subscription model." />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://dripfed.design/termsconditions" />
-
-    <link rel="apple-touch-icon" href="https://dripfed.design/dist/images/social/apple-touch-icon.png" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link rel="stylesheet" type="text/css" href="https://dripfed.design/dist/css/dfd.min.css">
-
-</head>
-
-<body id="home">
-    <main id="dfd-main-container">
-        <header class="dfd-header-container _max-width__1280">
-            <div class="dfd-grid-container -column__min-full -column-v__center">
-                <div class=" __logo">
-                    <a data-cabin-event="Header TermsConditions / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
-                        <img src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="240" height="130" />
-                    </a>
-                </div>
-                <nav class="__nav">
-                    <div class="dfd-nav-container">
-                        <div class="dfd-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
-                            <ul class="__links">
-                                <!-- <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li> -->
-                                <li><a data-cabin-event="Header TermsConditions / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design<i class="_icon -arrow__r"></i></a></li>
-                            </ul>
-                            <div class="__cta dfd-button-container">
-                                <a data-cabin-event="Header TermsConditions / Plans" href="https://dripfed.design/#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business">Find your design plan</a>
-                                <a data-cabin-event="Header TermsConditions / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with Drip Fed Design, find out about our unlimited digital design subscriptions design as a service">Let's chat</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header><div class="dfd-body-container">
-    
+require('../inc/header.article.php');
+?>
+<div class="dfd-body-container">
     <section class="dfd-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <h1>Terms of Service & Conditions</h1>
         <p><strong>Last updated:</strong> January 17, 2024</p>
@@ -56,10 +27,10 @@
         <h3>Acceptance of Work</h3>
         <p>No contract of service exists between the Client and us, until we receive either:</p>
         <p>
-            <ul style="margin-left:40px;">
-                <li>Written confirmation agreeing to the quoted or proposed Project, via email only;</li>
-                <li>Stripe confirmation of a new, or renewed subscription, with full payment received.</li>
-            </ul>
+        <ul style="margin-left:40px;">
+            <li>Written confirmation agreeing to the quoted or proposed Project, via email only;</li>
+            <li>Stripe confirmation of a new, or renewed subscription, with full payment received.</li>
+        </ul>
         </p>
         <p>Quotation or proposals received by the Client are valid for 14 days only, unless otherwise stated on the documentation.</p>
         <p>Any other services on the order, which have not been included in the subscription, quotation, proposal, or invoice, do not form part of the contract. The Client agrees to check the details of the subscription, quotation, proposal, or invoice are correct and should keeping a copy for their records.</p>
@@ -101,12 +72,12 @@
         <p>Within the period of that a Client has a valid and paid subscription, we reserve the right to propose a fair and proper timescale for us to complete each Project or Service request. The Client must recognise and accept that each Project or Service request submitted will be processed, actioned, completed and delivered one-by-one, or two-by-two, depending on the level of valid subscription, in date ascending order (oldest first).</p>
         <p>The client can prioritise a Project or Service request by written agreement by email, Wrike, or WhatsApp.</p>
         <p>The timescales that we allocate to each and every Project or Service request, will be from our professional and expert opinion, to ensure we provide the Client with the highest available standards of Project or Service delivery.</p>
-        
+
         <h3>Third-Party Fonts</h3>
         <p>In the event that any Project or Service incorporates third-party fonts that are not owned by the Client or us and require a commercial license in order for the Client to legally reproduce, distribute, or publicly display the Project or Service, we will inform Client in writing that one or more third-party fonts have been incorporated into the Project or Service and that Client will need to purchase one or more licenses for the third-party fonts from the original holder of rights of the third-party fonts in order to legally reproduce, distribute, or publicly display the Project or Service.</p>
         <p>We will make it a priorty to ensure we use third-party font providers on any Project or Service, such as Google Fonts, where a commercial license is not required.</p>
         <p>We will provide information sufficient for Client to identify which licenses are required and who to contact in order to purchase third-party font licenses. After the Client has received written informed from us of the incorporation of third-party fonts as described above, Client holds self-accountable for all responsibility for any consequences as a result of a failure by Client to purchase one or more licenses for any third-party fonts incorporated into a Project or Service.</p>
-        
+
         <h3>Web Browsers</h3>
         <p>We shall make every effort to ensure any Project or Service which involves web development technologies, will be compatible by the majority of its users. These will be designed and developed to work with the main browsers; Edge, Google Chrome, Mozilla Firefox and Safari. The Client agrees that we cannot guarantee correct functionality with all browser software across different operating systems and devices.</p>
         <p>The Client agrees that after the written handover of Project or Service, any updated software versions of the main browsers; Edge, Google Chrome, Mozilla Firefox and Safari, domain name setup changes or hosting setup changes thereafter may affect the functionality and display of the web developed Project or Service. As such, we reserve the right to quote or invoice for any work involved in changing the web developed Project or Service for it to work with updated browser software, domain name or hosting.</p>
@@ -147,12 +118,12 @@
         <h3>Privacy Policy</h3>
         <p>We and any third-party associates shall use information provided by the Client in relation to this agreement in accordance with the Data Protection Act 1998 and also for the following purposes:</p>
         <p>
-            <ul style="margin-left:40px;">
-                <li>To identify the Client in communications with them;</li>
-                <li>To contact the Client from time to time to offer them services or products which may be of interest to or benefit the Client.</li>
-            </ul>
+        <ul style="margin-left:40px;">
+            <li>To identify the Client in communications with them;</li>
+            <li>To contact the Client from time to time to offer them services or products which may be of interest to or benefit the Client.</li>
+        </ul>
         </p>
-        
+
         <h3>Interpretation</h3>
         <p>We reserve the right to terminate a Project or Service with a Client at any time without prior notification if it finds the Client in breach of these Terms of Service and Conditions. We shall be the sole arbiter in deciding what constitutes a breach. No refunds are given in such a situation. This agreement shall be governed by the laws of England and Wales which shall claim venue and jurisdiction for any legal motion or claim arising from this agreement. This agreement is void where prohibited by law.</p>
         <p>Where one or more terms of this contract are held to be void or unenforceable for whatever reason, any other terms of the contract not so held will remain valid and enforceable at law. Any and all matters pursuant to this agreement are governed by English Law and are under exclusive jurisdiction of the English Courts.</p>
@@ -163,62 +134,8 @@
         <h3>Contact Us</h3>
         <p>If you have any questions about this Terms of Service and Conditions, please contact us at <a href="mailto:hello@dripfed.design" title="Contact Drip Fed Ltd">hello@dripfed.design</a>.</p>
     </section>
-    <section class="dfd-cta-container _padding-top-bottom__xlarge _background-solid__black">
-        <div class="dfd-grid-container -column__third-cta -column-gap__xlarge">
-            <div class="_pattern -long-l"></div>
-            <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
-                <div class="dfd-button-container _text-align__center">
-                    <a data-cabin-event="CTA TermsConditions / Plans" href="https://dripfed.design/#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
-                    <a data-cabin-event="CTA TermsConditions / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with Drip Fed Design, find out about our unlimited design subscription and more">Book a call</a>
-                </div>
-                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
-            </div>
-            <div class="_pattern -long-r"></div>
-        </div>
-    </section>
-    <footer class="dfd-footer-container _max-width__1280 _padding-top-bottom__xlarge">
-        <div class="dfd-grid-container -column__half">
-            <div class="__logo">
-                <a data-cabin-event="Footer / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
-                    <img loading="lazy" src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="309px" height="130px" />
-                </a>
-            </div>
-            <nav class="__nav">
-                <div class="dfd-grid-container -column__half">
-                    <ul class="_text-align__right">
-                        <li><a data-cabin-event="Footer / Blog" href="https://dripfed.design/blog" title="Take a look at our latest work, thoughts, and updates">Blog & Work Updates<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Get Started" href="https://dripfed.design/#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Plans" href="https://dripfed.design/#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Contact" href="https://dripfed.design/#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage or cancel your unlimited design subscription, design as a service">Billing Portal<i class="_icon -arrow__r"></i></a></li>
-                    </ul>
-                    <div class="_text-align__right">
-                        <div class="__cta dfd-button-container">
-                            <a data-cabin-event="CTA Footer / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate unlimited design requests, design as a service">Log In</a>
-                        </div>
-                        <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Terms Conditions" href="https://dripfed.design/termsconditions" title="Terms of Service and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
-                            <li><a data-cabin-event="Footer / Terms" href="https://dripfed.design/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
-                            <li><a data-cabin-event="Footer / Privacy" href="https://dripfed.design/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="__copyright">
-            <p>Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.</p>
-            <p class="_font-size__secondary">© 2024 Drip Fed Ltd. Company Number: 14871237</p>
-        </div>
-    </footer>
-    </main>
-
-    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
-
-    </body>
-
-    </html>
+</div>
+<?
+require('../inc/contact.global.php');
+require('../inc/footer.global.php');
+?>

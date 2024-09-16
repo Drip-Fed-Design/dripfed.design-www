@@ -1,51 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<?
+require(__DIR__ . '/../config/vars.global.php');
+require(__DIR__ . '/../config/debug.global.php');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <meta content="True" name="HandheldFriendly" />
+// Local meta formatting
+$includeFullSchema = false;
+$includeShareSchema = false;
+$includeBackToHomepage = true;
+$articleMetaTitle = 'Terms of Use';
+$articleMetaPublishDate = date('now');
+$articleMetaUpdateDate = $articleMetaPublishDate;
+$articleMetaDesc = 'Our website Terms of Use for Drip Fed Design, design micro-agency with a design subscription model';
+$articleMetaKeywords = '';
+$articleMetaImage = $globalDomainRoot . 'dist/images/social/social-dripfed-design-sharing.jpg';
+$articleMetaUrl = 'terms';
 
-    <title>Terms of Use for Drip Fed Design</title>
-    <meta name="description" content="Our website Terms of Use for Drip Fed Design, design micro-agency with a design subscription model." />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://dripfed.design/terms" />
-
-    <link rel="apple-touch-icon" href="https://dripfed.design/dist/images/social/apple-touch-icon.png" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link rel="stylesheet" type="text/css" href="https://dripfed.design/dist/css/dfd.min.css">
-
-</head>
-
-<body id="home">
-    <main id="dfd-main-container">
-        <header class="dfd-header-container _max-width__1280">
-            <div class="dfd-grid-container -column__min-full -column-v__center">
-                <div class=" __logo">
-                    <a data-cabin-event="Header TermsOfUse / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
-                        <img src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="240" height="130" />
-                    </a>
-                </div>
-                <nav class="__nav">
-                    <div class="dfd-nav-container">
-                        <div class="dfd-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
-                            <ul class="__links">
-                                <!-- <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li> -->
-                                <li><a data-cabin-event="Header TermsOfUse / Learn More" href="https://dripfed.design/blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design<i class="_icon -arrow__r"></i></a></li>
-                            </ul>
-                            <div class="__cta dfd-button-container">
-                                <a data-cabin-event="Header TermsOfUse / Plans" href="https://dripfed.design/#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business">Find your design plan</a>
-                                <a data-cabin-event="Header TermsOfUse / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with Drip Fed Design, find out about our unlimited digital design subscriptions design as a service">Let's chat</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header><div class="dfd-body-container">
-    
+require('../inc/header.article.php');
+?>
+<div class="dfd-body-container">
     <section class="dfd-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <h1>Terms of Use</h1>
         <p><strong>Last updated:</strong> January 17, 2024</p>
@@ -62,12 +33,12 @@
         <h3>Use of Services</h3>
         <p>You may use our Services only for lawful purposes and in accordance with these Terms. You may not use our Services:</p>
         <p>
-            <ul style="margin-left:40px;">
-                <li>In any way that violates any applicable federal, state, local, or international law or regulation;</li>
-                <li>To transmit any unsolicited or unauthorised advertising or promotional material, including spam;</li>
-                <li>To impersonate or attempt to impersonate us, our employees, another user, or any other person or entity;</li>
-                <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of our Services, or which, as determined by us, may harm us or users of our Services or expose them to liability.</li>
-            </ul>
+        <ul style="margin-left:40px;">
+            <li>In any way that violates any applicable federal, state, local, or international law or regulation;</li>
+            <li>To transmit any unsolicited or unauthorised advertising or promotional material, including spam;</li>
+            <li>To impersonate or attempt to impersonate us, our employees, another user, or any other person or entity;</li>
+            <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of our Services, or which, as determined by us, may harm us or users of our Services or expose them to liability.</li>
+        </ul>
         </p>
 
         <h3>General Conditions</h3>
@@ -113,84 +84,29 @@
 
         <h3>Intellectual Property</h3>
         <p>All content included on our website and in our Services, including text, graphics, logos, branding, images, audio clips, digital downloads, and data compilations, is the property of our or its licensors and is protected by English Law, exclusive jurisdiction of the English Courts, and international copyright laws.</p>
-        
+
         <h3>Limitation of Liability</h3>
         <p>In no event shall we, its affiliates, or their respective officers, directors, employees, agents, or licensors be liable for any direct, indirect, punitive, incidental, special, or consequential damages arising out of or in any way connected with the use of our Services, whether based on contract, tort, strict liability, or any other theory of liability.</p>
-        
+
         <h3>Disclaimer of Warranties</h3>
         <p>Our Services are provided “as is” and without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose.</p>
-        
+
         <h3>Indemnification</h3>
         <p>You agree to indemnify and hold us harmless, its affiliates, and their respective officers, directors, employees, agents, and licensors from and against any and all claims, damages, costs, and expenses, including attorneys' fees, arising from or related to your use of our Services or any breach of these Terms.</p>
-        
+
         <h3>Termination</h3>
         <p>We may terminate your access to our Services at any time, without notice or liability, for any reason, including if you breach these Terms.</p>
-        
+
         <h3>Governing Law</h3>
         <p>These Terms and any disputes arising from or related to these Terms shall be governed by and construed in accordance with the laws of the Country of United Kingdom, without regard to its conflict of law principles.</p>
-        
+
         <h3>Changes to These Terms</h3>
         <p>We reserve the right to alter these Terms of Use at any time without prior notice, the latest terms can be found linked at the bottom of our website or <a href="https://dripfed.design/terms" title="Terms of Use">https://dripfed.design/terms</a>, with a date of last update.</p>
-        
+
         <h3>Contact Us</h3>
         <p>If you have any questions about this Terms of Use, please contact us at <a href="mailto:hello@dripfed.design" title="Contact Drip Fed Ltd">hello@dripfed.design</a>.</p>
     </section>
-    <section class="dfd-cta-container _padding-top-bottom__xlarge _background-solid__black">
-        <div class="dfd-grid-container -column__third-cta -column-gap__xlarge">
-            <div class="_pattern -long-l"></div>
-            <div class="_padding-top-bottom__default">
-                <h4 class="_text-align__center _padding-bottom__small">Start building digital products & <strong>SAVE £24,480</strong><sup class="_font-colour__grey-default">*</sup></h4>
-                <div class="dfd-button-container _text-align__center">
-                    <a data-cabin-event="CTA TermsOfUse / Plans" href="https://dripfed.design/#anchor-designplans" class="__button -green" title="Find a unlimited design subscription and design as a service that suits you">Sign up in just 60 seconds</a>
-                    <a data-cabin-event="CTA TermsOfUse / Book Call" href="https://dripfed.design/book" target="_blank" class="__button -white" title="Book an introduction call with Drip Fed Design, find out about our unlimited design subscription and more">Book a call</a>
-                </div>
-                <p class="_text-align__center _font-size__secondary _font-colour__grey-default">*compared to an avg. salary of a full-time senior product designer (exc. development).</p>
-            </div>
-            <div class="_pattern -long-r"></div>
-        </div>
-    </section>
-    <footer class="dfd-footer-container _max-width__1280 _padding-top-bottom__xlarge">
-        <div class="dfd-grid-container -column__half">
-            <div class="__logo">
-                <a data-cabin-event="Footer / Logo" href="https://dripfed.design/" title="Digital design micro-agency with a design subscription model. Providing valued design work, with commitment and personality, lower costs and less bureaucracy.">
-                    <img loading="lazy" src="https://dripfed.design/dist/images/brand/brand-dripfed-design-logo-full.svg" alt="Drip Fed Design Subscription brand logo" width="309px" height="130px" />
-                </a>
-            </div>
-            <nav class="__nav">
-                <div class="dfd-grid-container -column__half">
-                    <ul class="_text-align__right">
-                        <li><a data-cabin-event="Footer / Blog" href="https://dripfed.design/blog" title="Take a look at our latest work, thoughts, and updates">Blog & Work Updates<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Get Started" href="https://dripfed.design/#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Plans" href="https://dripfed.design/#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Contact" href="https://dripfed.design/#home" class="triggerForm" title="Reach out to Drip Fed Design through our short and easy contact form">Contact Us<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage, pause or cancel your unlimited design subscription, design as a service">Billing Portal<i class="_icon -arrow__r"></i></a></li>
-                    </ul>
-                    <div class="_text-align__right">
-                        <div class="__cta dfd-button-container">
-                            <a data-cabin-event="CTA Footer / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate unlimited design requests, design as a service">Log In</a>
-                        </div>
-                        <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Terms Conditions" href="https://dripfed.design/termsconditions" title="Terms and Conditions for Drip Fed Design Subscription">Terms & Conditions</a></li>
-                            <li><a data-cabin-event="Footer / Terms" href="https://dripfed.design/terms" title="Terms of Use for Drip Fed Design">Terms of Use</a></li>
-                            <li><a data-cabin-event="Footer / Privacy" href="https://dripfed.design/privacy" title="Privacy policy for Drip Fed Design">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="__copyright">
-            <p>Made with <i class="_icon -heart"></i> from our HQ in Surrey, England.</p>
-            <p class="_font-size__secondary">© 2024 Drip Fed Ltd. Company Number: 14871237</p>
-        </div>
-    </footer>
-    </main>
-
-    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
-
-    </body>
-
-    </html>
+    <?
+    require('../inc/contact.global.php');
+    require('../inc/footer.global.php');
+    ?>

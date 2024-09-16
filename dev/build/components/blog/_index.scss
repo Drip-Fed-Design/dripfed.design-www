@@ -22,23 +22,8 @@
     padding-left: $spacing__small;
     padding-right: $spacing__small;
   }
-  & > .__intro > .__title > h1 {
+  .__title {
     margin-bottom: $spacing__default;
-  }
-  .__listing,
-  .__article {
-    .__tags {
-      text-align: right;
-      span {
-        background-color: $colour-blue__trans;
-        border-radius: $border-radius__buttons;
-        display: inline-block;
-        font-size: $font-size__secondary;
-        margin-left: calc($spacing__small / 5);
-        padding: calc($spacing__small / 4) calc($spacing__small / 2);
-        color: $colour-grey__default;
-      }
-    }
   }
   .__listing {
     ul,
@@ -47,21 +32,41 @@
       padding: 0;
       list-style: none;
     }
+    ul.#{$prefix-name}-grid-container > li {
+      &:hover {
+        opacity: $opacity-hover__default;
+      }
+    }
     img {
       border-radius: $border-radius__buttons;
     }
     .__desc {
       p {
         color: $colour-grey__default;
+        margin-bottom: calc($spacing__small / 2);
+        margin-top: 0;
       }
     }
     .__date {
       color: $colour-primary__green;
     }
+    .__keywords {
+      margin-top: calc($spacing__small / 2);
+      li {
+        background-color: $colour-blue__trans;
+        border-radius: $border-radius__buttons;
+        display: inline-block;
+        font-size: $font-size__tiny;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        padding: calc($spacing__small / 4) calc($spacing__small / 2);
+        color: $colour-grey__default;
+      }
+    }
     h2 {
       font-size: $font-size__heading-3;
       font-weight: $font-weight__medium;
-      line-height: calc($font-size__heading-3 + 15px);
+      line-height: calc($font-size__heading-3 + 6px);
       padding-top: $spacing__small;
       @include mixinResponsive("mobile") {
         font-size: calc($font-size__heading-3 - 0.2rem);

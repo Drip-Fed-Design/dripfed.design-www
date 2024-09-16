@@ -3,12 +3,24 @@
 // ------------------------------------------------------------
 // ------------------------------------------------------------
 // ------------------------------------------------------------
+// ---------- ENVIRONMENT ----------
+// ----------
+// ----------
+//
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..');
+$dotenv->load();
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
 // ---------- GENERIC ----------
 // ----------
 // ----------
 //
-$globalPrefix = 'dfd';
-$globalVersion = '1.0';
+$globalPrefix = getenv('CSS_PREFIX');
 
 //
 // ------------------------------------------------------------
@@ -29,13 +41,21 @@ $remainingSpotsPlus = 1;
 // ----------
 // ----------
 //
-// if (getenv('ENVIRONMENT_STATE') === 'production') {
-//     $globalDomainRoot = 'https://dripfed.design/';
-// } else {
-//     $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
-// }
-// $globalDomainRoot = 'http://dripfed.design-www.dev-local/';
-$globalDomainRoot = 'https://dripfed.design/';
+$globalDomainRoot = getenv('DOMAIN_URL');
+$globalDomainContentful = 'https://cdn.contentful.com/';
+$globalDomainContentfulImg = 'https://images.ctfassets.net/';
+
+//
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ------------------------------------------------------------
+// ---------- CONTENTFUL ----------
+// ----------
+// ----------
+//
+$spaceId = getenv('CONTENTFUL_ID');
+$accessToken = getenv('CONTENTFUL_TOKEN');
+$environmentId = 'master';
 
 //
 // ------------------------------------------------------------

@@ -19,6 +19,7 @@ $font-family__headings: $font-family__primary;
 
 $font-size__primary: 17px; // 1rem = 16px
 $font-size__secondary: 0.833rem; // 15px
+$font-size__tiny: 0.72rem; // 10px
 
 $font-size__heading-1: 2.2rem;
 $font-size__heading-2: 2rem;
@@ -100,6 +101,8 @@ $border-radius__default: 35px;
 $border-radius__circle: 50%;
 
 $transition-speed__default: 0.2s;
+
+$opacity-hover__default: 0.8;
 
 //
 // ------------------------------------------------------------

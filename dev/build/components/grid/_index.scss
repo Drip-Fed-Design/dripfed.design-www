@@ -53,7 +53,7 @@
 
   // 3 columns
   &.-column__third {
-    grid-template-columns: repeat(3, 1fr [col-start]);
+    grid-template-columns: repeat(3, 1fr);
     @include mixinResponsive("mobile") {
       grid-template-columns: 1fr;
     }

@@ -235,7 +235,7 @@
             <h3 class="_font-colour__grey-dark _margin-bottom__large">Frequently <br />asked questions.</h3>
             <div class="<?= $globalPrefix; ?>-articles-container _margin-bottom__default">
                 <div class="<?= $globalPrefix; ?>-grid-container -column-h__center">
-                    <article id="just-employ-a-designer">
+                    <article class="-question" id="just-employ-a-designer">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Why wouldn't I just employ a full-time designer, or developer?</h4>
                             <a data-cabin-event="FAQ / Just Employee a Designer" href="#just-employ-a-designer" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -251,7 +251,7 @@
                             <p>We've expanded more on our design subscription within our blog, covering <a data-cabin-event="FAQ / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" class="__button -green" title="What is a design subscriptions and how does a design subscription work" hreflang="en">what is a design subscription, how it works, and the benefits</a>.</p>
                         </div>
                     </article>
-                    <article id="how-long-stay-subscribed">
+                    <article class="-question" id="how-long-stay-subscribed">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How long do I stay subscribed for?</h4>
                             <a data-cabin-event="FAQ / Stay Subscribed" href="#how-long-stay-subscribed" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -262,7 +262,7 @@
                             <p><a data-cabin-event="FAQ / Development" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a> to find out more.</p>
                         </div>
                     </article>
-                    <article id="how-quick-will-request-be-completed">
+                    <article class="-question" id="how-quick-will-request-be-completed">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How quick will my requests be completed?</h4>
                             <a data-cabin-event="FAQ / How Quick to Complete Requests" href="#how-quick-will-request-be-completed" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -279,7 +279,7 @@
                             <p>Furthermore, don't forget you'll be provided with progress updates throughout every task and project stage, proactively, with potential realtime design access.</p>
                         </div>
                     </article>
-                    <article id="limit-on-requests">
+                    <article class="-question" id="limit-on-requests">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Is there a limit on requests?</h4>
                             <a data-cabin-event="FAQ / Request Limits" href="#limit-on-requests" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -288,7 +288,7 @@
                             <p>No. Once you've subscribed, you can submit as many design requests as you'd like. Each request will be delivered in turn.</p>
                         </div>
                     </article>
-                    <article id="manage-my-subscription">
+                    <article class="-question" id="manage-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I manage my subscription?</h4>
                             <a data-cabin-event="FAQ / How to Manage Subscription" href="#manage-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -300,7 +300,7 @@
                             <p>Please be conscious that an active subscription is required for us to work through your requests. If your subscription cycle unfortunately ends while you still have requests in queue, these requests will be put on hold.</p>
                         </div>
                     </article>
-                    <article id="pause-or-cancel-my-subscription">
+                    <article class="-question" id="pause-or-cancel-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>When should I use cancel my subscription?</h4>
                             <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -311,7 +311,7 @@
                             <p>As for indefinite cancellations, you should only proceed if you're certain our services are no longer required. If you decide to take this route, your Wrike account setup and all contained data will be removed after 3 months from your date of indefinite cancellation.</p>
                         </div>
                     </article>
-                    <article id="how-to-make-request">
+                    <article class="-question" id="how-to-make-request">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>How do I make and submit a request?</h4>
                             <a data-cabin-event="FAQ / How to Make Request" href="#how-to-make-request" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -322,7 +322,7 @@
                             <p>Wrike also supports an array of file formats, writing styles, and third-part connections. Therefore if you have a preferred format of submitting requests, we're open to the idea. Flexibility is nice, just as long as it's recorded and accessible within Wrike.</p>
                         </div>
                     </article>
-                    <article id="what-to-expect-in-wrike">
+                    <article class="-question" id="what-to-expect-in-wrike">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What should I expect when I receive my Wrike access?</h4>
                             <a data-cabin-event="FAQ / Expect in Wrike Access" href="#what-to-expect-in-wrike" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -335,7 +335,7 @@
                             <p>- <strong>Docs & Files:</strong> This area can be found within the previously mentioned '01. Request Table' tool. It provides a birds eye view of all the attachments shared within all requests. Things such as brand guidelines, NDAs, copy, or photograph. A home for all kinds of documents, files, images, and spreadsheets- it makes everything so easy to find.</p>
                         </div>
                     </article>
-                    <article id="dont-like-the-design">
+                    <article class="-question" id="dont-like-the-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What happens if I don't like the design?</h4>
                             <a data-cabin-event="FAQ / If I Dont Like Design" href="#dont-like-the-design" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -345,7 +345,7 @@
                             <p>We aim for 100% satisfaction.</p>
                         </div>
                     </article>
-                    <article id="web-development-or-coding-included">
+                    <article class="-question" id="web-development-or-coding-included">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What is the Plus+ subscription, does it include web development?</h4>
                             <a data-cabin-event="FAQ / Is Web Dev Included" href="#web-development-or-coding-included" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -359,7 +359,7 @@
                             <p>Want to know more? <a data-cabin-event="FAQ / Development" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a>.</p>
                         </div>
                     </article>
-                    <article id="web-development-languages-support">
+                    <article class="-question" id="web-development-languages-support">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What web development languages are supported?</h4>
                             <a data-cabin-event="FAQ / Web Dev Lang" href="#web-development-languages-support" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -380,7 +380,7 @@
                             <p>Want to know more? <a data-cabin-event="FAQ / Dev Capabilities" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">Reach out to us</a>.</p>
                         </div>
                     </article>
-                    <article id="any-refunds">
+                    <article class="-question" id="any-refunds">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Are there any refunds?</h4>
                             <a data-cabin-event="FAQ / Any Refunds" href="#any-refunds" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -391,7 +391,7 @@
                             <p>If you any reason you feel unsatisfied by our service, let us know so we can do our best to support.</p>
                         </div>
                     </article>
-                    <article id="what-software-or-service-use">
+                    <article class="-question" id="what-software-or-service-use">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>What software or services do you use?</h4>
                             <a data-cabin-event="FAQ / What Software Services" href="#what-software-or-service-use" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -400,7 +400,7 @@
                             <p>We spend most of our time using Figma for design, VSCode/Github for code, Wrike for project management, and Slack or WhatsApp for communication.</p>
                         </div>
                     </article>
-                    <article id="will-pricing-change-or-additional-costs">
+                    <article class="-question" id="will-pricing-change-or-additional-costs">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Will the pricing change or are there any additional costs?</h4>
                             <a data-cabin-event="FAQ / Price Changes or Additional Costs" href="#will-pricing-change-or-additional-costs" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
@@ -410,7 +410,7 @@
                             <p>Although it is possible for additional costs to surface, but definitely not without written prior agreement. An example of an additional cost, could be the purchase of a third-party fonts, site hosting, and domain setup, etc.</p>
                         </div>
                     </article>
-                    <article id="whos-is-drip-fed-design">
+                    <article class="-question" id="whos-is-drip-fed-design">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
                             <h4>Who's behind Drip Fed Design?</h4>
                             <a data-cabin-event="FAQ / Who runs Drip Fed" href="#whos-is-drip-fed-design" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>

@@ -51,62 +51,6 @@
 
     <? require(__DIR__ . '/../config/analytics.global.php'); ?>
 
-    <script>
-        // FAQ
-        function toggleFAQ(e) {
-            e.closest("article").querySelector(".__answer").classList.toggle("-show")
-        }
-        var triggerFAQ = document.querySelectorAll(".triggerFAQ");
-        triggerFAQ.forEach(function(e) {
-            e.addEventListener("click", function() {
-                toggleFAQ(this)
-            })
-        });
-
-        // Form toggle
-        function toggleFormClass() {
-            var formTarget = document.getElementById('triggerFormTarget');
-            formTarget.classList.toggle('__show');
-        }
-        var triggerLinks = document.getElementsByClassName('triggerForm');
-        for (var i = 0; i < triggerLinks.length; i++) {
-            triggerLinks[i].addEventListener('click', toggleFormClass);
-        }
-
-        // Form toggle
-        function togglePromptClass() {
-            var promptTarget = document.getElementById('triggerPromptTarget');
-            promptTarget.classList.toggle('__hide');
-            promptTarget.classList.add('__active');
-        }
-        var triggerLinksPro = document.getElementsByClassName('triggerPrompt');
-        for (var i = 0; i < triggerLinksPro.length; i++) {
-            triggerLinksPro[i].addEventListener('click', togglePromptClass);
-        }
-
-        // Output time of chat
-        function displayCT() {
-            var e = new Date,
-                t = e.getHours(),
-                n = e.getMinutes();
-            e.getSeconds(), document.getElementById("current-time").textContent = t + ":" + n
-        }
-        window.addEventListener("load", displayCT);
-
-        // Scrolling anchors
-        document.addEventListener("DOMContentLoaded", function() {
-            for (var e = document.querySelectorAll('a[href^="#"]'), t = 0; t < e.length; t++) e[t].addEventListener("click", smoothScroll)
-        });
-
-        function smoothScroll(e) {
-            e.preventDefault();
-            var t = this.getAttribute("href");
-            document.querySelector(t).scrollIntoView({
-                behavior: "smooth"
-            })
-        }
-    </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">

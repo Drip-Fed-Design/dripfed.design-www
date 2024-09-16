@@ -6,13 +6,13 @@
     {
       "label": "PRODUCTION site - Compressed",
       "type": "shell",
-      "command": "sass --watch ./dev/build/_core.scss:./dist/css/dfd.min.css --no-source-map --style compressed;",
+      "command": "sass --watch ./dev/build/_core.scss:./public/dist/css/dfd.min.css --no-source-map --style compressed;",
       "problemMatcher": []
     },
     {
       "label": "OVERRIDE site - Compressed",
       "type": "shell",
-      "command": "sass --watch ./dev/build/_core.scss:./dripfed.design-www.dev-local/dist/css/dfd.min.css --no-source-map --style compressed;",
+      "command": "sass --watch ./dev/build/_core.scss:./dripfed.design-www.dev-local/public/dist/css/dfd.min.css --no-source-map --style compressed;",
       "problemMatcher": []
     },
     {
@@ -22,15 +22,15 @@
       "problemMatcher": []
     },
     {
-      "label": "BUILD blog - Gatsby",
+      "label": "Contentful - JSON Refresh",
       "type": "shell",
-      "command": "cd ./dev/blog && gatsby build --prefix-paths",
+      "command": "composer build-contentful-json;",
       "problemMatcher": []
     },
     {
-      "label": "DEVELOP blog - Gatsby",
+      "label": "Sitemap - XML Refresh",
       "type": "shell",
-      "command": "cd ./dev/blog && gatsby develop --prefix-paths",
+      "command": "composer build-sitemap-xml;",
       "problemMatcher": []
     }
   ]
