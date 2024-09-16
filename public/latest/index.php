@@ -36,7 +36,7 @@ require(__DIR__ . '/../../inc/header.article.php');
                 foreach ($jsonContentOutput as $k => $v) {
                     echo '
                             <li>
-                                <a href="/latest/article?title=' . $v['articleUrlSlug'] . '" data-cabin-event="Listing / Article" class="_hidden" title="' . $v['articleTitle'] . '">
+                                <a href="/latest/' . $v['articleUrlSlug'] . '" data-cabin-event="Listing / Article" class="_hidden" title="' . $v['articleTitle'] . '">
                                     <img src="' . $v['articleHeroImage']['fields']['file']['url'] . '" alt="' . $v['articleHeroImage']['fields']['title'] . '" title="' . $v['articleHeroImage']['fields']['title'] . '" width="100%" height="auto" />
                                     <h2>' . $v['articleTitle'] . '</h2>
                                     <div class="__desc">' . $v['articleDescription'] . '</div>

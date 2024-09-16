@@ -11,10 +11,10 @@
   "minimum-stability": "stable",
   "require": {
     "vlucas/phpdotenv": "^5.6",
-    "contentful/core": "^3.2",
-    "contentful/contentful": "^6.4",
-    "contentful/rich-text": "^3.4",
-    "icamys/php-sitemap-generator": "^4.4"
+    "contentful/core": "^4.0",
+    "contentful/contentful": "^7.1",
+    "contentful/rich-text": "^4.0",
+    "icamys/php-sitemap-generator": "^5.0"
   },
   "scripts": {
     "build-contentful-json": [
