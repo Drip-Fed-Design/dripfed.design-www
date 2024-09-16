@@ -19,4 +19,8 @@
     margin: 0;
     padding: 0;
   }
+  .__links {
+    display: inline-flex;
+    column-gap: $spacing__small;
+  }
 }

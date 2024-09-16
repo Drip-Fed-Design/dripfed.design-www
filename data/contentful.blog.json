@@ -1,0 +1,2295 @@
+[
+    {
+        "articleTitle": "McDonalds MONOPOLY campaign design & seamless consumer engagement",
+        "articleUrlSlug": "mcdonalds-monopoly-campaign-design-and-seamless-consumer-engagement",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1z6IxFFjQNYEzrTQmjFtLy",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-09-12T14:22:22.375Z",
+                "updatedAt": "2024-09-12T14:22:22.375Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "McDonald's iconic MONOPOLY campaign is turning 18, with seamless consumer engagement at its finest",
+                "file": {
+                    "fileName": "dfd-post-header-mcdonald-monopoly-campaign-2024.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 79703,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1z6IxFFjQNYEzrTQmjFtLy\/bb49254970355468fa2c90a06b4818d8\/dfd-post-header-mcdonald-monopoly-campaign-2024.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-09-16T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "Digital Innovation",
+            "Customer Engagement",
+            "User Experience",
+            "McDonalds MONOPOLY",
+            "Marketing Campaign"
+        ],
+        "articleDescription": "<p>The 2024 campaign design blends physical peel-off with digital wins. Bold neon design and app integration, seamless UX, consumer engagement, and it&#039;s turned 18!<\/p>",
+        "articleBody": "<p>I know, right. McDonald&#039;s has been running their iconic Monopoly marketing campaign for 18 long years. Although, it doesn&#039;t feel like that many years, does it. It kind of feels like having a kid, blinking, and they are now turning into an adult.<\/p><p>For 2024, <a href=\"https:\/\/monopoly.mcdonalds.co.uk\/\" title=\"\">McDonald&#039;s and MONOPOLY have supercharged the campaign<\/a> - by introducing &quot;Power Peel&quot;. Power Peel adds to the mouth watering campaign success by empower us (the consumer) to use our fingers to unlock more ways to win over 70 million prizes. And the prize pool is not all about McDonald&#039;s, they do subtly nod to MONOPOLY, with prizes like &#039;Train&#039; credit and &lsquo;Free Parking&rsquo;.<\/p><p>Building on what their consumers love most: the PEEL, the peel-on-pack element remains, offering a chance to reveal a property or an instant win.<\/p><p>But it doesn&#039;t end there! Oh no.<\/p><p>The fun continues within the McDonald&rsquo;s mobile app, where players peel, scan, and collect property codes, where they can complete their sets to win prizes. When a consumer banks a property in the app, they&rsquo;re given another chance to win through an extra in-app &#039;Digital Peel&#039;. An awesome way to seamlessly connect, and continue, both physical and digital consumer engagement for the brands. (Well done to the strategy team on that one!)<\/p><p>You&#039;ve just got to &quot;Peel on pack, make moves in App&quot;.<\/p><h2>Visualising the end-to-end mechanic lifecycle of a playing consumer<\/h2><p>There are a total of 4 ways your can play the MONOPOLY campaign, as outlined in their <a href=\"https:\/\/www.mcdonalds.com\/gb\/en-gb\/terms-and-conditions\/monopoly-consumer-rules-2024.html\" title=\"\">rules and terms<\/a>. Each of the following games can be played this year:<\/p><ol><li><p><a href=\"https:\/\/monopoly.mcdonalds.co.uk\/prizes#tabcontent-2\" title=\"\">Instant Win Game<\/a> for the chance to get a Game Piece awarding one of the prizes from the Instant Win range.<\/p><\/li><li><p><a href=\"https:\/\/monopoly.mcdonalds.co.uk\/prizes#tabcontent-1\" title=\"\">Collect to Win Game<\/a> for the chance to collect complete MONOPOLY Property Sets to win prizes from the Collect to Win prize-range, with each type of set offering its own prize-type once completed.<\/p><\/li><li><p><a href=\"https:\/\/monopoly.mcdonalds.co.uk\/prizes#tabcontent-3\" title=\"\">Digital Peel Game<\/a> for the chance to enter a digital, winning-moments game for an award of a prize or reward from the digital Peel range (including the Mayfair Monday game mechanic which is new for 2024).\n\nThese are the possible instant notification when playing Digital Peel Game:<\/p><ol><li><p><em>Cash Peel: a cash prize between &pound;5 and &pound;100.<\/em><\/p><\/li><li><p><em>Community Chest Peel: a non-cash prize from merchandise, food prizes and offers, MyMcDonald&rsquo;s Rewards points to rare Properties, as detailed in the prize-table in the <\/em><a href=\"https:\/\/mcdrules.co.uk\/\" title=\"\"><em>Rules<\/em><\/a><em>.<\/em><\/p><\/li><li><p><em>Bank or Swap Peel: award of a commonly found Property. You can either bank it to your wallet, swap it for another commonly found Property (it could be the same one) or swap it for a &pound;100k prize draw entry.<\/em><\/p><\/li><li><p><em>Mayfair Monday Peel: a cash prize of &pound;20k (this peel can only appear on Monday 9th September, Monday 16th September, Monday 23rd September, Monday 30th September and Monday 7th October 2024).<\/em><\/p><\/li><\/ol><\/li><li><p>Mr Monopoly Bonus Reward enter 30 Property codes from your game-pieces into the McDonald&rsquo;s (UK) app this year and you will complete the Mr Monopoly Bonus Reward and receive 1,500 bonus MyMcDonald&rsquo;s Rewards points.<\/p><\/li><\/ol><p>Just take note, that you can only bank a maximum of 24 Property codes in the app in a day (being any 24 hour period starting from midnight). Oh, and you can only play the Mr Monopoly Bonus Reward game mechanic once throughout the whole campaign.<\/p><p>To help visualise this, I&rsquo;ve scribbled down some drawings of the players lifecycle.<\/p><div>Asset#qQAFpy65pVHWTNyIG4GAd<\/div><h2>Consumer facing design and User Experience (UX)<\/h2><p>Starting with the campaign&#039;s key visual. It clearly has a bold and vibrant new neon and &quot;peel back&quot; style. The typography is strong, but with variation. The red and yellow colours are defiantly on-brand, complimenting both McDonald&rsquo;s and MONOPOLY&rsquo;s similar red and yellow.<\/p><div>Asset#4hJXaivHVWhyHEvEFmsZGT<\/div><p>But... (there is always a but... but not always bad) compared to previous years, the creatives decided to take a more punchy approach for the colour palette. More Virginia Avenue, States Avenue, and St. Charles Place. Less of the historic blue&#039;ie feel of the campaign&#039;s key visual, and way, way, more pink - which I really like!<\/p><div>Asset#5wiUbsE29kl0z3UOhTCIlW<\/div><p>As for the mobile app, the campaign leverages the official McDonald&rsquo;s U.K app, which means it has nothing <em>really<\/em> to do with, or related to, Hasbro&#039;s Monopoly. For the digital winning mechanics, it looks like the tms digital team have built and embedded an app-separate web experience into a modal body, within the mobile app. Which I fully support, as this keeps the consumers digital experience within the fortress of user sessions and authentication, minimising the risk of promo compers and those who want to try and manipulate the system.<\/p><p>I did find myself opening the experience on my laptop (outside of the app \ud83d\ude48) and digging around the tmsiwin source code to see how the front-end was built. Needless to say, the tms team had used an array of familiar technologies, such as Cloudflare, Vue, GSAP, PixiJS, Google Fonts, Piwik Pro Analytics (etc). AND, it&#039;s all packaged in under 6.5MB of resource. Kudos!<\/p><p>The layout of the mobile experience has been structured in a format that I would have expected to see. It&#039;s strong and clear, with primary navigation at the bottom of the page and secondary at the top right side. Perfect for the thumb zone, if you hold you mobile with your right hand.<\/p><div>Asset#2zRowk2mJ24v2v8R9220tA<\/div><div>Asset#MQNPqBDTZWPczKPgbYQ4t<\/div><p>The mobile design has not been made overly complicated, which is a positive to see. But, in my opinion, it does lack <em>some<\/em> button prioritisation as a minor point, and colour contrasts for visual accessibility. Especially when you consider that the <a href=\"https:\/\/www.statista.com\/forecasts\/1335605\/mcdonalds-restaurant-chains-brand-profile-in-the-uk\" title=\"\">brand awareness of McDonald&rsquo;s<\/a> in the UK sits at 96%, with approximately 43.5 million UK consumers.<\/p><p>For any brand, that&#039;s a LOT of eyes!<\/p><p>I would also question some of the copy placement, for example, the notice which tells consumers to keep hold of their games pieces. From my experience designing consumer facing entry campaign for the likes of <a href=\"https:\/\/www.chriswatterston.com\/work\/case-study\/lucozade-energy-xbox-halo-drink-campaign?utm_source=dripfed&utm_medium=blog&utm_campaign=mcdonaldsmonopoly\" title=\"\">Lucozade Halo<\/a> and <a href=\"https:\/\/www.chriswatterston.com\/work\/case-study\/ribena-hasbro-games-fmcg-drink-campaign?utm_source=dripfed&utm_medium=blog&utm_campaign=mcdonaldsmonopoly\" title=\"\">Ribena Hasbro<\/a>, this should defiantly be at the top of the page, above the &lsquo;Digital Peel unlocked&rsquo; card. This is a vital bit of information which could make or <u>break<\/u> a consumers ability to claim their prize!!<\/p><div>Asset#2YihuhL1NZQpZMpyV7q0kp<\/div><p>On a final note, it&rsquo;s defiantly worth highlighting the very noticeable in-app colour changes when we wake-up on a Mayfair Monday (Oh, hello blue). It creates a strong contrast on the &lsquo;Scan&rsquo; button. Really nice!<\/p><div>Asset#9VV9IQyPYUz43emR8rIPV<\/div><h2><strong>Conclusion<\/strong><\/h2><p>My short though of it... I LOVE IT! The campaign has been sparked from the obvious pre-successor, but for me, this still beats the rest. I briefly remember my first McDonald MONOPOLY experience, when you only had to be aged 16 or over, and there was no mobile app... the good old days.<\/p><p>The 2024 digital user experience for this campaign has been executed brilliantly, <em>with some minor recommendation for certain item placements<\/em>. The consumer journey is clear, persist, and doesn&#039;t create any blockers when transitioning into the digital space. With a campaign of this size, it&#039;s safe to say the expectation from the target audience having a smartphone for app access, is off the table. <a href=\"https:\/\/www.uswitch.com\/mobiles\/studies\/mobile-statistics\/\" title=\"\">As of 2023 in the UK, 98% of those aged 16-24 have a smartphone, and 86% of those aged 55-64<\/a>.<\/p><div>Asset#7b7h9O4BDe928zp7IyBawj<\/div><p>This McDonald&#039;s MONOPOLY promotion launched on Wednesday 4th September, and is running for six weeks - ending 15th October 2024. Although to play, you must be aged 18 or over. Which yes, the age requirement can be a head scratcher for most, but if you take the laws around promotions, sweepstakes, gambling, contracts, and marketing\/consumer protection, it makes perfect sense.<\/p><p>So, sorry kids (unless, it&#039;s your 18th birthday).<\/p><p>Check out the TV advert \ud83d\udc47<\/p><p>[youtube-start:nVUpnl0HHrM:youtube-end]<\/p>"
+    },
+    {
+        "articleTitle": "#DesignBuildLaunch24: I launched my digital product in 24 hours",
+        "articleUrlSlug": "designbuildlaunch24-i-launched-my-digital-product-in-24-hours",
+        "articleHeroImage": {
+            "sys": {
+                "id": "5IkSl5LZZV0O1NvQQ42FoT",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-03-20T12:53:40.419Z",
+                "updatedAt": "2024-03-20T12:53:40.419Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Challenge: I launched a digital product in 24 hours",
+                "description": "A man wearing a cap with the logo \"obey\" is drinking bubble tea and looking into the camera with a slightly surprised expression. He's in front of a backdrop featuring wooden pallets and graffiti. Overlaid text reads \"#DesignBuildLaunch24 Challenge: Launch a Digital Product in 24hrs\" in bold letters, suggesting a prompt for a rapid development and launch event or project.",
+                "file": {
+                    "fileName": "dfd-post-header-designbuildlaunch24.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 77228,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/5IkSl5LZZV0O1NvQQ42FoT\/f6f762955f6a9329cc884a04163ca142\/dfd-post-header-designbuildlaunch24.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-03-20T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "dev",
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>I launched a digital product in 24 hours \ud83e\udd73  but first, let&#039;s rewind back a few weeks to #DesignBuildLaunch24: this was where the story for Glory Morning began.<\/p>",
+        "articleBody": "<h2>WE&#039;VE LAUNCHED \ud83e\udd73<\/h2><p><strong>#DesignBuildLaunch24 - this was where the story for Glory Morning began.<\/strong><\/p><p>\u23ee\ufe0f  Rewind back a few weeks, I put myself up to a personal challenge. A challenge that pushes the boundaries of my creativity, processes, and efficiency (#OCD).<\/p><p>But, also a challenge that pours fuel directly into my passion to design and build digital products.<\/p><h4>\ud83d\udca1  So, what product do I build?<\/h4><p>I spent hours chewing on this question. Going through my &quot;idea notepad&quot;, reviewing what I&#039;d scribbled down in the past. But nothing <em>really<\/em> had a purpose for me, or others alike.<\/p><p>Then it happened. Our youngest had just dropped off to sleep, while the idea dropped on me.<\/p><h4>\ud83e\udde9  It&#039;s purpose?<\/h4><p>I spend most of time working solo from my home office, which isn&#039;t always party poppers and unicorn cupcakes. I&rsquo;ve seen and experienced how hard and isolating it can become.<\/p><p>It&#039;s a physical and mental rollercoaster for your health. You can quickly become trapped in an isolated bubble of: eat, sleep, work, kids, repeat.<\/p><p><em>#FunFact: I&#039;m a big supporter of the hybrid working policy.<\/em><\/p><p>I&rsquo;ve ALSO seen and experienced how de-motivating and &#039;on the back burner&#039; it can be to keep at a new hobby when you&rsquo;re not surrounded by like-minded people.<\/p><p>As Dan Buettner once said -<\/p><blockquote><p>&quot;The people you surround yourself with influence your behaviours, so choose friends who have healthy habits&quot;<\/p><\/blockquote><p>And that is where Glory Morning will slot into place.<\/p><p>A welcoming and <a href=\"https:\/\/glorymorning.email\/public\/?utm_campaign=dripfed&utm_source=blog\" title=\"\">vibrant community of like-minded people, who want to meet someone new every single morning. Connect through passions, hobbies, and professions with others you might never meet elsewhere, all from your inbox.<\/a><\/p><p><strong>Start your day inspired.<\/strong><\/p><p>Your feedback is very valuable to me. I see an exciting opportunity for a diverse audience with Glory Morning. Connecting directly with like-minded people, all right from your inbox.<\/p><p>I look forward to seeing you join our community at <a href=\"https:\/\/glorymorning.email\/public\/?utm_campaign=dripfed&utm_source=blog\" title=\"\">glorymorning.email<\/a> \ud83d\ude4c<\/p><h3>\ud83c\udfa5 The video<\/h3><p>As this started out as a self challenge, I did in fact recorded the whole design and build process as a time-lapse.<\/p><p>Check it out on YouTube \ud83d\udc47<\/p><p>[youtube-start:e4UjbLcO2Hs:youtube-end]<\/p><p>Let me know what you think \ud83e\udd1f<\/p>"
+    },
+    {
+        "articleTitle": "#DesignBuildLaunch24 Challenge: Launch a Digital Product in 24hrs",
+        "articleUrlSlug": "designbuildlaunch24-challenge-launch-a-digital-product-in-24hrs",
+        "articleHeroImage": {
+            "sys": {
+                "id": "5ndWPUhvFrKXvCRPBVbWUe",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-02-20T12:37:44.270Z",
+                "updatedAt": "2024-02-20T12:37:44.270Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "#DesignBuildLaunch24 Challenge: Launch a Digital Product in 24hrs",
+                "description": "Promotional graphic for the #DesignBuildLaunch24 challenge featuring a desert workspace with a desk, blueprints, a laptop, and a model rocket with 'RR' branding, alongside a character resembling a roadrunner standing next to a video camera, with text 'Challenge: Launch a Digital Product in 24hrs'.",
+                "file": {
+                    "fileName": "dfd-post-header-designbuildlaunch24.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 52523,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/5ndWPUhvFrKXvCRPBVbWUe\/34472b037c7dd770d1897ec89fee1163\/dfd-post-header-designbuildlaunch24.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-02-20T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "dev",
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>Embarking on a 24-hour challenge to design, build, and launch a digital product is a venture that pushes the boundaries of creativity and efficiency. So let&#039;s do it!<\/p>",
+        "articleBody": "<h2>I&#039;m embarking on a 24-hour challenge to design, build, and launch a digital product.<\/h2><p>...and yep, you read that right - 24 hours!<\/p><p>It&#039;ll be a challenge that pushes the boundaries of my creativity, processes, and efficiency (#OCD).<\/p><p>Even more so in an age where the digital landscape is constantly evolving, the challenge to innovate becomes not only a test of skill but also of endurance and creativity. Oh, and of course not pushing aside that there are now a million and one different ways to achieve an end result, with peoples opinions sprinkles on top.<\/p><p><em>Doesn&#039;t that sound like a reassuring recipe, yum... \ud83e\uddc1<\/em><\/p><p>This challenge will share the exhilarating journey of an individual (<a href=\"https:\/\/www.chriswatterston.com\/about?utm_source=dripfed&utm_campaign=DesignBuildLaunch24-Schedule&utm_medium=blog\" title=\"\">me<\/a>) who dared to challenge the norms by <a href=\"https:\/\/dripfed.design?utm_source=dripfed&utm_campaign=DesignBuildLaunch24-Schedule&utm_medium=blog\" title=\"\">designing, building, and launching a digital product<\/a> in a mere 24 hours*. This ambitious project, recorded and shared for all to see (<a href=\"https:\/\/twitter.com\/search?q=%23buildinpublic\" title=\"\">#BuildInPublic<\/a>), will be a testament to the power, passion, and my pursuit to design and build digital products. Or just plain old stupidity.<\/p><p><em>*Due to family commitments, I&rsquo;m having to split the 24 hours into multiple parts. Hoping the splits will be along the lines of 8 : 10 : 6 (or similar)<\/em><\/p><p>Here&#039;s a snapshot of the draft schedule that will help guide my digital product creation journey from concept to reality.<\/p><div>Asset#7aQJsLJijERVdJm4N4H9oU<\/div><h4>Strategic Planning: The Launchpad<\/h4><p>The marathon will kick-off with 1.5 hours of planning, laying the groundwork with user personas, scope, KPIs, and competitor analysis. A quick 15-minute session will be thrown in to create an early spark on ProductHunt.<\/p><h4>Design Phase: Shaping the Vision<\/h4><p>Design claims the next 5 hours and 40 minutes, balancing journey mapping, wireframes, and UX\/UI design. Time will also be spent interacting with the prototype and updating ProductHunt, ensuring the design&#039;s alignment with project scope and market visibility.<\/p><h4>Development: Crafting the Product<\/h4><p>The 12 hours and 20 minutes of build and development investment will likely cover a full day. This crucial phase turns the high-fidelity designs into a functional product with front-end and back-end development, interspersed with security checks and analytics integration. Nice!<\/p><h4>Testing: Ensuring Excellence<\/h4><p>For testing, I&#039;ll allocate 2 hours and 50 minutes. Focusing on functionality, compatibility, and ironing out any glitches to ensure a seamless user experience.<\/p><h4>Launch: Going Live<\/h4><p>With just 1 hour and 40 minutes to go, if still on track, the product will be launched. This includes hosting setup, final production deployment, and live testing, punctuated by an update to ProductHunt to signal the product&#039;s market entry \ud83d\ude80<\/p><h4>Post-Launch: Reflective Analysis<\/h4><p>We then find ourselves at the final stage of the plan \ud83d\ude05 with a 30 minutes coffee + chill out.<\/p><p>This stages time won&#039;t be part of the 24 hour marathon, as it will be for reviewing analytics and initiating the post-launch feedback loop. Like many of you know, it&#039;s a crucial period for gathering insights and setting the stage for future enhancements.<\/p><h3>Wrapping Up<\/h3><p>The <a href=\"https:\/\/twitter.com\/search?q=%23DesignBuildLaunch24\" title=\"\">#DesignBuildLaunch24<\/a> 24-hour sprint will be a strong blend of discipline and 0-to-1 hybrid product execution.<\/p><p>It showcases that with robust enough planning, the right people or person onboard, determination AND <u>EXECUTION<\/u>, creating a market-ready digital product in a 24 hour period can be achieved - but will be an exhilarating journey of pressure, growth, and success.<\/p><p>As for the products future? I will focus shift to user engagement and iterative improvement, with a determination to build its success. Honestly, I&#039;m quite exciting to see where the this goes.<\/p>"
+    },
+    {
+        "articleTitle": "Tesco Shopping Concept with Apple Vision Pro spatial eCommere",
+        "articleUrlSlug": "tesco-shopping-concept-with-apple-vision-pro-spatial-ecommere",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1fOfNQRu7CeuqQ9SqdB8QR",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-02-16T13:16:17.551Z",
+                "updatedAt": "2024-02-16T13:16:17.551Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Tesco Shopping eCommerce Concept with Apple Vision Pro",
+                "description": "Tesco Shopping eCommerce Concept with Apple Vision Pro by Chris Watterston",
+                "file": {
+                    "fileName": "dfd-post-thumb-tesco-shopping-concept-apple-vision-pro.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 86072,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1fOfNQRu7CeuqQ9SqdB8QR\/adfe093abe8616b0ed959af7794c88b9\/dfd-post-thumb-tesco-shopping-concept-apple-vision-pro.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-02-15T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "general",
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>Since the launch of Apple Vision Pro, I WANTED to explore an out-of-the-box concept usage for the new technology that an everyday person could use and benefit from.<\/p>",
+        "articleBody": "<p>It also just so happened that I went food shopping a day or so after the launch, which is when the idea occurred to me.<\/p><blockquote><p>&quot;Why don&#039;t you imagine you were wearing the <a href=\"https:\/\/www.apple.com\/apple-vision-pro\/\" title=\"\">Apple Vision Pro<\/a> and walked into a <a href=\"https:\/\/www.tesco.com\/\" title=\"\">Tesco food store<\/a>?&quot;<\/p><\/blockquote><p>Yeah it&#039;s all <a href=\"https:\/\/dripfed.design\/portfolio\" title=\"\">conceptual glitter<\/a> - but, would still love to know what you think on <a href=\"https:\/\/x.com\/chriswatterston\/status\/1758167487252713900?s=20\" title=\"\">X<\/a>, <a href=\"https:\/\/www.linkedin.com\/posts\/chriswatterston_applevisionpro-tesco-apple-activity-7163929087080665088-ah2k?utm_source=share&utm_medium=member_desktop\" title=\"\">LinkedIn<\/a>, <a href=\"https:\/\/dribbble.com\/shots\/23648736-Shopping-Concept-with-Apple-Vision-Pro-Semi-spatial-eCommere\" title=\"\">Dribbble<\/a>, or <a href=\"https:\/\/www.instagram.com\/p\/C3aK4Olry5h\/\" title=\"\">Instagram<\/a>?<\/p><div>Asset#2adYJaOQGdBnIltxOoK4Tf<\/div><div>Asset#6QG020hAvWV0fQT7YKpKv6<\/div><div>Asset#3hsrsSlqTzIjFiQvRRbPLX<\/div><div>Asset#443RVdUf6jllP1jkKOt0Xl<\/div><div>Asset#77LmMdp1feOj58Cl9eXIlA<\/div><div>Asset#2HH9lbZrUo5HtDsglD0QHf<\/div><div>Asset#26YEOWJTcFz9luOeWq9LPu<\/div><div>Asset#1FUG9g4gWmKQc9p6qmRfdP<\/div><div>Asset#uEgd1gR9hUKf2ozJzKzbc<\/div><div>Asset#5Cw9RWeDMAFv2vKYV4DScF<\/div><hr \/><h4>Want to learn more or need support?<\/h4><p>We know <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscriptions<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=brandwebsiteplethora\" title=\"\">Development Subscription<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design as a Service<\/a> may be new to most, we get it!<\/p><p>Reach out and ask any questions via <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a> or <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "3 Easy Digital Marketing Ideas For The Valentines Day Period",
+        "articleUrlSlug": "3-easy-digital-marketing-ideas-for-the-valentines-day-period",
+        "articleHeroImage": {
+            "sys": {
+                "id": "2XqYlhUu8liUHcJ8Q3xr6z",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-02-07T11:41:16.365Z",
+                "updatedAt": "2024-02-07T11:41:16.365Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "3 easy digital marketing ideas for brands during Valentines Day",
+                "description": "Smiling person with a heart-eyes emoji covering their face, presenting '3 Easy Brand Boosting Valentines Day Ideas!' for a Digital Marketing concept, with playful, colourful abstract shapes and a musical note in the background, suggesting a creative and engaging marketing theme.",
+                "file": {
+                    "fileName": "dfd-video-thumb-valentinesideas.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 488451,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/2XqYlhUu8liUHcJ8Q3xr6z\/2ca8935aaaea8cbcf51dd9bcec1ac118\/dfd-video-thumb-valentinesideas.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-02-07T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "general",
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>\ud83d\udc95 What are you and your brands doing for Valentines Day? Nothing? \ud83d\udc4e Ok, here&#039;s something for you.<\/p>",
+        "articleBody": "<p>3 easy digital marketing ideas which you can implement, push out through your brands social channels, and engage with your audience - giving your brand a cheeky boost during the Valentines Day period.<\/p><p><a href=\"https:\/\/youtu.be\/AfgmN4kJb90?si=g8rpeEkzzE_HOgUS\" title=\"\">youtu.be\/AfgmN4kJb90?si=g8rpeEkzzE_HOgUS<\/a><\/p><hr \/><h4>Want to learn more or need support?<\/h4><p>We know <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscriptions<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=brandwebsiteplethora\" title=\"\">Development Subscription<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design as a Service<\/a> may be new to most, we get it!<\/p><p>Reach out and ask any questions via <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a> or <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "FREE Unlimited Design Services to a charity for Valentines",
+        "articleUrlSlug": "free-unlimited-design-services-to-a-charity-for-valentines",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1wjVqDEjhHwyXlkugIDrKp",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-02-05T11:27:59.791Z",
+                "updatedAt": "2024-02-05T11:27:59.791Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Exciting opportunity, giving ONE MONTH of FREE Unlimited Design Services to a charity",
+                "description": "Promotional image for a Valentine's Day offer supporting charity, featuring a classic vase with a burst of red heart-shaped balloons surrounded by smaller hearts against a dark background, with the text 'Valentines Offer For ONE Charity!' prominently displayed.",
+                "file": {
+                    "fileName": "dfd-post-header-valentines-design-offer-for-one-charity.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 51445,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1wjVqDEjhHwyXlkugIDrKp\/b88eccebb4eb672b65921ce2428cec55\/dfd-post-header-valentines-design-offer-for-one-charity.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-02-05T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "general",
+            "marketing",
+            "design",
+            "resource"
+        ],
+        "articleDescription": "<p>Valentines is a day of showing love to those close to you, or your appreciation towards what others do. So we&#039;re giving something FREE to a charity for Valentines!<\/p>",
+        "articleBody": "<p>\u2764\ufe0f Exciting opportunity for charities - please help share the word \ud83d\udcac<\/p><p>We are giving ONE MONTH of FREE Unlimited Design Services to a charity \ud83c\udfa8\u2728 Do you know a charity that could benefit? Tag them below or share this post.<\/p><p><strong>\ud83d\udcc5 ...but hurry, the deadline is Friday, February 23, 2024!<\/strong><\/p><p><strong>\u2753 Why?\n<\/strong>Valentines is a day of showing love to those close to you, or your appreciation towards what others do. That&#039;s why we&#039;re showing our appreciation to a charity by helping their digital presents, and strengthen their impact. Whether it&#039;s a website, branding, email campaign, or fundraising initiative, we want to support their cause.<\/p><p>\u2705 Enhance your digital presence with professional design and development.\n\u2705 Bring your digital products to life, from concept to completion.\n\u2705 Zero cost, unlimited potential - it&#039;s a win win!<\/p><p><strong>\ud83d\udd17 How to Apply?<\/strong>\nVisit and submit your charity at <a href=\"https:\/\/dripfed.design\/charity?utm_campaign=CharityOffer&utm_source=Blog&utm_medium=Website\" title=\"\">https:\/\/dripfed.design\/charity<\/a> - It&#039;s quick and simple!<\/p>"
+    },
+    {
+        "articleTitle": "Warning for any digital marketer who sends marketing emails",
+        "articleUrlSlug": "warning-for-any-digital-marketer-who-sends-marketing-emails",
+        "articleHeroImage": {
+            "sys": {
+                "id": "3lM563oVIECYd6bGkh5fkX",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2024-02-05T11:12:18.423Z",
+                "updatedAt": "2024-02-05T11:12:18.423Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Warning for sending marketing emails to your audience",
+                "description": "Multiple laptops in a dark room interconnected with red digital lines, displaying code and graphs on their screens, with a holographic email icon above one, symbolizing network communication and cybersecurity.",
+                "file": {
+                    "fileName": "dfd-post-header-warning-marketing-emails.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 62785,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/3lM563oVIECYd6bGkh5fkX\/925b87cd625bab74f857438d2bb00e1c\/dfd-post-header-warning-marketing-emails.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-01-30T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "general",
+            "marketing"
+        ],
+        "articleDescription": "<p>From February 1st, Google and Yahoo plan to start enforcing new requirements for all email senders. Warning for anyone who sends marketing emails!<\/p>",
+        "articleBody": "<p>\ud83d\udce7 Warning for anyone who sends marketing emails:<\/p><p>Google and Yahoo plan to start on February 1, enforcing new requirements for all email senders.<\/p><p>The authentication requirements are aimed at improving deliverability and preventing spam and phishing. Bloody good job!<\/p><p>Any emails sent from unauthenticated email addresses could be blocked from reaching the recipient&rsquo;s inbox.<\/p><p>These changes will affect all bulk email senders.<\/p><p>If you use a respected email service provider such as Mailchimp, for example, you&rsquo;re probably in good shape. The email service providers have been on top of the changes, and many have safeguards in place for those domains that have yet to be authenticated.<\/p><hr \/><h4>Want to learn more or need support?<\/h4><p>We know <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscriptions<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=brandwebsiteplethora\" title=\"\">Development Subscription<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design as a Service<\/a> may be new to most, we get it!<\/p><p>Reach out and ask any questions via <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a> or <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "Brand & website design for Plethora Exploration Corp",
+        "articleUrlSlug": "brand-and-website-design-for-plethora-exploration-corp",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1gDPFo8ECJUsXoK5kAobSB",
+                "type": "Asset",
+                "revision": 3,
+                "createdAt": "2024-01-29T09:05:27.066Z",
+                "updatedAt": "2024-01-29T15:54:56.142Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Brand design and website design for Plethora Exploration Corp",
+                "description": "Brand design and website design for Plethora Exploration Corp",
+                "file": {
+                    "fileName": "dfd-brand-website-design-plethora-explorations-post-header.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 76380,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1gDPFo8ECJUsXoK5kAobSB\/18341e6ccb3e0ed2b78c48c58a83b8a0\/dfd-brand-website-design-plethora-explorations-post-header.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2024-01-15T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "dev",
+            "design"
+        ],
+        "articleDescription": "<p>Branding and website design project for a startup mining company, oppressing across Sweden, Norway, Canada, and the USA &ndash; we really hit gold with this one!<\/p>",
+        "articleBody": "<p>Plethora Exploration reached out to start initial discussions about the <a href=\"http:\/\/dripfed.design-www.dev-local\/build#anchor-designplans\" title=\"\">brand and website design project<\/a> in late-2022, with project kicking off in Q1 of 2023.<\/p><p>The end results, well, we all couldn&#039;t be happier. <\/p><p><strong>It was such a joy to work with guys at Plethora Exploration, loved every second of it!<\/strong><\/p><div>Asset#3Cf7WirdwazIleoEwwitdZ<\/div><div>Asset#2IZcBHNeiOXAMUN2NfOtIY<\/div><div>Asset#6Xd5EfKu16aYXlMbvCJQ3p<\/div><div>Asset#1Ab7UfVOBP2h7fadAqjSOr<\/div><div>Asset#kbAVYK93hYjCC8jea2fhg<\/div><div>Asset#26uuxGPap5GTxOsygu2LFy<\/div><div>Asset#1L31Nn0aUb3Trvmdzz9zn3<\/div><hr \/><h4>Want to learn more or need support?<\/h4><p>We know <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscriptions<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=brandwebsiteplethora\" title=\"\">Development Subscription<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design as a Service<\/a> may be new to most, we get it!<\/p><p>Reach out and ask any questions via <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a> or <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "\ud83e\udde0 Worth a thought: Designing for mobile means dispersed content",
+        "articleUrlSlug": "worth-a-thought-designing-for-mobile-means-dispersed-content",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1l78TlGZrhZExzrKRMBfqT",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2023-10-19T12:49:02.504Z",
+                "updatedAt": "2023-10-19T12:49:02.504Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "A design thought, think about user experience with unlimited design services",
+                "description": "A design thought, think about user experience with unlimited design services",
+                "file": {
+                    "fileName": "dfd-designing-through-think-user-experience-unlimited-design-service-post-header.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 38603,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1l78TlGZrhZExzrKRMBfqT\/a6dd951374b2a4a45ae59cac4fb4c05e\/dfd-designing-through-think-user-experience-unlimited-design-service-post-header.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-10-19T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "marketing",
+            "design",
+            "dev"
+        ],
+        "articleDescription": "<p>\ud83e\udde0 Worth a thought.... only designing for mobile means you&#039;ll likely have dispersed content for users on desktop devices \ud83d\udc4e  bad times!\n<\/p>",
+        "articleBody": "<p><strong>Why?<\/strong> Because when content dispersion has been scaled and carried across from mobile to desktop, it can severely impact the overall user experience \ud83e\udd2f .<\/p><p><strong>Want some examples? Sure thing:<\/strong><\/p><ol><li><p>Increased page length<\/p><\/li><li><p>Increased&nbsp;energy to load page<\/p><\/li><li><p>Difficulty understanding the page structure<\/p><\/li><li><p>Increased user frustration<\/p><\/li><li><p>Lower user trustworthiness<\/p><\/li><li><p>Impact on user interaction<\/p><\/li><\/ol><p><\/p>"
+    },
+    {
+        "articleTitle": "Key Marketing opportuni-DATES for Q4 in 2023",
+        "articleUrlSlug": "key-marketing-opportuni-dates-for-q4-in-2023",
+        "articleHeroImage": {
+            "sys": {
+                "id": "1VFOuZKV9qFJMsRfx8HEXM",
+                "type": "Asset",
+                "revision": 2,
+                "createdAt": "2023-09-01T15:32:26.993Z",
+                "updatedAt": "2023-09-01T15:42:14.369Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Key Marketing opportuni-DATES for Q4 in 2023",
+                "description": "Key Marketing opportuni-DATES for Q4 in 2023",
+                "file": {
+                    "fileName": "dfd-post-ket-marketing-calendar-dates-2023-q4.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 43143,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/1VFOuZKV9qFJMsRfx8HEXM\/5b32c04f2e2b2798a4d8af2af3f12c7c\/dfd-post-ket-marketing-calendar-dates-2023-q4.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-09-02T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "marketing",
+            "resource",
+            "download"
+        ],
+        "articleDescription": "<p>Get out your marketing calendar, because you&rsquo;re about to discover all the need-to-know events dates for Q4 in 2023. There are some great opportuni-DATES happening!<\/p>",
+        "articleBody": "<p>Get out your marketing calendar, because you&rsquo;re about to discover all the need-to-know events dates for Q4 in 2023.<\/p><p>You can&rsquo;t afford to miss them! There are some great opportuni-DATES happening... Opportunities, dates.... did you see it \ud83d\ude09<\/p><p>Save yourself the time of finding a pen. Download and share our Q4 2023 marketing events calendar.<\/p><p>You&rsquo;ll have all the important events for marketers, whether you&rsquo;re in <a href=\"https:\/\/dripfed.design\/\" title=\"\">content, product, SEO, design<\/a>, or affiliates. This is for you \ud83e\udef6<\/p><h3>October Events<\/h3><ol><li><p><strong>Coffee Day<\/strong> - 1st October 20223<\/p><\/li><li><p><strong>Halloween<\/strong> - 31st October 2023<\/p><\/li><\/ol><h3>November Events<\/h3><ol><li><p><strong>Single&#039;s Day<\/strong> - 11th November 2023<\/p><\/li><li><p><strong>Black Friday<\/strong> - 24th November 2023<\/p><\/li><li><p><strong>Cyber Monday<\/strong> - 27th November 2023<\/p><\/li><\/ol><h3>December Event<\/h3><ol><li><p><strong>Christmas Day<\/strong> - 25th December 2023<\/p><\/li><li><p><strong>Boxing Day<\/strong> - 26th December 2023<\/p><\/li><li><p><strong>New Year&#039;s Eve<\/strong> - 31st December 2023<\/p><\/li><\/ol><p><\/p><p><a href=\"https:\/\/images.ctfassets.net\/7sl14f32cce0\/1VFOuZKV9qFJMsRfx8HEXM\/5b32c04f2e2b2798a4d8af2af3f12c7c\/dfd-post-ket-marketing-calendar-dates-2023-q4.jpg\" title=\"\">Downloadable your marketing opportuni-DATES for Q4 in 2023<\/a><\/p>"
+    },
+    {
+        "articleTitle": "We're launching Wrikified, a brand new solution for Wrike Users",
+        "articleUrlSlug": "launching-wrikified-solution-for-wrike-users",
+        "articleHeroImage": {
+            "sys": {
+                "id": "4uiV1Z1qwRcLJxJNJv0Czg",
+                "type": "Asset",
+                "revision": 2,
+                "createdAt": "2023-08-31T12:58:53.217Z",
+                "updatedAt": "2023-08-31T13:14:17.920Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Launching Wrikified for Wrike Users via Product Hunt",
+                "description": "Launching Wrikified for Wrike Users via Product Hunt",
+                "file": {
+                    "fileName": "dfd-wrikified-launch-for-wrike-post-header.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 31002,
+                        "image": {
+                            "width": 1200,
+                            "height": 627
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/4uiV1Z1qwRcLJxJNJv0Czg\/6afe2c575915e2e1ca02a6d206e89dec\/dfd-wrikified-launch-for-wrike-post-header.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-08-31T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "general",
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>We&#039;re excited to unveil Wrikified, a brand new solution created for Wrike users who want a focused, distraction-free task experience&ndash; presented in a beautiful way!<\/p>",
+        "articleBody": "<p>We&#039;re excited to unveil <strong>Wrikified<\/strong> (Beta), a brand new go-to solution for simplified and beautiful task management for Wrike.<\/p><p>My story started little under two years ago, while assigning our team of design and developers to adopt tasks within Wrike, a project management platform.<\/p><p>It quickly became apparent a large number of these users found Wrike to be overwhelming. To many features, to much going on. <\/p><p>This is how the idea of Wrikified was sparked!<\/p><h2>\ud83d\ude80  <strong>What Is Wrikified?<\/strong><\/h2><p>Wrikified is a streamlined interface for Wrike, created for individuals and teams who want a more focused, distraction-free task experience&ndash; presented in a beautiful way!<\/p><h2>\ud83e\udef6  <strong>Why Wrikified?<\/strong><\/h2><p>We realised that while Wrike is powerful, its stack of features can sometimes overwhelm users, therefore causing productivity loss and wasted time. Wrikified cuts through the noise, letting you focus solely on what matters&mdash;your tasks.<\/p><p>Today, we&#039;re thrilled to unveil a solution for Wrike users, enabling you a: <\/p><p><strong>\ud83d\udca8 Streamlined Interface<\/strong>: We&#039;ve stripped away the clutter, leaving only the essential task management features needed by designers and production individuals, and teams.<\/p><p><strong>\ud83d\udc40 Enhanced Focus<\/strong>: With fewer distractions, you&#039;re free to focus on completing tasks more efficiently. Quickly adding time entries, comments, and status changes.<\/p><p><strong>\ud83d\udd0e Removed Search Time<\/strong>: With a single view for everything, we&#039;ve completely removed the need to search for tasks, so you can give yourself a break.<\/p><p>\ud83c\udfa8 <strong>Make Everything Beautiful:<\/strong> With the clutter removed, we found space for a sprinkle of eye candy. We&#039;ve gone in the direction of adding some look and feel, creating an interface you&#039;ll enjoy using.<\/p><p>\ud83d\ude02  <strong>BONUS FEATURE, The Joy of a Smile:<\/strong> The world could always use more laughter. So, in every moment possible, we&#039;ll share a joke with you and our community to brighten everyone&#039;s day!<\/p><p>\ud83c\udf1f <strong>Special Offer for the PH Community<\/strong> To celebrate our Product Hunt launch, we&#039;re giving a 20% discount for the first 3 month of our unlimited subscription plan. Use code PRODUCTHUNT20 at checkout.<\/p><p>We&#039;re here to answer any questions and listen to your feedback. Your input could greatly influence our roadmap for future features.<\/p><p>Thank you for checking out Wrikified! Let&#039;s kickstart the conversation and make production tasks a breeze. \ud83d\ude80<\/p><p><strong>Give it a try, it&#039;s FREE to get started!\n<\/strong>We&#039;re open to your thoughts, the good, the bad, and the ugly \ud83d\ude4c<\/p><p>Follow our journey on Product Hunt at <a href=\"https:\/\/www.producthunt.com\/posts\/wrikified\" title=\"\">producthunt.com\/posts\/wrikified<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "Designing for an Enjoyable Customer Buying Experience",
+        "articleUrlSlug": "designing-for-an-enjoyable-customer-buying-experience",
+        "articleHeroImage": {
+            "sys": {
+                "id": "5HOd1QhpUZbP6tADAlhE3E",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2023-08-30T17:54:13.172Z",
+                "updatedAt": "2023-08-30T17:54:13.172Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Designing for an enjoyable customer buying experience",
+                "description": "Designing for an enjoyable customer buying experience",
+                "file": {
+                    "fileName": "dfd-designing-enjoyable-buying-experience-post-header.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 67976,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/5HOd1QhpUZbP6tADAlhE3E\/3b076a4d03435e16ba70182f37471274\/dfd-designing-enjoyable-buying-experience-post-header.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-08-30T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>Design an online buying experience which makes your customers feel less loss aversion, and ensures the joys are remembered from their purchase.<\/p>",
+        "articleBody": "<p>Design for this... you&rsquo;re burnt out and in desperate need of a holiday. Sounds great, right?<\/p><p>You crave a week in the sun, away from everyday life. Bottomless refreshing drinks and a worry not in sight. Your booking options?<\/p><ol><li><p>Open Airbnb and filter by Beachfront.<\/p><\/li><li><p>Search for an all-inclusive package holiday.<\/p><\/li><\/ol><p>The Airbnb could allow for more privacy and a bigger space. But you&#039;d need to do food shopping, find good places to eat out, and role play your own bartender.<\/p><p>On the other hand, an all-inclusive would be effortless \ud83d\ude4c. Simply pay the cost, and then relax for a week of pampering.<\/p><p>It&#039;s decided! You make your choice and book the holiday... <strong><em>which option did you take?<\/em><\/strong><\/p><p>Let&#039;s briefly touch on something that sparks everyone&rsquo;s interest. Why spending money is painful, and how businesses can use design to heighten a buyer&rsquo;s experience?<\/p><h2>The science behind the pain<\/h2><p>Every time we spend our hard-earned money, we feel a small stab of pain. Why? Because even if we&#039;re 100% sure about our intentions, a part of our brain wired for loss aversion starts&nbsp;launches fireworks.<\/p><blockquote><p><em>What is Loss Aversion?<\/em><\/p><p><em>Loss aversion is that feeling when losing something hurts more than gaining something good feels.<\/em><\/p><\/blockquote><p>But, what&#039;s interesting, is that this feeling gets increased when we spend directly, such as cash or debit card vs. using a credit card.<\/p><p>MIT studied 64 students placing bids on baseball cards. The results showed that students <a href=\"https:\/\/www.richardshotton.com\/the-choice-factory\" title=\"\">paying with a credit card would bid more than double ($61) vs. students using cash ($29)<\/a>.<\/p><p>So, when we book an all-inclusive holiday, we&#039;re dipping into our hard-earned money once. Likely weeks or months in advance of departing, meaning we only go through the pain of paying once.<\/p><p>Every visit to the bar for a refreshing drink, or food at the buffet, we get to feel the excitement of the experience without the emotional pain of paying.<\/p><p>Instead of getting loss pains the entire trip, we feel like royalty! And this is exactly the experience we want to create for our buyers, right?<\/p><h2>Inside a customer&rsquo;s mind<\/h2><p>Research shows that people judge an experience on what behavioural scientists call the Peak-End Theory.<\/p><blockquote><p><em>What is Peak-End Theory?<\/em><\/p><p><em>Peak-End Theory says we remember experiences mostly by how they were at the most intense moment and how they ended, not the whole thing.<\/em><\/p><\/blockquote><p>Even if the whole experience was fantastic. For example, enjoying a meal at a Micheline Star restaurant, but then having to pay a huge bill at the end, will leave a bitter aftertaste.<\/p><p>When we pay for a product, as excited as we are, the loss aversion part of our brain starts launching fireworks when it&#039;s time to pay.<\/p><p>To launch less fireworks, we need to design a buying journey that makes customers feel less pain each time they buy our product.<\/p><h2>How can businesses apply this?<\/h2><p>There are a few ways we can apply this to a business, and they will seem obvious when we share them. You will have probably come across them before. Let&#039;s start...<\/p><h3>Bitesize payments<\/h3><p>Products with big price tag can come with less pain when split into multiple payments. This will reduce a buyers loss aversion, reducing the size of the fireworks.<\/p><p>Airbnb, Apple, and Cazoo offer financing options to make purchasing less painful and numb the loss aversion impact.<\/p><div>Asset#5t1M3wiuO557NCSpmCm9J6<\/div><h3>Free gift or incentive<\/h3><p>If a business offers subscriptions, and a customer cancels, it doesn&rsquo;t mean they no longer love the product. They likely just had other priorities that month for their hard-earned money.<\/p><p>Offering past customers an incentive or free gift if they resubscribe can win them back. Oh, and because their credit card will already be on file, we can optimise the whole checkout process, reducing the pay pain.<\/p><p>Or, what about creating a free course or eBook which provides value to a customer. Giving this out to both current and past subscribers, is a great way to earn trust and build demand for a product.<\/p><div>Asset#gWPVMAIH6XygRmFZCZkeN<\/div><h3>Gamified payment<\/h3><p>When we have fun, our bodies release a cocktail of neurotransmitters and hormones. These contribute to the feeling of happiness and well-being.<\/p><p>So, when a business understands and prioritises customer fun, like a casinos or Disneyland, this feeling can play a part in blocking out pay pain. They achieve this by encourage guests to pay with chips or a pre-paid MagicBand.<\/p><p>Yes, losing poker chips still hurts, but it&rsquo;s less painful than losing physical cash. Also, there is something about using a bracelet that doesn&rsquo;t&nbsp;<em>feel&nbsp;<\/em>like paying, therefore reducing loss aversion. This allows visitors to stay in a magical moment, rather than stressing about every purchase.<\/p><h3>Pay in advance!<\/h3><p>Many service businesses charge customers after the work has been complete, which ends an experience with a pay pain.<\/p><p>Alternatively, ask for payment in advance. This moves the pay pain to the beginning of their experience, giving the opportunity to end a service on a high. This plays in favour of the Peak-End theory.<\/p><h2>The breakdown<\/h2><p>So, we now know that loss aversion is a buyer&rsquo;s reality, and the Peak-End theory is something businesses should remember... pun intended!<\/p><p>But even exciting purchases can be slightly diminished when it&rsquo;s time to pay. Be purposeful when designing a buying experience. Make your customers feel less loss aversion and ensure the joys are remembered from their purchase.<\/p>"
+    },
+    {
+        "articleTitle": "Design Subscription: what it is, how it works, is it the future*?",
+        "articleUrlSlug": "design-subscription-what-it-is-how-it-works-is-it-the-future",
+        "articleHeroImage": {
+            "sys": {
+                "id": "26G5N0cs6ca44lD0Gd8Ot9",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2023-08-15T13:10:21.023Z",
+                "updatedAt": "2023-08-15T13:10:21.023Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Design Subscription: what it is, how it works, is it the future",
+                "description": "Design Subscription: what it is, how it works, is it the future*?",
+                "file": {
+                    "fileName": "dfd-design-subscription-what-why-future-post-header.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 42438,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/26G5N0cs6ca44lD0Gd8Ot9\/cbd83450f67d41191d3f8874491197fc\/dfd-design-subscription-what-why-future-post-header.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-08-14T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "marketing",
+            "design"
+        ],
+        "articleDescription": "<p>We believe the future of design hiring will be through design subscriptions. Looking for extra resource, it will be an immeasurable solution for teams at large.<\/p>",
+        "articleBody": "<p><em>*Including 6 reasons.<\/em><\/p><p>At <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Drip Fed Design<\/a>, we believe that the future of the design hiring space will be through a subscription. So, whether you&#039;re an agency, start-up, marketing team, or an in-house team looking for extra resource, this will become an immeasurable solution for teams at large.<\/p><p>Every month, an ever-growing number of teams and businesses are discovering the <a href=\"https:\/\/dripfed.design\/#anchor-gettingstarted?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">benefits of a design subscription<\/a>.<\/p><blockquote><p>But why?<\/p><\/blockquote><p>Let&#039;s jump into it and find out.<\/p><h2>What is a Design Subscription, or Design as a Service?<\/h2><p>Think about your Netflix, Disney+, or Apple TV+ subscription. Each month you pay a single fixed fee, which enables you to consume as much content as possible. Film-by-film. Series-by-series.<\/p><p>Design subscriptions and Development subscriptions are almost identical, instead you&#039;re consuming <a href=\"https:\/\/dripfed.design\/#anchor-designplans?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">design services<\/a> or <a href=\"https:\/\/dripfed.design\/#anchor-designplans?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">development services<\/a>, rather than video.<\/p><h2>How does a Design Subscription work?<\/h2><p>It&#039;s simple. Just <a href=\"https:\/\/dripfed.design\/#anchor-designplans?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">choose a design subscription plan<\/a> and submit as many design and build requests as you desire.<\/p><p>When an active subscription is in place with Drip Fed Design, you&#039;ll have <a href=\"https:\/\/dripfed.design\/#what-to-expect-in-wrike?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">access to your own Kanban-like space<\/a>. This is where you&#039;ll submit, manage, and collaborate on design and build requests.<\/p><p>Each of your <a href=\"https:\/\/dripfed.design\/#how-quick-will-request-be-completed?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">requests will be actioned<\/a> and completed one-by-one <em>(depending on subscription)<\/em>, in date ascending order (oldest first).<\/p><p>In those rare occasions when a request needs a priority boost, there is an option to move a request into the &#039;Jump Queue&#039; column.<\/p><p>Oh, a subscription can also be paused or cancelled at any time. Nice!<\/p><h2>Will design subscriptions or development subscriptions become the future of sourcing talent and experience within the industry?<\/h2><p>Yes, we believe so- or at least make up a huge share of what is the landscape for sourcing and discovering designers and developers (or builders).<\/p><p><strong>There are a ton of reason why we believe this. Here are a handful of reason and benefits outside of the obvious \ud83e\udd41...<\/strong><\/p><h3>1. Wealth of knowledge and wider industry experience.<\/h3><p>You need to remind yourself that <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscription providers<\/a> are not limited to providing to a single industry. We can explore outside an industry, jump from industry to industry, and even span across multiple industries.<\/p><p>Our clients come from a range of different industries, like Fintech, Food and Beverage, and Educational. This enables us to continuously build our design knowledge, experience, and insights.<\/p><p>Thus, the expertise we gain is directly reflected in the quality of work we deliver to you.<\/p><h3>2. Onboard instantly and easily, or <a href=\"https:\/\/dripfed.design\/book\" title=\"\">book a call to find out more<\/a>?<\/h3><p>We&#039;ve worked on the tools, and we&#039;ve managed teams and products. We&#039;ve also interviewed for new roles and waited a head scratching amount of time for HR and IT to process the paperwork and equipment.<\/p><p>It&#039;s not cool and doesn&#039;t paint a very good picture for your new hire!<\/p><p>That why we&#039;re <a href=\"https:\/\/dripfed.design\/#anchor-gettingstarted?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">ready to start within minutes<\/a> of client sign-up. Onboarding doesn&#039;t need to take up masses of time and effort, so we&#039;ve optimised ours to become a clean and clear onboarding process, which you&#039;ll appreciate.<\/p><p>Upcoming project or campaign. Hello!\nSwamped with a growing backlog. The solution is our subscription.<\/p><p>No paperwork. No employee insurance or pension. Bugger all!<\/p><h3>3. Pause or Cancel at any time, with no commitment!<\/h3><p>And just as quick and easily as onboarding, you can cancel or pause.<\/p><p>If you hit an unusual or unexpected quiet period, just <a href=\"https:\/\/dripfed.design\/#pause-or-cancel-my-subscription?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">pause your design  subscription<\/a>.<\/p><p>Once the backlog has cleared, <a href=\"https:\/\/dripfed.design\/#pause-or-cancel-my-subscription?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">cancel your development subscription<\/a>. No questions asked!<\/p><h3>4. No pay review or bonus. Just a single fixed monthly cost!<\/h3><p>It&#039;s the same <a href=\"https:\/\/dripfed.design\/#anchor-designplans?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">single fixed cost<\/a> for each active month, removing all the overhead costs.<\/p><ul><li><p>No promotions.<\/p><\/li><li><p>No bonuses.<\/p><\/li><li><p>No pensions.<\/p><\/li><li><p>No company car.<\/p><\/li><li><p>No gym memberships.<\/p><\/li><li><p>No private healthcare.<\/p><\/li><li><p>No annual events.<\/p><\/li><li><p>No discount cards.<\/p><\/li><li><p>No parental leave.<\/p><\/li><li><p>No sick leave.<\/p><\/li><li><p>No equipment.<\/p><\/li><li><p>No software.<\/p><\/li><li><p>No training.<\/p><\/li><\/ul><p><em>[...you get the point]<\/em><\/p><p>As much as we enjoy 1:1 meetings, spending 80% of that time talking about stuff that isn&#039;t related to progression. We&#039;d prefer to spend our time on what provides value and makes an impact for you.<\/p><p>Drip Fed Design has been <a href=\"https:\/\/dripfed.design\/#just-employ-a-designer?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">designed and built to save you time, overhead costs, and increase ROI<\/a>.<\/p><h3>5. A dripping tap of design and development, ready when you need it!<\/h3><p>You just need to <a href=\"https:\/\/dripfed.design\/#anchor-designplans?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">turn the tap on<\/a>.<\/p><p>You&#039;ll have more oomph to get creative when there is no need to worry about stretching resource across multiple projects or deadlines.<\/p><p>Drip Fed Design promises and guarantees senior full-stack talent at your monthly disposal. Imagine your possibilities.<\/p><h3>6. Transferable loyalty and satisfaction, that can follow you around.<\/h3><p>Everyone should have strong relationships they can stick with, trust, and know they can fall back onto. Especially when they&#039;ve been built over a period.<\/p><p>If you let us, we can support your career journey. We&#039;re not set in stone, so can move with you to your next role or brand jump. Don&#039;t worry, it&#039;s not poaching!<\/p><p>Furthermore, we won&rsquo;t be that &ldquo;disappearing salesperson&rdquo; that&rsquo;s incredibly experienced (and magical!) but then hands you off to a junior once you&#039;re onboard. <u>NO NO NO!!!<\/u><\/p><div>Asset#26G5N0cs6ca44lD0Gd8Ot9<\/div><hr \/><h4>Want to learn more or need support?<\/h4><p>We know <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design Subscriptions<\/a> or <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">Design as a Service<\/a> may be new to most, we understand. Reach out and ask any questions you may have via a comment, <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a>, or by email <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p><p>\rStart next week knowing you have an unlimited design subscription at your disposal. More details at <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">dripfed.design<\/a>.\r<\/p>"
+    },
+    {
+        "articleTitle": "FREE UX Design & Deploy Process Template for Figma",
+        "articleUrlSlug": "free-ux-design-and-deploy-process-template-for-figma",
+        "articleHeroImage": {
+            "sys": {
+                "id": "7sa8GnZsJQBldDqjhw8nt9",
+                "type": "Asset",
+                "revision": 3,
+                "createdAt": "2023-08-13T19:22:49.352Z",
+                "updatedAt": "2023-08-13T19:29:17.022Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "Free Figma UX Design and Deployment Process Template",
+                "description": "Free Figma UX Design and Deployment Process Template",
+                "file": {
+                    "fileName": "drip-fed-design-free-figma-ux-design-process-template.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 68730,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/7sa8GnZsJQBldDqjhw8nt9\/3465f71518083247a665858e5b8d8623\/drip-fed-design-free-figma-ux-design-process-template.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-08-10T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "dev",
+            "design",
+            "resource",
+            "download"
+        ],
+        "articleDescription": "<p>We know the UX Design and deploy process, and we know what&rsquo;s to be done. But isn&rsquo;t it nice to get a little reassurance and free UX stuff once in a while?<\/p>",
+        "articleBody": "<p>We love finding free Figma resource files (or anything free for that matter) which can save time and money. Using it for your day job or cheeky side-project&ndash; lovely!<\/p><p>But we can&rsquo;t always sponge, otherwise the community life cycle doesn&rsquo;t work. If we receive a little, it&rsquo;s only right to give a little back.<\/p><p>We enjoy sharing ideas and resource with fellow designers, creatives and researchers. Even if it&rsquo;s as simple as an overview Figma community file. That&rsquo;s why we&#039;ve made a UX &amp; Deploy Process Figma community file available, for FREE!!<\/p><p>Within the shared process, there are three phases;\nDiscover &amp; Research, UX Driven Design Product Cycle, and finally Deploy and Learn.<\/p><p><strong>Grab your copy via&nbsp;<\/strong><a href=\"https:\/\/www.figma.com\/community\/file\/1181652134749031672\" title=\"\"><strong>https:\/\/www.figma.com\/community\/file\/1181652134749031672<\/strong><\/a><\/p><p>Enjoy \ud83e\udd1f<\/p><hr \/><h4>Want to learn more or need support?<\/h4><p>Reach out and ask any questions you may have via a comment, <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a>, or by email <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p><p>\rStart next week knowing you have an unlimited design subscription at your disposal. More details at <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">dripfed.design<\/a>.<\/p>"
+    },
+    {
+        "articleTitle": "Unlock opportunities in digital marketing with 8 A\/B Testing tips",
+        "articleUrlSlug": "unlock-opportunities-future-digital-marketing-success-ab-testing",
+        "articleHeroImage": {
+            "sys": {
+                "id": "433sSYWabeNR6ob3Mgyq2J",
+                "type": "Asset",
+                "revision": 1,
+                "createdAt": "2023-08-04T13:45:08.737Z",
+                "updatedAt": "2023-08-04T13:45:08.737Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                }
+            },
+            "fields": {
+                "title": "dfd-unlock-digital-marketing-opportunities-ab-testing",
+                "description": "Unlock huge opportunities and future-proof your Brand's digital marketing success with 8 simple A\/B formulas, with Drip Fed Design",
+                "file": {
+                    "fileName": "dfd-unlock-digital-marketing-opportunities-ab-testing.jpg",
+                    "contentType": "image\/jpeg",
+                    "details": {
+                        "size": 42259,
+                        "image": {
+                            "width": 1200,
+                            "height": 628
+                        }
+                    },
+                    "url": "\/\/images.ctfassets.net\/7sl14f32cce0\/433sSYWabeNR6ob3Mgyq2J\/718bc368f9dbe949c97ce8dd3452f301\/dfd-unlock-digital-marketing-opportunities-ab-testing.jpg"
+                }
+            }
+        },
+        "articleAuthor": {
+            "sys": {
+                "id": "15jwOBqpxqSAOy2eOO4S0m",
+                "type": "Entry",
+                "revision": 6,
+                "createdAt": "2023-08-03T09:22:09.081Z",
+                "updatedAt": "2023-08-13T18:53:41.279Z",
+                "environment": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "master",
+                        "linkType": "Environment"
+                    }
+                },
+                "locale": "en-GB",
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "7sl14f32cce0",
+                        "linkType": "Space"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "person",
+                        "linkType": "ContentType"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Chris Watterston",
+                "title": "Owner",
+                "company": "Drip Fed Ltd",
+                "shortBio": {
+                    "nodeType": "document",
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Agile and visionary\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Product Designer and Manager",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " at Drip Fed Ltd, with a strong background in\u00a0",
+                                    "marks": [],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Digital Marketing, User Experience (UX), and Web Development",
+                                    "marks": [
+                                        {
+                                            "object": "mark",
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "content": []
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ".",
+                                    "marks": [],
+                                    "content": []
+                                }
+                            ],
+                            "data": {}
+                        }
+                    ]
+                },
+                "email": "chris@dripfed.design",
+                "phone": "+44 7901 660338\u202c",
+                "linkedIn": "drip-fed-design",
+                "facebook": "dripfeddesign",
+                "twitter": "chriswatterston",
+                "github": "chriswatterston",
+                "image": {
+                    "sys": {
+                        "type": "Link",
+                        "id": "3ymI34RK4jGyGNMrziozhy",
+                        "linkType": "Asset"
+                    }
+                }
+            }
+        },
+        "articlePublishDate": "2023-07-19T00:00:00Z",
+        "articleUpdatedDate": null,
+        "articleKeywords": [
+            "marketing",
+            "dev"
+        ],
+        "articleDescription": "<p>When it comes to digital marketing, yeah ok not all brands fail to implement A\/B testing, but a lot do.<\/p>",
+        "articleBody": "<p>When it comes to digital marketing, yeah ok not all brands fail to implement A\/B testing, but a lot do. A lot of marketeers say they don&#039;t have time, we leave everything to an agency, or admit it&#039;s just lack-of understanding and implementation.<\/p><blockquote><p><em>Marketeer: &quot;Great, but why should I care?&quot;<\/em><\/p><\/blockquote><p>Because it&#039;s what could make the difference between a good campaign, or a excellent one.<\/p><p>So, what&#039;s there to take advantage of with A\/B testing in the digital marketing space. Let&#039;s take a quick look...<\/p><hr \/><h2>1. Improved Engagement<\/h2><p>Performing tests enable brands to understand what resonates better with target audience. Highlight what&#039;s engaging and effective marketing material, improving click-through, conversions, and customer engagement.<\/p><h2><strong>2. Risk Reduction<\/strong><\/h2><p>By testing different variations, brands can reduce the risk of launching a poor performing campaign. This helps to reduce wasted resources, increase focus on importance, and improve ROI.<\/p><h2>3. Better User Experience (UX)<\/h2><p>Testing different designs, messaging, and strategies can provide insights that help improve UX. Which could lead to greater customer engagement, satisfaction, and loyalty.<\/p><h2>4. Data-driven Decisions<\/h2><p>Testing enables the ability for decisions based on data and insights, rather than guessing. This can improve the efficiency and effectiveness of marketing and campaign efforts.<\/p><h2>5. Increase Conversion Rates<\/h2><p>Brands can use testing to identify changes that can improve their conversion rates. This might involve testing different user journeys, buttons, copy, images, or other areas.<\/p><h2>6. Optimise Marketing Spend<\/h2><p>By testing and understanding what works best, brands can assign budget to what&#039;s valuable, a higher return on investment.<\/p><h2>7. Understand your audience Better<\/h2><p>Regular testing can provide valuable insights into audience behaviour and preferences. These insights help to develop better target and personalised marketing strategies.<\/p><p><em>and last, but certainly not least...<\/em><\/p><h2><strong>8. ALWAYS Test &amp; Share<\/strong><\/h2><p>Testing and sharing what&#039;s learnt can create a culture of experimentation and innovation within a business. By always testing, brands can stay ahead of marketing trends, competitors, and change in audience behaviour.<\/p><p>Furthermore, keep a historic view on how audience behaviour changes over time. Does the seasons, weather, or a global event impact these insights.<\/p><hr \/><p><strong><em>HINT:<\/em><\/strong><em>&nbsp;<\/em>Integrate and manipulate brand performance insight against the season, weather, and event insight. You&#039;ll create and gain new vantage points, and certainly spark something very powerful and exciting!<\/p><p><\/p><hr \/><h4>Want to learn more or need support?<\/h4><p>Reach out and ask any questions you may have via a comment, <a href=\"https:\/\/wa.me\/message\/WFGVYT6SEWKJD1\" title=\"\">WhatsApp<\/a>, or by email <a href=\"mailto:hello@dripfed.design\" title=\"\">hello@dripfed.design<\/a>.<\/p><p>\rStart next week knowing you have an unlimited design subscription at your disposal. More details at <a href=\"https:\/\/dripfed.design\/?utm_source=blog&utm_medium=post&utm_campaign=whathowfuture\" title=\"\">dripfed.design<\/a>.<\/p>"
+    }
+]

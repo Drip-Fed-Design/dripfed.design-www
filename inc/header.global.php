@@ -17,8 +17,8 @@ require(__DIR__ . '/../config/debug.global.php');
     <link rel="canonical" href="<?= $globalDomainRoot; ?>" />
 
     <link rel="apple-touch-icon" href="<?= $globalDomainRoot; ?>dist/images/social/apple-touch-icon.png" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="<?= $globalDomainRoot; ?>favicon.ico" />
+    <link rel="shortcut icon" href="<?= $globalDomainRoot; ?>favicon.ico" />
 
     <!-- Sharing details  -->
     <meta property="og:type" content="website" />
@@ -46,6 +46,7 @@ require(__DIR__ . '/../config/debug.global.php');
             "description": "<?= $globalDescription; ?>",
             "sameAs": [
                 "<?= $globalDomainRoot; ?>",
+                "https://www.linkedin.com/in/chriswatterston/",
                 "https://www.linkedin.com/company/drip-fed-design/",
                 "https://www.facebook.com/dripfeddesign",
                 "https://dribbble.com/chriswatterston",
@@ -73,7 +74,7 @@ require(__DIR__ . '/../config/debug.global.php');
     <link rel="stylesheet" type="text/css" href="<?= $globalDomainRoot; ?>dist/css/<?= $globalPrefix; ?>.min.css">
 
     <? if (getenv('ENVIRONMENT_STATE') === 'production') { ?>
-        <!-- Hotjar Tracking Code for dripfed.design -->
+        <!-- Hotjar Tracking Code -->
         <script>
             (function(h, o, t, j, a, r) {
                 h.hj = h.hj || function() {
@@ -108,11 +109,11 @@ require(__DIR__ . '/../config/debug.global.php');
                     <div class="<?= $globalPrefix; ?>-nav-container">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
                             <ul class="__links">
-                                <!-- <li><a data-cabin-event="Header / Get Started" href="#anchor-gettingstarted" title="Scale your business with a simple design subscription">Scale your business<i class="_icon -arrow__r"></i></a></li> -->
-                                <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>blog/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work" target="_blank">Learn about unlimited design subscription<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>latest/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work">Learn about unlimited design subscription<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Latest" href="<?= $globalDomainRoot; ?>latest/" title="Look at our latest work, articles, and updates">Latest bits<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
-                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Pricing plans</a>
+                                <a data-cabin-event="Header / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Pricing</a>
                                 <a data-cabin-event="Header / Book Call" href="<?= $globalDomainRoot; ?>book-call" target="_blank" class="__button -white" title="Book an introduction call with <?= $globalTitle; ?>, find out about our unlimited digital design subscriptions design as a service" hreflang="en">Book a call</a>
                             </div>
                         </div>
