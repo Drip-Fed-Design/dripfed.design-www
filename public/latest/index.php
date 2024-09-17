@@ -6,7 +6,7 @@ require(__DIR__ . '/../../config/debug.global.php');
 $includeFullSchema = false;
 $includeShareSchema = true;
 $includeBackToHomepage = true;
-$articleMetaTitle = 'Thoughts, Ideas & Expressions. Simple Words from a Digital Product Designer & Manager';
+$articleMetaTitle = 'Simple words about design news insights, and updates';
 $articleMetaPublishDate = date('now');
 $articleMetaUpdateDate = $articleMetaPublishDate;
 $articleMetaDesc = 'Writing about areas of interest and learnings from a Digital Product Designer. But may also cover development, outdoors, nature and adventures';
