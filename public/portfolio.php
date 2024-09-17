@@ -1,6 +1,20 @@
 <?php
-require('../inc/header.global.php');
+require(__DIR__ . '/../config/vars.global.php');
+require(__DIR__ . '/../config/debug.global.php');
 
+// Local meta formatting
+$includeFullSchema = false;
+$includeShareSchema = false;
+$includeBackToHomepage = true;
+$articleMetaTitle = 'Portfolio of design work, Drip Fed Design Agency';
+$articleMetaPublishDate = date('now');
+$articleMetaUpdateDate = $articleMetaPublishDate;
+$articleMetaDesc = 'Portfolio of products for startups, design micro-agency with a design subscription model';
+$articleMetaKeywords = '';
+$articleMetaImage = $globalDomainRoot . 'dist/images/social/social-dripfed-design-sharing.jpg';
+$articleMetaUrl = 'portfolio';
+
+require('../inc/header.article.php');
 // Set the path to the directory containing images
 $directoryPath = 'dist/images/portfolio/';
 

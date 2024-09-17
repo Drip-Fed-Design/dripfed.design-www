@@ -69,7 +69,7 @@ foreach ($jsonContentOutput as $k => $v) {
             $imgTitle = $imgGet->getFile()->getFileName();
             $imgTitle = formatImageTitle($imgTitle);
             // Output image asset
-            $articleBody = str_replace($imgId, '<img class="__inline-image" src="https:' . $imgUrlSlug . '" title="' . $imgTitle . '" width="100%" height="auto" />', "$articleBody");
+            $articleBody = str_replace($imgId, '<img class="__inline-image" src="https:' . $imgUrlSlug . '" title="' . $imgTitle . '" alt="' . $imgTitle . '" width="100%" height="auto" />', "$articleBody");
         }
     }
 }

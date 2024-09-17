@@ -77,7 +77,7 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Design Call" href="' . $globalDomainRoot . 'book-design" class="__button -orange _text-align__center -wide" target="_blank"  title="Book a 20-min introduction call to a monthly unlimited design subscription today">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Design Call" href="book-design" class="__button -orange _text-align__center -wide" target="_blank"  title="Book a 20-min introduction call to a monthly unlimited design subscription today">Book a 20-min call</a>
                             <!-- <a data-cabin-event="Subscribe / Design Start" href="https://buy.stripe.com/fZeaFybNN2ZEgco008" class="__button -aqua _text-align__center" target="_blank" title="Start your monthly unlimited design subscription now">Get started now</a> -->
                         ';
                     }
@@ -175,7 +175,7 @@
                         ';
                     } else {
                         echo '
-                            <a data-cabin-event="Subscribe / Plus Call" href="' . $globalDomainRoot . 'book-plus" class="__button -aqua _text-align__center -wide" target="_blank" title="Book a 20-min introduction call to a monthly unlimited design and build subscription today">Book a 20-min call</a>
+                            <a data-cabin-event="Subscribe / Plus Call" href="book-plus" class="__button -aqua _text-align__center -wide" target="_blank" title="Book a 20-min introduction call to a monthly unlimited design and build subscription today">Book a 20-min call</a>
                             <!-- <a data-cabin-event="Subscribe / Plus Start" href="https://buy.stripe.com/bIYbJC9FFas69O0aEL" class="__button -aqua _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription now">Get started now</a> -->
                         ';
                     }
@@ -191,7 +191,7 @@
                     <p class="_font-colour__white-default">If you have a project but feel it doesn't suit the plans above, let's have a quick chat. Alternatively, you can email us at <a data-cabin-event="One-Time Project / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about a one-time project for design and build" hreflang="en">hello@dripfed.design</a> or through <a href="https://wa.me/message/WFGVYT6SEWKJD1" title="Chat through WhatsApp">WhatsApp</a>. We respond fast!</p>
                 </div>
                 <div class="<?= $globalPrefix; ?>-button-container __talk">
-                    <a data-cabin-event="One-Time Project / Talk" href="<?= $globalDomainRoot; ?>book-project" class="__button -aqua -wide _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription today, book a 20-min introduction call">Let's talk</a>
+                    <a data-cabin-event="One-Time Project / Talk" href="book-project" class="__button -aqua -wide _text-align__center" target="_blank" title="Start your unlimited digital product design and build subscription today, book a 20-min introduction call">Let's talk</a>
                 </div>
             </div>
         </div>

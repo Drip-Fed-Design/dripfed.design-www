@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta content="True" name="HandheldFriendly" />
 
-    <title><?= $articleMetaTitle; ?>, Drip Fed Design</title>
+    <title><?= $articleMetaTitle; ?></title>
     <meta name="description" content="<?= $articleMetaDesc; ?>" />
     <meta name="googlebot" content="<?= $globalRobots; ?>" />
     <meta name="robots" content="<?= $globalRobots; ?>" />
@@ -67,7 +67,7 @@
         </script>
     <? } ?>
 
-    <link rel="stylesheet" type="text/css" href="<?= $globalDomainRoot; ?>dist/css/<?= $globalPrefix; ?>.min.css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/<?= $globalPrefix; ?>.min.css">
 
     <? if (getenv('ENVIRONMENT_STATE') === 'production') { ?>
         <!-- Hotjar Tracking Code -->
@@ -105,7 +105,7 @@
                     <div class="<?= $globalPrefix; ?>-nav-container">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
                             <ul class="__links">
-                                <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>latest/design-subscription-what-it-is-how-it-works-is-it-the-future/" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work">Learn about unlimited design subscription<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Learn More" href="<?= $globalDomainRoot; ?>latest/design-subscription-what-it-is-how-it-works-is-it-the-future" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work">Learn about unlimited design subscription<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
                                 <? if ($includeBackToHomepage) { ?>
