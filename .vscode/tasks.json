@@ -10,18 +10,6 @@
       "problemMatcher": []
     },
     {
-      "label": "OVERRIDE site - Compressed",
-      "type": "shell",
-      "command": "sass --watch ./dev/build/_core.scss:./dripfed.design-www.dev-local/public/dist/css/dfd.min.css --no-source-map --style compressed;",
-      "problemMatcher": []
-    },
-    {
-      "label": "PRODUCTION blog - Compressed",
-      "type": "shell",
-      "command": "sass --watch ./dev/build/_blog.scss:./dev/blog/src/components/global.css --no-source-map --style compressed;",
-      "problemMatcher": []
-    },
-    {
       "label": "Contentful - JSON Refresh",
       "type": "shell",
       "command": "composer build-contentful-json;",

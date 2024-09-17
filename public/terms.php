@@ -6,7 +6,7 @@ require(__DIR__ . '/../config/debug.global.php');
 $includeFullSchema = false;
 $includeShareSchema = false;
 $includeBackToHomepage = true;
-$articleMetaTitle = 'Terms of Use';
+$articleMetaTitle = 'Terms of Use, Drip Fed Design Agency';
 $articleMetaPublishDate = date('now');
 $articleMetaUpdateDate = $articleMetaPublishDate;
 $articleMetaDesc = 'Our website Terms of Use for Drip Fed Design, design micro-agency with a design subscription model';

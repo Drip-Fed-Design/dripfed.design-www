@@ -22,9 +22,9 @@
             <nav class="__nav">
                 <div class="<?= $globalPrefix; ?>-grid-container -column__half">
                     <ul class="_text-align__right">
-                        <li><a data-cabin-event="Footer / Latest" href="<?= $globalDomainRoot; ?>latest" title="Take a look at our latest work, thoughts, and updates" hreflang="en">Latest updates<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Get Started" href="<?= $globalDomainRoot; ?>#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service" hreflang="en">Getting Started<i class="_icon -arrow__r"></i></a></li>
-                        <li><a data-cabin-event="Footer / Plans" href="<?= $globalDomainRoot; ?>#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing" hreflang="en">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Latest" href="latest" title="Take a look at our latest work, thoughts, and updates" hreflang="en">Latest updates<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Get Started" href="#anchor-gettingstarted" title="Subscribing to Drip Fed Unlimited Design is easy, start using design as a service" hreflang="en">Getting Started<i class="_icon -arrow__r"></i></a></li>
+                        <li><a data-cabin-event="Footer / Plans" href="#anchor-designplans" title="Find a unlimited design subscription that suits you, design as a service pricing" hreflang="en">Plans & Pricing<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Contact" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" title="Reach out to Drip Fed Design through a quick email" hreflang="en">Contact Us<i class="_icon -arrow__r"></i></a></li>
                         <li><a data-cabin-event="Footer / Stripe" href="https://billing.stripe.com/p/login/7sI9AK3ftfcraNq288" target="_blank" title="Manage or cancel your unlimited design subscription, design as a service" hreflang="en">Billing Portal<i class="_icon -arrow__r"></i></a></li>
                     </ul>
@@ -33,9 +33,9 @@
                             <a data-cabin-event="CTA Footer / Wrike" href="https://login.wrike.com/login/" target="_blank" class="__button -white" title="Log in to submit, manage and collaborate unlimited design requests, design as a service">Log In</a>
                         </div>
                         <ul class="__legal">
-                            <li><a data-cabin-event="Footer / Terms Conditions" href="<?= $globalDomainRoot; ?>termsconditions" title="Terms and Conditions for Drip Fed Design Subscription" hreflang="en">Terms & Conditions</a></li>
-                            <li><a data-cabin-event="Footer / Terms" href="<?= $globalDomainRoot; ?>terms" title="Terms of Use for Drip Fed Design" hreflang="en">Terms of Use</a></li>
-                            <li><a data-cabin-event="Footer / Privacy" href="<?= $globalDomainRoot; ?>privacy" title="Privacy policy for Drip Fed Design" hreflang="en">Privacy Policy</a></li>
+                            <li><a data-cabin-event="Footer / Terms Conditions" href="termsconditions" title="Terms and Conditions for Drip Fed Design Subscription" hreflang="en">Terms & Conditions</a></li>
+                            <li><a data-cabin-event="Footer / Terms" href="terms" title="Terms of Use for Drip Fed Design" hreflang="en">Terms of Use</a></li>
+                            <li><a data-cabin-event="Footer / Privacy" href="privacy" title="Privacy policy for Drip Fed Design" hreflang="en">Privacy Policy</a></li>
                             <li><a rel="me" href="https://mastodon.social/@chriswatterston" style="display: none !important;">Mastodon</a></li>
                         </ul>
                     </div>
