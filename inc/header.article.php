@@ -22,14 +22,14 @@
         <meta property="og:url" content="<?= $globalDomainRoot . $articleMetaUrl; ?>" />
         <meta property="og:title" content="<?= $articleMetaTitle; ?>" />
         <meta property="og:description" content="<?= $articleMetaDesc; ?>" />
-        <meta property="og:image" content="<?= $articleMetaImage; ?>" />
+        <meta property="og:image" content="https:<?= $articleHeroImageUrl; ?>" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ChrisWatterston" />
         <meta name="twitter:creator" content="@ChrisWatterston" />
         <meta name="twitter:title" content="<?= $articleMetaTitle; ?>" />
         <meta name="twitter:description" content="<?= $articleMetaDesc; ?>" />
-        <meta name="twitter:image" content="<?= $articleMetaImage; ?>" />
+        <meta name="twitter:image" content="https:<?= $articleHeroImageUrl; ?>" />
     <? } ?>
 
     <? if ($includeFullSchema) { ?>
