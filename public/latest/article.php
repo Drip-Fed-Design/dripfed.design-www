@@ -84,7 +84,7 @@ $articleMetaUpdateDate = $articleUpdateDate;
 $articleMetaDesc = str_replace('<p>', '', $articleDescription);
 $articleMetaDesc = str_replace('</p>', '', $articleMetaDesc);
 $articleMetaKeywords = $articleKeywords;
-$articleMetaImage = $imgUrlSlug;
+$articleMetaImage = $articleHeroImageUrl;
 $articleMetaBody = cleanArticleBody($articleBody);
 $articleMetaUrl = 'latest/' . $articleID;
 
