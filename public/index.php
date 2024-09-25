@@ -1,28 +1,30 @@
 <? require('../inc/header.global.php'); ?>
 <div class="<?= $globalPrefix; ?>-body-container">
     <section class="<?= $globalPrefix; ?>-intro-container _max-width__1000 _padding-top-bottom__large">
-        <h1 class="_text-align__center">Design & launch products <span class="_word-wrap">FAST</span> with a<br /> <span class="_word-under">unlimited</span> product design & build subscription<span class="_word-stop"></span></h1>
-        <p class="_text-align__center">Trusted partner for startups, agencies, & teams that need end-to-end product design & development resource FAST. We design and build products, with a ton of commitment, lower costs and less bureaucracy.</p>
-        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Launch Products FAST<span class="_icon -tick"></span>Proactive 1:1 Comms <span class="_icon -tick"></span>Fixed Monthly Cost <span class="_icon -tick"></span>No commitments, cancel anytime</p>
+        <h1 class="_text-align__center">Access digital product designer & web developer <span class="_word-wrap">resource FAST</span><br .>with a flexible <span class="_word-under">design subscription</span> or by per-project<span class="_word-stop"></span></h1>
+        <!-- <h1 class="_text-align__center">Design & launch products <span class="_word-wrap">FAST</span> with a <span class="_word-under">unlimited</span><br />product design & development subscription<span class="_word-stop"></span></h1> -->
+        <!-- <p class="_text-align__center _font-size__secondary _font-colour__orange-primary">Button A - Button B</p> -->
+        <p class="_text-align__center">Offering end-to-end solutions for digital product design, web development, and design engineer resource. We design and build products, with a ton of commitment, lower costs, and no barriers.</p>
+        <p class="_text-align__center _font-size__secondary _font-colour__orange-primary"><span class="_icon -tick"></span>Access resource FAST<span class="_icon -tick"></span>Proactive 1:1 communication<span class="_icon -tick"></span>Fixed Monthly Cost<span class="_icon -tick"></span>and literally, cancel anytime!</p>
     </section>
     <? require('../inc/work.global.php'); ?>
     <section class="<?= $globalPrefix; ?>-gettingstarted-container _max-width__1000 _padding-top-bottom__large">
         <div class="_padding-bottom__large" id="anchor-gettingstarted">
-            <h3 class="_text-align__center _padding-bottom__small">Start in as little as <span class="_word-wrap">60 seconds</span> 🚀</h3>
+            <h3 class="_text-align__center _padding-bottom__small">Start in just <span class="_word-wrap">60 seconds</span> 🚀</h3>
             <div class="<?= $globalPrefix; ?>-grid-container -column__third -column-gap__large">
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-subscribe-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Choose a <?= $globalTitle; ?> unlimited design subscription" width="100px" height="100px" />
-                    <h4><strong>1.</strong> Choose the <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design or development subscription plan for you startup and business product needs" hreflang="en">subscription plan</a> for your needs.</h4>
+                    <h4><strong>1.</strong> Choose a <a data-cabin-event="Get Started / Plans" href="#anchor-designplans" title="Choose a unlimited design or development subscription plan for you startup and business product needs" hreflang="en">design subscription</a> or <a data-cabin-event="Get Started / Call" href="book-project" target="_blank" title="Book a 20-min introduction call">book a call</a>.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-email-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Introduction to <?= $globalTitle; ?> unlimited design" width="100px" height="100px" />
-                    <h4><strong>2.</strong> Receive confirmation & onboarding emails.</h4>
+                    <h4><strong>2.</strong> Receive confirmation & onboarding email.</h4>
                     <span class="_split -orange"></span>
                 </div>
                 <div class="_text-align__center">
                     <img loading="lazy" src="/dist/images/icon/icon-request-ani.gif" class="_image__circle -border-orange _margin-top-bottom__small" alt="Unlimited design requests with <?= $globalTitle; ?>" width="100px" height="100px" />
-                    <h4><strong>3.</strong> Submit unlimited design & development requests.</h4>
+                    <h4><strong>3.</strong> Submit digital design & development requests.</h4>
                     <span class="_split -orange"></span>
                 </div>
             </div>
@@ -300,10 +302,10 @@
                             <p>Please be conscious that an active subscription is required for us to work through your requests. If your subscription cycle unfortunately ends while you still have requests in queue, these requests will be put on hold.</p>
                         </div>
                     </article>
-                    <article class="-question" id="pause-or-cancel-my-subscription">
+                    <article class="-question" id="cancel-my-subscription">
                         <div class="<?= $globalPrefix; ?>-grid-container -column__full-min">
-                            <h4>When should I use cancel my subscription?</h4>
-                            <a data-cabin-event="FAQ / Pause vs Cancel Subscription" href="#pause-or-cancel-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
+                            <h4>When should I cancel my subscription?</h4>
+                            <a data-cabin-event="FAQ / Cancel Subscription" href="#cancel-my-subscription" class="triggerFAQ" hreflang="en"><img loading="lazy" src="/dist/images/icon/icon-chevron-orange.svg" title="Expand" alt="Expand" width="25px" height="20px" /></a>
                         </div>
                         <div class="__answer">
                             <p>The wildest thing is, it is completely up to you!</p>

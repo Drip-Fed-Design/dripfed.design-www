@@ -68,9 +68,9 @@ $environmentId = 'master';
 $globalCompanyName = 'Drip Fed Ltd';
 $globalCompanyNumber = '14871237';
 
-$globalTitle = 'Launch products FAST with unlimited design subscription for startups'; // Max 75 characters
-$globalTitleLong = 'Launch products FAST with unlimited design subscription for startups'; // Max 75 characters
-$globalDescription = 'Trusted partner for startups, agencies, and teams that need extra design and development resource. Launch products FAST with an unlimited design subscription'; // Max 160 characters
+$globalTitle = 'Digital product design subscription & web development resource FAST'; // Max 75 characters
+$globalTitleLong = 'Digital product design subscription & web development resource FAST'; // Max 75 characters
+$globalDescription = 'End-to-end design subscriptions and resource, for teams that need digital product design, web development, and design engineer. We design and build products.'; // Max 160 characters
 $globalRobots = 'index,follow';
 
 //
