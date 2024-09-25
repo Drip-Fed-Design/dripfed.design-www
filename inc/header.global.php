@@ -110,7 +110,7 @@ require(__DIR__ . '/../config/debug.global.php');
                         <div class="<?= $globalPrefix; ?>-grid-container -column__half-min -column-h__right -column-v__center -column-gap__default">
                             <ul class="__links">
                                 <li><a data-cabin-event="Header / Learn More" href="latest/design-subscription-what-it-is-how-it-works-is-it-the-future" title="What is a unlimited design subscriptions and design as a service, and how does a design subscription work">Learn about unlimited design subscription<i class="_icon -arrow__r"></i></a></li>
-                                <li><a data-cabin-event="Header / Latest" href="latest/" title="Look at our latest work, articles, and updates">Latest bits<i class="_icon -arrow__r"></i></a></li>
+                                <li><a data-cabin-event="Header / Latest" href="latest/" title="Look at our latest work, articles, and updates">Latest updates<i class="_icon -arrow__r"></i></a></li>
                             </ul>
                             <div class="__cta <?= $globalPrefix; ?>-button-container">
                                 <a data-cabin-event="Header / Plans" href="#anchor-designplans" class="__button -orange" title="Find a unlimited design subscription design as a service for you startup and business" hreflang="en">Pricing</a>
