@@ -51,6 +51,14 @@
     }
   }
 
+  &.-column__contactapt {
+    grid-template-columns: 2fr 1fr;
+    @include mixinResponsive("mobile") {
+      grid-template-columns: 1fr;
+      row-gap: $spacing__default;
+    }
+  }
+
   // 3 columns
   &.-column__third {
     grid-template-columns: repeat(3, 1fr);

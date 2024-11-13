@@ -16,7 +16,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   color: $colour-white__default;
   font-family: $font-family__headings;
   font-weight: $font-weight__default;
@@ -78,5 +79,13 @@ h5 {
   @include mixinResponsive("mobile") {
     font-size: calc($font-size__heading-4 - 0.2rem);
     line-height: $font-size__heading-4;
+  }
+}
+
+h6 {
+  font-size: $font-size__heading-6;
+  font-weight: $font-weight__medium;
+  @include mixinResponsive("mobile") {
+    font-size: calc($font-size__heading-6 - 0.2rem);
   }
 }

@@ -299,6 +299,18 @@
         margin-bottom: 0;
       }
     }
+    .__notice {
+      background: $colour-grey__light;
+      padding: $spacing__small;
+      border-radius: $border-radius__content;
+      margin-bottom: $spacing__small;
+      * {
+        color: $colour-grey__dark;
+      }
+      p {
+        margin-bottom: unset;
+      }
+    }
   }
 }
 
@@ -381,5 +393,20 @@
         }
       }
     }
+  }
+}
+
+.#{$prefix-name}-contactops-container {
+  @include mixinResponsive("desktop") {
+    padding-left: $spacing__large;
+    padding-right: $spacing__large;
+  }
+  @include mixinResponsive("tablet") {
+    padding-left: $spacing__default;
+    padding-right: $spacing__default;
+  }
+  h2,
+  p {
+    color: $colour-black__default;
   }
 }
