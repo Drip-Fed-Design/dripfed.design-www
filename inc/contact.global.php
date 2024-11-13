@@ -30,7 +30,7 @@
                 <img alt="WhatsApp" src="/dist/images/icon/icon-chat-on-whatsapp.svg" width="190px" height="47px" />
             </a>
             <br />
-            <a data-cabin-event="Prompt / Email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#101;&#108;&#108;&#111;&#064;&#100;&#114;&#105;&#112;&#102;&#101;&#100;&#046;&#100;&#101;&#115;&#105;&#103;&#110;" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en">or you can <span class="_text-decoration__underline">email us</span>.</a>
+            <a data-cabin-event="Prompt / Contact Method" href="<?= $globalDomainRoot; ?>contact" class="__button -raw" title="Contact <?= $globalTitle; ?> to enquire about design subscriptions and more" hreflang="en"><span class="_text-decoration__underline">Want another contact method?</span>.</a>
         </div>
     </div>
 </section>
